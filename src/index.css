@@ -1,0 +1,365 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width:100%;
+  height:100%;
+  min-width:320px;
+  background: #FFFCF0 !important;
+}
+
+*{
+  font-size:12px;
+  box-sizing:border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  *{
+    font-size:12px;
+  }
+}
+
+html{
+  width:100%;
+  height:100%
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  width:100%;
+  height:100%
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size:0.8rem;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size:0.8rem;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size:0.8rem;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size:0.8rem;
+}
+
+.avatar-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.avatar-icon-lg {
+  width: 80px;
+  height: 80px;
+}
+
+.avatar-icon-sm {
+  width: 25px;
+  height: 25px;
+}
+
+.avatar-icon-xs {
+  width:20px;
+  height:20px;
+}
+
+
+/* This is for table item align and vertical */
+@media screen and (max-width: 1000px) {
+  .text-position{
+    text-align: right;
+  }
+  .modal-dialog {
+    max-width: 800px !important;
+    margin: 1.75rem auto;
+}
+}
+
+a.no-underline:hover,a.no-underline:focus {
+  text-decoration: none;
+}
+
+button.no-underline:hover,button.no-underline:focus{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+  margin-bottom:0 !important;
+}
+
+button{
+  border:0;
+  background-color:#fff
+}
+
+.table > tbody > tr > td {
+  /* vertical-align: middle !important; */
+  cursor: pointer;
+}
+
+.transition-button-color{
+  background-color: #5b7cfd !important;
+}
+
+.chartjs-render-monitor-change{
+  height: 50vh !important;
+  max-width: 778px;
+}
+
+.main-canvas{
+  min-height: 100% !important;
+}
+
+/* navigation */
+#mynav { 
+  background-color:#FFFCF0;
+  z-index: 3000 !important;
+ }
+
+.nav{
+  font-family: Avenir !important;
+  color: #6c6c6c;
+}
+.nav-link{
+  font-size: 11px !important; 
+  cursor: pointer;
+}
+
+.disabled{
+  color: #ffc600 !important;
+}
+
+
+.article {
+  font-family: Futura !important;
+}
+.trocchi {
+  font-family: rocchi !important;
+}
+
+.avenir{
+  font-family: Avenir !important;
+}
+
+.title{
+  font-size:30px !important;
+}
+
+.subtitle{
+  font-size:20px !important;
+}
+.small-title{
+  font-size:8px !important;
+}
+.paragraph{
+  font-size:14px !important;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 78%;
+  right:1%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.gmail-bar {
+  position: fixed;
+  top: 68%;
+  left:1%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  color: black;
+}
+
+/* Style the social media icons with color */
+.icon-bar a:hover {
+  color: #ffc600;
+}
+
+/* case study */
+.group > .row {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  background: #FFFCF0!important;
+}
+
+.group > .row > .col-4 {
+  display: inline-block;
+}
+
+.cover{
+  background-color: black;
+  width: 100% !important;
+}
+
+.hide{
+  display: none;
+}
+
+.video-cover:hover + .hide {
+  display: block;
+}
+.cover-img:hover{
+  opacity: 70%;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: left;
+  padding: 0 !important;
+}
+
+/* image text */
+.bottom-left {
+  position: absolute;
+  top: 140px;
+  left: 5px;
+}
+
+.bottom-left-gallery {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/*button*/
+.btn{
+  font-family: Avenir !important;
+  border-radius:0 !important;
+}
+
+.btn-outline-dark:hover{
+  border-color:#ffc600 !important;
+  color:#ffc600 !important;
+  background-color: transparent !important;
+
+}
+.btn-outline-warning{
+  color:black !important;
+  border-color:black !important;
+
+}
+.btn-line{
+  color:black;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-top: 0px !important;
+  background-color: transparent;
+}
+
+.btn-line:hover{
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-top: 0px !important;
+  border-color:black !important;
+}
+
+.btn-line.active{
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-top: 0px !important;
+  border-color:black !important;
+
+
+}
+
+*:focus {
+  outline: 0 !important;
+}
+*.active {
+  outline: 0 !important;
+}
+*:hover {
+  outline: 0 !important;
+}
+
+/* pagination */
+.page-link {
+  background-color: transparent !important;
+  border:none !important;
+  color:black!important;
+}
+.page-link:hover {
+  color:#ffc600 !important;
+}
+.page-item {
+padding:0px !important;
+border: none !important;
+}
+
+/* input */
+input{
+  border-width: 1px !important;
+}
+.short-input{
+  background-color: transparent !important;
+  border-color: black !important;
+  border-top:0 !important;
+  border-left:0 !important;
+  border-right:0 !important;
+  border-radius: 0 !important;
+}
+
+.large-input{
+  background-color: transparent !important;
+  border-color: black !important;
+
+}
+/* modal*/
+.modal{
+  top:10% !important;
+}
+.modal-content{
+  background-color: black !important;
+}
+.modal-backdrop.show{
+  opacity: 0.9 !important;
+}
+
+/* news*/
+.news{
+  display:inline-block;
+  height:500px;
+}
+
+.news-img{
+  position: relative;
+  width: 90%;
+  height:40%;
+  z-index: 2;
+
+}
+
+.news-intro{
+  position: absolute;
+  width: 80%;
+  height:40%;
+  left:10%;
+  top:37%;
+  z-index: 1;
+  background-color: rgba(255, 200, 0, 0.438);
+}
+
