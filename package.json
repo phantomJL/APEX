@@ -2,7 +2,7 @@
   "name": "APEX",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://phantomJL.github.io/APEX",
+  "homepage": "https://phantomJL.github.io",
   "dependencies": {
     "@babel/runtime": "^7.12.5",
     "@fortawesome/fontawesome-free": "^5.15.1",
