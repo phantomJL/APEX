@@ -29,7 +29,7 @@ export const caseStudy=[{
 },{
     case_name:"Alisha Boe",
     case_cooperator:"Vivienne Tam (NYFW)",
-    cover:"/img/caseStudy/7.-selina正方-1024x1024.jpg"
+    cover:"/img/caseStudy/8.-alisha正方-768x768.jpg"
 },{
     case_name:`"Fire Monkey" 2016 Chinese New York Concert`,
     case_cooperator:"APEX",

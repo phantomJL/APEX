@@ -6,7 +6,7 @@ function Video(props){
     }
     return (
 
-        <div className = "col-12 col-md-4 px-3 py-2"> 
+        <div className = "col-12 col-lg-4 col-md-6 px-3 py-2"> 
             <div className= "container"  data-toggle="modal" data-target="#exampleModal" onClick={ () => modalOnClick(props.data.video_link)}>
                     <div className="cover video-cover">
                         <img className="cover-img" src = {`${process.env.PUBLIC_URL}${props.data.img_url}`} style={{width:"100%"}} />

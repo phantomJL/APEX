@@ -197,6 +197,11 @@ button{
   color: #ffc600;
 }
 
+/* about us*/
+.card {
+  background-color:transparent !important;
+  border: none !important;
+}
 /* case study */
 .group > .row {
   display: block;
@@ -222,7 +227,7 @@ button{
   display: block;
 }
 .cover-img:hover{
-  opacity: 70%;
+  opacity: 70% !important;
 }
 
 /* Container holding the image and the text */
@@ -235,7 +240,7 @@ button{
 /* image text */
 .bottom-left {
   position: absolute;
-  top: 140px;
+  top: 50%;
   left: 5px;
 }
 
