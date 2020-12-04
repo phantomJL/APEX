@@ -1,6 +1,6 @@
 import React from "react"
 
-function Case(props){
+function Event(props){
     const formatMe=(n)=> {
         return (n<10) ? '0'+n : n;
      }
@@ -13,10 +13,10 @@ function Case(props){
                 <div style={{width:"100%", backgroundColor:"black"}}>
                     <img alt="cover" src={`${process.env.PUBLIC_URL}${props.data.cover}`} style={{width: "100%",opacity: "70%"}}/>
                 </div>
-                <div class="bottom-left p-2 text-wrap article paragraph text-white">{props.data.case_name} <br/> x<br/> {props.data.case_cooperator}</div>
+                <div class="bottom-left p-2 text-wrap article paragraph text-white">{props.data.case_name} </div>
             </div>
             
         </div>
     )
 }
-export default Case
+export default Event

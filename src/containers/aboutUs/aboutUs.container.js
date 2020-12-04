@@ -8,7 +8,7 @@ function AboutUS(props){
         <main className ="px-4">
             <div className="row p-4">
             <div className="col-12 col-md-6 align-self-end">
-               <img src={`${process.env.PUBLIC_URL}/img/aboutUs/aboutUs.png`} style = {{width:"100%"}}/>
+               <img src={`${process.env.PUBLIC_URL}/img/aboutUs/about/aboutUs.png`} style = {{width:"100%"}}/>
             </div>
             <div className="col-12 col-md-6 align-self-center">
                 <div className= "article title py-2">
@@ -35,10 +35,10 @@ function AboutUS(props){
                     CLIENTS
                 </div>
                 <div className="d-flex flex-wrap justify-content-center">
-                   { client_horizontal.map((value, index) =><Icon data ={value}/>)}
+                   { client_horizontal.map((value, index) =><Icon data ={value} width={"150px"}/>)}
                    </div>
                    <div className="d-flex flex-wrap justify-content-center">
-                   { client_square.map((value, index) =><Icon data ={value}/>)}
+                   { client_square.map((value, index) =><Icon data ={value} width={"120px"}/>)}
                    </div>
             </div>
             <div className="p-4">
@@ -46,7 +46,7 @@ function AboutUS(props){
                     COLLABORATIONS
                 </div>
                 <div className="d-flex flex-wrap justify-content-center">
-                   { partner.map((value, index) =><Icon data ={value}/>)}
+                   { partner.map((value, index) =><Icon data ={value} width={"120px"}/>)}
                    </div>
             </div>
         </main>

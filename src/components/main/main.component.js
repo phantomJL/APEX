@@ -29,8 +29,8 @@ function Main(props){
                     <i class="fab fa-weibo"></i>
                     </a>
             </section>
-           <section class="gmail-bar avenir text-uppercase" style={{writingMode: "vertical-rl",textOrientation: "mixed"}}> Gmail Reach Out  <span className= "font-weight-bold">|</span>  APEX@gmail.com </section>
-           <footer className="trocchi text-weight-bold text-center p-4 text-uppercase small-title" style = {{position:"relative", bottom:"0 !important"}} >© 2019 APEX Communications, INC. All Rights Reserved.</footer>
+           <section class="gmail-bar avenir text-uppercase" style={{writingMode: "vertical-rl",textOrientation: "mixed"}}>   hello@apexcomm.us </section>
+           <footer className="trocchi text-weight-bold text-center p-4 text-uppercase small-title" style = {{position:"relative", bottom:"0 !important"}} >© 2020 APEX Communications, INC. All Rights Reserved.</footer>
        </main>
     )
 }

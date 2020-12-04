@@ -1,7 +1,9 @@
 import React from "react"
 import {withRouter} from "react-router-dom"
-import {caseStudy} from "../../data/caseStudy.data"
+import {caseStudy, caseStudy_event} from "../../data/caseStudy.data"
 import Case from "./case.component/case.component"
+import Event from "./case.component/event.component"
+
 
 function CaseStudy(props){
     return (
@@ -11,6 +13,9 @@ function CaseStudy(props){
                 <div className ="row py-2">
                 {caseStudy.map((value, index) => {
                     return <div className="col-md-6 col-sm-12 col-lg-4"><Case data={value} index={index}/></div>
+                })}
+                 {caseStudy_event.map((value, index) => {
+                    return <div className="col-md-6 col-sm-12 col-lg-4"><Event data={value} index={index}/> </div>
                 })}
                 </div>
                 </div>

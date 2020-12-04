@@ -1,7 +1,7 @@
 export const video=[
     {
         img_url:"/img/gallery/video/5. nick 16x6.75.png",
-        magazine:"ELLEMEN Fresh (China) April 2019 (First Print Issue)",
+        magazine:"ELLEMEN (China) Fresh  April 2019",
         starring:"Nicholas Hoult",
         director:"Yulizhe/Fnu",
         video_link:""
@@ -14,51 +14,51 @@ export const video=[
     },  
 {
     img_url:"/img/gallery/video/2. henry 16x6.75.png",
-    magazine:"ELLEMEN Fresh (China) Digital March 2019 ",
+    magazine:"ELLEMEN (China) Fresh Digital March 2019 ",
     starring:"Henry Lau (刘宪华)",
     director:"Yulizhe/Fnu",
     video_link:"/video/Henry Lau × ELLEMEN Fresh_master SUBWAY version final.mp4"
 },  {
     img_url:"/img/gallery/video/Timmy.png",
-    magazine:"ELLEMEN Fresh (China) April 2019 (First Print Issue)",
-    starring:"Jodie Comer",
-    director:"Yulizhe/Fnu",
+    magazine:"DAZED China March.April 2020",
+    starring:"Timothée Chalamet",
+    director:"Yulizhe",
     video_link:""
 },  {
     img_url:"/img/gallery/video/6. selina 4 16x6.75.png",
-    magazine:"NYFW BTS",
+    magazine:"NYFW F/W 2019 BTS",
     starring:"Selina Jen (任家萱)",
     director:"Yulizhe/Fnu",
     video_link:"/video/Selina_final h264 1080.mp4"
 }, {
     img_url:"/img/gallery/video/Leo Wu.png",
-    magazine:"ELLEMEN Fresh (China) April 2019 (First Print Issue)",
-    starring:"Jodie Comer",
+    magazine:"ELLEMEN (China) Fresh April 2019",
+    starring:"Leo Wu (吴磊)",
     director:"Yulizhe/Fnu",
     video_link:""
 },  {
     img_url:"/img/gallery/video/Ian Somerhalder 6.75x16.png",
-    magazine:"ELLEMEN Fresh (China) April 2019 (First Print Issue)",
-    starring:"Jodie Comer",
+    magazine:"Esquire (Malaysia) December 2019",
+    starring:"Ian Somerhalder",
     director:"Yulizhe/Fnu",
     video_link:"/video/IAN ESQUIRE MY 1080.mp4"
 },{
     img_url:"/img/gallery/video/Amber Kuo_Bazzar Men China_6.75x16.png",
-    magazine:"ELLEMEN Fresh (China) April 2019 (First Print Issue)",
-    starring:"Jodie Comer",
-    director:"Yulizhe/Fnu",
+    magazine:"Harper's Bazaar (China) June 2020 (Special Issue)",
+    starring:"Amber Kuo",
+    director:"Jeff Wang",
     video_link:"/video/Final_Bazzar Men×Amber Kuo with CN ENG subtitle.mp4"
 }, {
     img_url:"/img/gallery/video/1. jd 16x6.75.png",
-    magazine:"ELLEMEN Fresh (China) April 2019 (First Print Issue)",
+    magazine:"ELLEMEN (China) Fresh April 2019",
     starring:"Jodie Comer",
     director:"Yulizhe/Fnu",
     video_link:""
 }, {
     img_url:"/img/gallery/video/Amber Kuo_Lulualways 1_6.75x16.png",
-    magazine:"ELLEMEN Fresh (China) April 2019 (First Print Issue)",
-    starring:"Jodie Comer",
-    director:"Yulizhe/Fnu",
+    magazine:"T-mall x Amber Kuo (郭采洁)",
+    starring:"",
+    director:"",
     video_link:"/video/Amber Kuo × T-mall × Lulualways 15s.mp4"
     
 },{

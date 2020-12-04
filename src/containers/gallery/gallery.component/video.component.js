@@ -14,10 +14,23 @@ function Video(props){
                
                 <div className="bottom-left-gallery  p-2 article hide">
                             <div className="text-white small-title py-2">{props.data.magazine}</div>
-                    <div className="text-white font-weight-bold small-title">STARRING</div>
+                    {props.data.starring ?
+                        <div>
+                            <div className="text-white font-weight-bold small-title">STARRING</div>
                             <div className="text-white small-title">{props.data.starring}</div>
-                    <div className="text-white font-weight-bold small-title">DIRECTED BY</div>
+                            </div>
+                        :
+                        <div></div>
+                        }
+                        {props.data.director?
+                        <div>
+                            <div className="text-white font-weight-bold small-title">DIRECTED BY</div>
                              <div className="text-white small-title">{props.data.director}</div>
+                        </div>
+                        :
+                        <div/>
+                        } 
+                    
                 </div>
             </div> 
         </div>

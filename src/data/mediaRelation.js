@@ -1,7 +1,7 @@
 export const news = [{
     title: "Roy Wang Talks Growing as an Artist & Representing China",
     date:"2/10/2020",
-    news_logo:"/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png",
+    news_logo:"/img/mediaRelation/logo/1280px-Billboard_logo.png",
     img_url:"https://static.billboard.com/files/media/roy-wang-wang-yuan-nov-2019-u-billboard-1548-compressed.jpg",
     url_1:"https://www.billboard.com/articles/news/international/8550643/roy-wang-tfboys-china-interview",
     url_2:"https://twitter.com/billboard/status/1227250459523584000",
@@ -9,7 +9,7 @@ export const news = [{
 },{
     title: "Henry Lau Talks Global Aspirations, Upcoming Projects And How Haters Have Helped Him Thrive",
     date:"4/18/2019",
-    news_logo:"/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png",
+    news_logo:"/img/mediaRelation/logo/Forbes.png",
     img_url:"https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Ftamarherman%2Ffiles%2F2019%2F04%2FAlyssaChia_HenryLau_MJ_AZC_25-e1555628644389-1200x782.jpg",
     url_1:"https://www.forbes.com/sites/tamarherman/2019/04/18/henry-lau-talks-global-career-aspirations-upcoming-projects-how-haters-have-helped-him-thrive/#26604bbf4ca7",
     url_2:"",
@@ -17,7 +17,7 @@ export const news = [{
 },{
     title: "Henry Lau Discusses the Inspiration & Pressures as a Newly Independent Artist: 'I Wanted to Make My Own Brand'",
     date:"3/13/2019",
-    news_logo:"/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png",
+    news_logo:"/img/mediaRelation/logo/1280px-Billboard_logo.png",
     img_url:"https://static.billboard.com/files/media/Henry-Lau-courtesy-APEX-Communications-2019-billboard-1548-compressed.jpg",
     url_1:"https://www.billboard.com/articles/columns/k-town/8502232/henry-lau-interview-new-album-as-an-independent-artist",
     url_2:"",
@@ -25,23 +25,23 @@ export const news = [{
 },{
     title: "We Had Henry Lau Read Thirst Tweets And We Honestly Can't Stop Giggling",
     date:"2/27/2019",
-    news_logo:"/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png",
-    img_url:"",
+    news_logo:"/img/mediaRelation/logo/BuzzFeed.png",
+    img_url:"/img/mediaRelation/BuzzFeed图.jpg",
     url_1:"https://www.buzzfeed.com/sarahhan/henry-lau-thirst-tweets",
     url_2:"",
     description:`The very talented and stylish Henry Lau stopped by BuzzFeed to read some hilarious(ly-worded) thirst tweets and he seemed a little nervous about it — although that smile tells me, "I'm ready. Bring it." `
 },{
     title: "Henry Lau paid an official visit to Instagram New York Headquarter and meets with Director of Fashion Eva Chan",
     date:"2/14/2019",
-    news_logo:"/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png",
-    img_url:"",
+    news_logo:"/img/mediaRelation/logo/instagram.png",
+    img_url:"/img/mediaRelation/3482 IG - henry lau.jpg",
     url_1:"https://www.instagram.com/p/Bt30sYDHIs0/",
     url_2:"",
     description:"",
 },{
     title: "Pop superstar visits New York",
     date:"2/3/2018",
-    news_logo:"/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png",
+    news_logo:"/img/mediaRelation/logo/china-daily.png",
     img_url:"http://img2.chinadaily.com.cn/images/201802/03/5a74d59da3106e7d2d718924.jpeg",
     url_1:"http://www.chinadaily.com.cn/a/201802/03/WS5a74d4cba3106e7dcc13a817.html",
     url_2:"",
