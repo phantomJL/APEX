@@ -132,6 +132,10 @@ button{
   font-size: 11px !important; 
   cursor: pointer;
 }
+.nav-link:hover{
+  color:black!important;
+}
+
 
 .disabled{
   color: #FF6E5D !important;
@@ -276,6 +280,11 @@ button{
 }
 .btn-outline-warning:hover{
   background-color: #FFE4E1 !important;
+
+}
+.btn-outline-warning.active:focus{
+  box-shadow: none !important;
+  
 }
 
 .btn-line{
@@ -291,6 +300,8 @@ button{
   border-right: 0px !important;
   border-top: 0px !important;
   border-color:black !important;
+
+
 }
 
 .btn-line.active{
@@ -317,6 +328,7 @@ button{
   background-color: transparent !important;
   border:none !important;
   color:black!important;
+  cursor: pointer;
 }
 .page-link:hover {
   color:#FF6E5D !important;

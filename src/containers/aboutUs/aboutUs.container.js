@@ -8,7 +8,7 @@ function AboutUS(props){
         <main className ="px-4">
             <div className="row p-4">
             <div className="col-12 col-md-6 align-self-end">
-               <img src={`${process.env.PUBLIC_URL}/img/aboutUs/about/aboutUs.png`} style = {{width:"100%"}}/>
+               <img src={`${process.env.PUBLIC_URL}/img/aboutUs/about/AboutUs.png`} style = {{width:"100%"}}/>
             </div>
             <div className="col-12 col-md-6 align-self-center">
                 <div className= "article title py-2">

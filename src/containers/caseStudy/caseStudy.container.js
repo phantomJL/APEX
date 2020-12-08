@@ -15,7 +15,7 @@ function CaseStudy(props){
                     return <div className="col-md-6 col-sm-12 col-lg-4"><Case data={value} index={index}/></div>
                 })}
                  {caseStudy_event.map((value, index) => {
-                    return <div className="col-md-6 col-sm-12 col-lg-4"><Event data={value} index={index}/> </div>
+                    return <div className="col-md-6 col-sm-12 col-lg-4"><Event data={value} index={caseStudy.length+index}/> </div>
                 })}
                 </div>
                 </div>

@@ -6,7 +6,7 @@ function New(props){
             <div  className="col-lg-4 col-md-6 col-sm-12 news p-4" >
                 <div className = "d-flex py-2 news-img" >
                     <img className="mr-3" src = {`${process.env.PUBLIC_URL}${props.data.img_url}`} style ={{width:"90%", objectFit:"cover"}}/>
-                    <img src = {`${process.env.PUBLIC_URL}${props.data.news_logo}`} style ={{width:"18%", marginTop:"auto"}}/>
+                    <img src = {`${process.env.PUBLIC_URL}${props.data.news_logo}`} style ={{width:`${props.data.logo_style === "round"?"10%":"18%"}`, marginTop:"auto"}}/>
                 </div>
                 <div className="news-intro p-3 d-flex align-content-around flex-wrap" >
                     

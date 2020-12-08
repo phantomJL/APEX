@@ -30,13 +30,7 @@ function MediaRelation(props){
                        </ul> 
                     </nav>
                 </div>
-                {/* <div className ="d-flex" style={{maxHeight: "1000px", flexDirection:"column", flexWrap:"wrap"}}>
-                    {page !== page_number ?
-                    news.slice(upitem,botitem).map((value,index) => <News data={value}/>)
-                    :
-                    news.slice(upitem).map((value,index) => <News data={value}/>)
-                }
-                </div>   */}
+            
                  <div className ="row" >
                     {page !== page_number ?
                     news.slice(upitem,botitem).map((value,index) => <New data={value}/>)

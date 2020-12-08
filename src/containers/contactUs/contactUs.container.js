@@ -32,7 +32,7 @@ function ContactUsContainer(props){
                 media inquiry
             </button> 
             <button className = {`article btn btn-outline-warning border-top-0 border-left-0 border-right-0 font-weight-bold text-uppercase ${purpose === "Media Inquiry" ? "": "active"}` }style={{width:"50%"}} onClick={()=>setPurpose("Reach Out")}>
-                say hi to us
+                say 👋 to us
             </button>
             </div>
             <form className="contact-form p-4" onSubmit={sendEmail}>

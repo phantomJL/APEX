@@ -9,7 +9,10 @@ function Gallery(props){
     const [show, setShow] = useState("video")
     const [play, setPlay] = useState("")
     const [videoPlay, setVideoPlay] = useState(true)
- 
+    const random_magazine = magazine
+    .map((a) => ({sort: Math.random(), value: a}))
+    .sort((a, b) => a.sort - b.sort)
+    .map((a) => a.value)
     return (
         <main className ="px-4">
             <section className="d-flex p-4 justify-content-center">
@@ -27,7 +30,7 @@ function Gallery(props){
                 : 
                 <section className ="p-4" style={{marginLeft: "60px", marginRight:"60px"}}>
                     <div className="d-flex flex-wrap">
-                { magazine.map((value, index) =><Picture data ={value}/>)}
+                { random_magazine.map((value, index) =><Picture data ={value}/>)}
                 </div>
                 </section>
                 
