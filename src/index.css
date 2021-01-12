@@ -127,13 +127,12 @@ button{
   font-family: Avenir !important;
   color: #6c6c6c;
 }
+
 .nav-link{
   font-size: 11px !important; 
   cursor: pointer;
 }
-.nav-link:hover{
-  color:black!important;
-}
+
 
 
 .disabled{

@@ -30,7 +30,14 @@ export default function Nav (props) {
       ? contactUs.current.setAttribute ('class', 'nav-link disabled')
       : contactUs.current.setAttribute ('class', 'nav-link');
   });
-
+  const MouseOut = event => {
+    event.target.style.color = '#6c6c6c';
+  };
+  const MouseOver = event => {
+    props.color === 'white'
+      ? (event.target.style.color = 'black')
+      : (event.target.style.color = 'white');
+  };
   return (
     <div
       className="p-3 w-100 d-flex justify-content-between align-items-center"
@@ -51,8 +58,10 @@ export default function Nav (props) {
         <li className="nav-item px-2">
           <div
             ref={aboutUS}
-            className="nav-link "
+            className="nav-link"
             onClick={e => navToPage ('AboutUS')}
+            onMouseOver={MouseOver}
+            onMouseOut={MouseOut}
           >
             ABOUT US
           </div>
@@ -62,6 +71,8 @@ export default function Nav (props) {
             ref={caseStudy}
             className="nav-link"
             onClick={e => navToPage ('CaseStudy')}
+            onMouseOver={MouseOver}
+            onMouseOut={MouseOut}
           >
             CASE STUDY
           </div>
@@ -71,6 +82,8 @@ export default function Nav (props) {
             ref={gallery}
             className="nav-link"
             onClick={e => navToPage ('Gallery')}
+            onMouseOver={MouseOver}
+            onMouseOut={MouseOut}
           >
             GALLERY
           </div>
@@ -80,6 +93,8 @@ export default function Nav (props) {
             ref={mediaRelation}
             className="nav-link"
             onClick={e => navToPage ('MediaRelation')}
+            onMouseOver={MouseOver}
+            onMouseOut={MouseOut}
           >
             MEDIA RELATIONS
           </div>
@@ -89,6 +104,8 @@ export default function Nav (props) {
             ref={contactUs}
             className="nav-link"
             onClick={e => navToPage ('ContactUs')}
+            onMouseOver={MouseOver}
+            onMouseOut={MouseOut}
           >
             CONTACT US
           </div>
