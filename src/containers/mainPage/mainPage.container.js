@@ -6,7 +6,7 @@ function MainPage (props) {
   return (
     <main style={{height: '100%'}}>
       <ReactPlayer
-        url={`${process.env.PUBLIC_URL}/video/Reel V5.mp4`}
+        url={`${process.env.PUBLIC_URL}/video/Reel V7.mp4`}
         width="100%"
         height="100%"
         playing={true}
