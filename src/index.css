@@ -120,7 +120,6 @@ button{
 
 /* navigation */
 #mynav { 
-  background-color:#FFFFFF;
   z-index: 3000 !important;
  }
 
@@ -141,7 +140,7 @@ button{
   color: #FF6E5D !important;
 }
 
-
+/* navigation */
 .article {
   font-family: Futura !important;
 }
@@ -231,12 +230,19 @@ button{
   display: none;
 }
 
-.video-cover:hover + .hide {
-  display: block;
-}
 .cover-img:hover{
   opacity: 70% !important;
 }
+
+/*video*/
+.video-cover:hover + .hide {
+  display: block;
+}
+video{
+  object-fit: cover;
+}
+
+/*video*/
 
 /* Container holding the image and the text */
 .container {
