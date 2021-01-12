@@ -11,6 +11,7 @@ function MainPage (props) {
         height="100%"
         playing={true}
         controls={false}
+        muted={true}
         loop={true}
       />
     </main>
