@@ -59,7 +59,7 @@ function AboutUS (props) {
           ))}
         </div>
       </div>
-      <div className="p-4" style={{marginBottom: '200px'}}>
+      <div className="p-4">
         <div
           className="article title py-2 text-center"
           style={{marginTop: '100px', marginBottom: '50px'}}
