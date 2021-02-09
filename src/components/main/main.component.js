@@ -19,7 +19,9 @@ function Main (props) {
       </section>
 
       {props.history.location.pathname === '/'
-        ? <section style={{position: 'absolute', height: '100%'}}>
+        ? <section
+            style={{position: 'absolute', height: '100%', overflowY: 'hidden'}}
+          >
             {props.children}
           </section>
         : <section>
@@ -57,7 +59,7 @@ function Main (props) {
               }}
             >
 
-              hello @apexcomm.us
+              hello@apexcomm.us
             </section> <footer
               className="trocchi text-weight-bold text-center p-4 text-uppercase small-title"
               style={{
@@ -65,7 +67,7 @@ function Main (props) {
                 bottom: '0 !important',
               }}
             >
-              ©2020 APEX Communications, INC.All Rights Reserved.
+              ©2021 APEX Communications, INC.All Rights Reserved.
             </footer>
           </section>}
 

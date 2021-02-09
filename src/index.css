@@ -179,7 +179,7 @@ button{
   position: fixed;
   top: 68%;
   left:1%;
-  font-size:8px !important;
+  font-size:10px !important;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);

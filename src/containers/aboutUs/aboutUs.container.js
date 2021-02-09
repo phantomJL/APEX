@@ -49,7 +49,7 @@ function AboutUS (props) {
         </div>
         <div className="d-flex flex-wrap justify-content-center">
           {client_horizontal.map ((value, index) => (
-            <Icon data={value} width={'150px'} />
+            <Icon data={value} width={'180px'} />
           ))}
         </div>
         <div className="d-flex flex-wrap justify-content-center">
