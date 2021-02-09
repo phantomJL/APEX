@@ -253,6 +253,7 @@ video{
 /* image text */
 .bottom-left {
   position: absolute;
+  cursor:pointer;
   bottom: 2%;
   left: 5px;
 }

@@ -45,7 +45,7 @@ function Main (props) {
                 href="https://www.youtube.com/channel/UCiFfqtera5aCdOApxZzXgxg"
                 class="youtube"
               >
-                <i class="fab fa-youtube-square" />
+                <i class="fab fa-youtube" />
               </a> <a href="https://vimeo.com/apexcomm" class="vimeo">
                 <i class="fab fa-vimeo-v" />
               </a> <a href="https://www.weibo.com/u/5888176990" class="weibo">

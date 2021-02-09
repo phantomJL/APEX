@@ -6,7 +6,8 @@ import {
   ourService,
   client_horizontal,
   client_square,
-  partner,
+  partner_horizontal,
+  partner_square,
 } from '../../data/aboutUs.data';
 import Icon from './aboutUs.component/Icon.conponent';
 import AboutUs from './aboutUs.png';
@@ -58,7 +59,7 @@ function AboutUS (props) {
           ))}
         </div>
       </div>
-      <div className="p-4">
+      <div className="p-4" style={{marginBottom: '200px'}}>
         <div
           className="article title py-2 text-center"
           style={{marginTop: '100px', marginBottom: '50px'}}
@@ -66,7 +67,10 @@ function AboutUS (props) {
           COLLABORATIONS
         </div>
         <div className="d-flex flex-wrap justify-content-center">
-          {partner.map ((value, index) => (
+          {partner_horizontal.map ((value, index) => (
+            <Icon data={value} width={'180px'} />
+          ))}
+          {partner_square.map ((value, index) => (
             <Icon data={value} width={'120px'} />
           ))}
         </div>
