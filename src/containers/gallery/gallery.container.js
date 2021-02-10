@@ -68,6 +68,14 @@ function Gallery (props) {
                 height="100%"
                 playing={videoPlay}
                 controls={true}
+                config={{
+                  file: {
+                    attributes: {
+                      onContextMenu: e => e.preventDefault (),
+                      controlsList: 'nodownload',
+                    },
+                  },
+                }}
               />
             </div>
           </div>
