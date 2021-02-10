@@ -26,7 +26,7 @@ function Event (props) {
             style={{width: '100%', opacity: '70%'}}
           />
         </div>
-        <div class="bottom-left p-2 article paragraph text-white">
+        <div class="bottom-left p-2 article large-title text-white">
           {props.data.case_name}
         </div>
       </div>

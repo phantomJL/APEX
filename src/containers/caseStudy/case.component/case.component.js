@@ -26,11 +26,11 @@ function Case (props) {
             style={{width: '100%', opacity: '70%'}}
           />
         </div>
-        <div class="bottom-left p-2 article paragraph text-white">
+        <div class="bottom-left p-2 article large-title text-white">
           {props.data.case_name}
           <br />
           {props.data.case_name_supplment &&
-            <div class="article paragraph">
+            <div class="article large-title">
               {props.data.case_name_supplment}
               <br />
             </div>}
@@ -39,7 +39,7 @@ function Case (props) {
           {props.data.case_cooperator}
           <br />
           {props.data.case_cooperator_supplement &&
-            <div class="article paragraph">
+            <div class="article large-title">
               {props.data.case_cooperator_supplement}
             </div>}
         </div>

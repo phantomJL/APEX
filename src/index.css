@@ -151,6 +151,9 @@ button{
 .avenir{
   font-family: Avenir !important;
 }
+.microsoft{
+  font-family: 'Microsoft New Tai Lue' !important;
+}
 
 .title{
   font-size:30px !important;
@@ -164,6 +167,9 @@ button{
 }
 .median-title{
   font-size:10px !important;
+}
+.large-title{
+  font-size:12px !important;
 }
 .paragraph{
   font-size:14px !important;
@@ -234,7 +240,7 @@ button{
 }
 
 .cover-img:hover{
-  opacity: 70% !important;
+  opacity: 0.7 !important;
 }
 
 /*video*/
