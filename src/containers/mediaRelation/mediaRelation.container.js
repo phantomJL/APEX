@@ -26,7 +26,7 @@ function MediaRelation (props) {
         </div>
         <div className="d-flex justify-content-center">
 
-          <nav aria-label="...">
+          {/* <nav aria-label="...">
             <ul className="pagination">
               {[...Array (page_number).keys ()].map (i => (
                 <li class="page-item">
@@ -36,7 +36,7 @@ function MediaRelation (props) {
                 </li>
               ))}
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </div>
       <div className="avenir p-4">

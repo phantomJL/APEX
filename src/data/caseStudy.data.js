@@ -1,7 +1,9 @@
 export const caseStudy = [
   {
-    case_name: 'Ella Gross/Larsen Thompson /Meng Jia & Jiang Mengjie',
-    case_cooperator: 'The United Nations’ ActNow campaign ',
+    case_name: `Ella Gross/Larsen Thompson/`,
+    case_name_supplment: 'Meng Jia & Jiang Mengjie',
+    case_cooperator: 'The United Nations',
+    case_cooperator_supplement: 'ActNow campaign',
     cover: '/img/caseStudy/E3A663FE-74C9-4CA4-834B-C923F2EE80ED.JPG',
   },
   {

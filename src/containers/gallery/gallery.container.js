@@ -13,17 +13,18 @@ function Gallery (props) {
     .map (a => ({sort: Math.random (), value: a}))
     .sort ((a, b) => a.sort - b.sort)
     .map (a => a.value);
+
   return (
     <main className="px-4">
       <section className="d-flex p-4 justify-content-center">
         <div
-          className={`btn btn-line m-4 article ${show === 'video' ? 'active' : ''}`}
+          className={`btn btn-line mx-4 article ${show === 'video' ? 'active' : ''}`}
           onClick={e => setShow ('video')}
         >
           VIDEOS
         </div>
         <div
-          className={`btn btn-line m-4 article ${show === 'video' ? '' : 'active'}`}
+          className={`btn btn-line mx-4 article ${show === 'video' ? '' : 'active'}`}
           onClick={e => setShow ('magazine')}
         >
           IMAGES
@@ -31,7 +32,7 @@ function Gallery (props) {
       </section>
 
       {show === 'video'
-        ? <section className="p-4">
+        ? <section>
             <div className="row">
               {video.map ((value, index) => (
                 <Video
@@ -42,10 +43,7 @@ function Gallery (props) {
               ))}
             </div>
           </section>
-        : <section
-            className="p-4"
-            style={{marginLeft: '60px', marginRight: '60px'}}
-          >
+        : <section style={{marginLeft: '60px', marginRight: '60px'}}>
             <div className="d-flex flex-wrap">
               {random_magazine.map ((value, index) => <Picture data={value} />)}
             </div>

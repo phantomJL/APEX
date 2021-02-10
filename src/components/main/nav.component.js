@@ -47,7 +47,7 @@ export default function Nav (props) {
         position: props.color === 'white' ? '' : 'absolute',
       }}
     >
-      <div onClick={e => props.history.push ('/')}>
+      <div style={{cursor: 'pointer'}} onClick={e => props.history.push ('/')}>
         <img
           alt="logo"
           src={`${process.env.PUBLIC_URL}/img/apex_${props.color === 'white' ? 'black' : 'white'}.png`}

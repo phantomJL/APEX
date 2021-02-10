@@ -27,7 +27,21 @@ function Case (props) {
           />
         </div>
         <div class="bottom-left p-2 article paragraph text-white">
-          {props.data.case_name} <br /> ×<br /> {props.data.case_cooperator}
+          {props.data.case_name}
+          <br />
+          {props.data.case_name_supplment &&
+            <div class="article paragraph">
+              {props.data.case_name_supplment}
+              <br />
+            </div>}
+          ×
+          <br />
+          {props.data.case_cooperator}
+          <br />
+          {props.data.case_cooperator_supplement &&
+            <div class="article paragraph">
+              {props.data.case_cooperator_supplement}
+            </div>}
         </div>
       </div>
 

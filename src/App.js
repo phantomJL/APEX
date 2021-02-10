@@ -1,60 +1,66 @@
-import React, { Component } from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
-import Main from "./components/main/main.component";
-import MainPage from "./containers/mainPage/mainPage.container"
-import AboutUs from "./containers/aboutUs/aboutUs.container"
-import CaseStudy from "./containers/caseStudy/caseStudy.container"
-import Gallery from "./containers/gallery/gallery.container"
-import MediaRelation from './containers/mediaRelation/mediaRelation.container'
-import ContactUsContainer from "./containers/contactUs/contactUs.container";
+import React, {Component} from 'react';
+import {Route, Switch, Redirect} from 'react-router-dom';
+import Main from './components/main/main.component';
 
-import { LoaderAlt } from "./components/shared";
+const MainPage = React.lazy (() =>
+  import ('./containers/mainPage/mainPage.container')
+);
+const AboutUs = React.lazy (() =>
+  import ('./containers/aboutUs/aboutUs.container')
+);
+const CaseStudy = React.lazy (() =>
+  import ('./containers/caseStudy/caseStudy.container')
+);
+const Gallery = React.lazy (() =>
+  import ('./containers/gallery/gallery.container')
+);
+const MediaRelation = React.lazy (() =>
+  import ('./containers/mediaRelation/mediaRelation.container')
+);
+const ContactUsContainer = React.lazy (() =>
+  import ('./containers/contactUs/contactUs.container')
+);
 
 class App extends Component {
-  componentDidMount() {
-    Promise.all([
-      import("bootstrap/dist/css/bootstrap.min.css"),
-      import("jquery/dist/jquery.min"),
-      import("bootstrap/dist/js/bootstrap.min"),
-      import("date-input-polyfill"),
-      import("@fortawesome/fontawesome-free/css/all.css"),
+  componentDidMount () {
+    Promise.all ([
+      import ('bootstrap/dist/css/bootstrap.min.css'),
+      import ('jquery/dist/jquery.min'),
+      import ('bootstrap/dist/js/bootstrap.min'),
+      import ('date-input-polyfill'),
+      import ('@fortawesome/fontawesome-free/css/all.css'),
     ]);
   }
 
-  render() {
+  render () {
     const NoMatch = () => <Redirect to="/nomatch" />;
-    console.log(this.props.history)
     return (
-      <React.Suspense fallback={<LoaderAlt />}>
-        <Main>
-        <Switch>
-          <Route exact path="/" component={MainPage} />
-          <Route exact path="/AboutUs" component={AboutUs} />
-          <Route exact path="/CaseStudy" component={CaseStudy} />
-          <Route exact path="/Gallery" component={Gallery} />
-          <Route exact path="/MediaRelation" component={MediaRelation} />
-          <Route exact path="/ContactUs" component={ContactUsContainer} />
+      <Main>
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <Switch>
+            <Route exact path="/" component={MainPage} />
+            <Route exact path="/AboutUs" component={AboutUs} />
+            <Route exact path="/CaseStudy" component={CaseStudy} />
+            <Route exact path="/Gallery" component={Gallery} />
+            <Route exact path="/MediaRelation" component={MediaRelation} />
+            <Route exact path="/ContactUs" component={ContactUsContainer} />
 
+            <Route exact path="/nomatch" component={Page404} />
 
-
-
-          <Route exact path="/nomatch" component={Page404} />
-          
-
-          {/* <Logo>
+            {/* <Logo>
             <Switch>
               <Route exact path="/dashboard" component={dashboard} />
               <Route component={NoMatch} />
             </Switch>
           </Logo> */}
-        </Switch>
-        </Main>
-      </React.Suspense>
+          </Switch>
+        </React.Suspense>
+      </Main>
     );
   }
 }
 
-function Page404(props) {
+function Page404 (props) {
   return (
     <main style={styles.container} className="text-center">
       <img
@@ -94,30 +100,30 @@ function Page404(props) {
 
 const styles = {
   container: {
-    position: "fixed",
-    top: "0",
-    bottom: "0",
-    left: "0",
-    right: "0",
-    margin: "5vh auto",
-    width: "300px",
+    position: 'fixed',
+    top: '0',
+    bottom: '0',
+    left: '0',
+    right: '0',
+    margin: '5vh auto',
+    width: '300px',
     // height: '300px',
-    overflowY: "auto"
+    overflowY: 'auto',
   },
   imageContainer: {
-    width: "300px",
-    margin: "0 auto"
+    width: '300px',
+    margin: '0 auto',
   },
   imageContainerSub: {
-    width: "100px",
-    margin: "0 auto",
-    height: "10vh"
+    width: '100px',
+    margin: '0 auto',
+    height: '10vh',
   },
   imageContainerText: {
-    width: "300px",
-    margin: "0 auto",
-    height: "5vh"
-  }
+    width: '300px',
+    margin: '0 auto',
+    height: '5vh',
+  },
 };
 
 export default App;

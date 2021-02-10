@@ -34,22 +34,23 @@ function Main (props) {
             >
               {props.children}
             </section> <section class="icon-bar">
-              <a href="https://www.facebook.com/apexcomm" class="facebook">
-                <i class="fab fa-facebook-f" />
-              </a> <a
-                href="https://www.instagram.com/apexcomm/"
-                class="instagram"
-              >
+              <a href="https://www.instagram.com/apexcomm/" class="instagram">
                 <i class="fab fa-instagram" />
-              </a> <a
+              </a>
+              <a href="https://www.weibo.com/u/5888176990" class="weibo">
+                <i class="fab fa-weibo" />
+              </a>
+
+              <a
                 href="https://www.youtube.com/channel/UCiFfqtera5aCdOApxZzXgxg"
                 class="youtube"
               >
                 <i class="fab fa-youtube" />
               </a> <a href="https://vimeo.com/apexcomm" class="vimeo">
                 <i class="fab fa-vimeo-v" />
-              </a> <a href="https://www.weibo.com/u/5888176990" class="weibo">
-                <i class="fab fa-weibo" />
+              </a>
+              <a href="https://www.facebook.com/apexcomm" class="facebook">
+                <i class="fab fa-facebook-f" />
               </a>
             </section> <section
               class="gmail-bar avenir text-uppercase"
@@ -65,7 +66,7 @@ function Main (props) {
               style={{
                 position: 'relative',
                 bottom: '0 !important',
-                marginTop: '200px',
+                marginTop: '120px',
               }}
             >
               ©2021 APEX Communications, INC.All Rights Reserved.
