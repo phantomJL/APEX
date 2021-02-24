@@ -49,9 +49,7 @@ function Main (props) {
               </a> <a href="https://vimeo.com/apexcomm" class="vimeo">
                 <i class="fab fa-vimeo-v" />
               </a>
-              <a href="https://www.facebook.com/apexcomm" class="facebook">
-                <i class="fab fa-facebook-f" />
-              </a>
+
             </section> <section
               class="gmail-bar avenir text-uppercase"
               style={{

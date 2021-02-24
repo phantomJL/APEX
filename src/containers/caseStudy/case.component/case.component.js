@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Case (props) {
   const formatMe = n => {
     return n < 10 ? '0' + n : n;

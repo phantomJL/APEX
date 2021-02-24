@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -50,6 +50,10 @@ code {
 }
 :-moz-placeholder { /* Firefox 18- */
   font-size:0.8rem;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 .avatar-icon {
@@ -105,6 +109,9 @@ button{
   /* vertical-align: middle !important; */
   cursor: pointer;
 }
+img{
+  cursor: pointer !important;
+}
 
 .transition-button-color{
   background-color: #5b7cfd !important;
@@ -117,6 +124,9 @@ button{
 
 .main-canvas{
   min-height: 100% !important;
+}
+.avenir{
+  font-family: Avenir;
 }
 
 /* navigation */
@@ -142,15 +152,14 @@ button{
 
 /* navigation */
 .article {
-  font-family: Futura !important;
-}
-.trocchi {
-  font-family: rocchi !important;
+  font-family: futura !important;
 }
 
-.avenir{
-  font-family: Avenir !important;
+.trocchi {
+  font-family: trocchi !important;
 }
+
+
 .microsoft{
   font-family: 'Microsoft New Tai Lue' !important;
 }
@@ -304,7 +313,7 @@ video{
 }
 
 .btn-line {
-  background-color: #141414;
+  background-color: #6c6c6c;
   border: none;
   color: #ffffff;
   outline: none;
@@ -325,13 +334,14 @@ video{
 
 
 .btn-line:after {
-  border-bottom: 1px solid #141414;
+  border-bottom: 1px solid black !important;
   bottom: 0;
   left: 0;
 }
 
 .btn-line:hover:before,
 .btn-line:hover:after {
+  border-color:#6c6c6c !important;
   width: 100%;
 }
 .btn-line.active:before,
@@ -340,12 +350,13 @@ video{
 }
 
 .btn-line{
-  color:black;
+  color:#6c6c6c !important;
   padding:0px !important;
   background-color: transparent;
 }
 
 .btn-line.active{
+  color:black !important;
   pointer-events: none;
 }
 

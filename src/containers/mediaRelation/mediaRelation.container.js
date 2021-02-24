@@ -16,7 +16,7 @@ function MediaRelation (props) {
   return (
     <main className="px-4">
       <div className="avenir p-4">
-        <div className="py-4 subtitle font-weight-bold">NEWS</div>
+        <div className="py-4 subtitle font-weight-bold">NEWS & EVENTS</div>
         <div className="row">
           {page !== page_number
             ? news
@@ -26,7 +26,7 @@ function MediaRelation (props) {
         </div>
         <div className="d-flex justify-content-center">
 
-          {/* <nav aria-label="...">
+          <nav aria-label="...">
             <ul className="pagination">
               {[...Array (page_number).keys ()].map (i => (
                 <li class="page-item">
@@ -36,14 +36,15 @@ function MediaRelation (props) {
                 </li>
               ))}
             </ul>
-          </nav> */}
+          </nav>
         </div>
       </div>
       <div className="avenir p-4">
         <div className="py-4 subtitle font-weight-bold">
           MAGAZINE
         </div>
-        <div className="row">
+
+        <div className="d-flex" style={{flexWrap: 'nowrap', overflowX: 'auto'}}>
           {magazine.map ((value, index) => <Magazine data={value} />)}
         </div>
       </div>

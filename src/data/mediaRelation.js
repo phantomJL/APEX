@@ -38,10 +38,10 @@ export const news = [
   {
     title: 'Henry Lau paid an official visit to Instagram New York Headquarter and meets with Director of Fashion Eva Chan',
     date: '2/14/2019',
-    news_logo: '/img/mediaRelation/logo/instagram.png',
+    news_logo: 'https://www.pngkey.com/png/full/2-28310_instagram-logo-black-and-ahite-instagram-word-logo.png',
     img_url: '/img/mediaRelation/3482 IG - henry lau.jpg',
     url_1: 'https://www.instagram.com/p/Bt30sYDHIs0/',
-    logo_style: 'round',
+    logo_style: '',
     description: '',
   },
   {
@@ -56,10 +56,10 @@ export const news = [
   {
     title: 'Wang Yuan (UNICEF Special Advocate) - ECOSOC Youth Forum 2018',
     date: '1/31/2018',
-    news_logo: '/img/mediaRelation/logo/BuzzFeed.png',
-    img_url: '',
+    news_logo: '/img/mediaRelation/logo/ecosoc_youth_forum-01.png',
+    img_url: '/img/mediaRelation/IMG_4129.jpg',
     url_1: 'http://webtv.un.org/meetings-events/treaty-bodies/watch/wang-yuan-unicef-special-advocate-ecosoc-youth-forum-2018/5723556610001/?term=&lan=english',
-    logo_style: '',
+    logo_style: 'round',
     description: 'Remarks by Mr. Wang Yuan, UNICEF Special Advocate for Education, and Chinese singer, actor and a member of the pop band TFBOYS, at the 2018 Economic and Social Council (ECOSOC) Youth Forum...    ',
   },
   {
@@ -74,11 +74,20 @@ export const news = [
   {
     title: "Chinese superstar Roy Wang is join 700 young people at this wk's #Youth2030 event in NYC.",
     date: '1/30/2017',
-    news_logo: '/img/mediaRelation/logo/BuzzFeed.png',
+    news_logo: '/img/mediaRelation/logo/ecosoc_youth_forum-01.png',
     img_url: 'https://pbs.twimg.com/media/C3bzvK5WIAAlZTa?format=jpg&name=medium',
     url_1: 'https://twitter.com/un/status/826204598855618560?lang=en',
-    logo_style: '',
+    logo_style: 'round',
     description: '',
+  },
+  {
+    title: 'Multination group OIH to bring top American fashion designers to the Chinese Market',
+    date: '9/15/2019',
+    news_logo: '/img/mediaRelation/logo/new_york_post_logo_logotype.PNG',
+    img_url: 'http://n.sinaimg.cn/fashion/crawl/115/w550h365/20190917/7eb3-ietnfsp9656707.jpg',
+    url_1: '/img/mediaRelation/news/OIH_NY_post_masterhead.jpg',
+    logo_style: 'round',
+    description: 'newspaper',
   },
 ];
 
