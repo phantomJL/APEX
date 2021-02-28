@@ -1,8 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 function New (props) {
-  const [show, setShow] = useState ('');
-  console.log (show);
   return (
     <div className="col-lg-4 col-md-6 col-sm-12 news p-4">
       <div className="d-flex py-2 news-img">
@@ -14,7 +12,7 @@ function New (props) {
         <img
           src={`${process.env.PUBLIC_URL}${props.data.news_logo}`}
           style={{
-            height: `${props.data.logo_style === 'round' ? '16%' : '6%'}`,
+            height: `${props.data.logo_style === 'round' ? '16%' : '5%'}`,
             width: `${props.data.logo_style === 'round' ? '16%' : '18%'}`,
             marginTop: 'auto',
           }}
@@ -34,9 +32,11 @@ function New (props) {
             ? <a
                 className="btn btn-outline-dark py-2 "
                 data-toggle="modal"
-                data-target="#exampleModal"
+                data-target="#news"
                 onClick={() => {
-                  setShow (`${process.env.PUBLIC_URL}${props.data.url_1}`);
+                  props.setNews (
+                    `${process.env.PUBLIC_URL}${props.data.url_1}`
+                  );
                 }}
               >
                 {' '}Read More
@@ -45,20 +45,6 @@ function New (props) {
                 {' '}Go to Article
               </a>}
 
-        </div>
-      </div>
-
-      <div
-        className="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog modal-lg">
-          <div className="modal-content" />
-          <img src={show} style={{width: '100%'}} />
         </div>
       </div>
 

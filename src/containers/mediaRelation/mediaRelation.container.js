@@ -7,6 +7,9 @@ import New from './mediaRelation.component/new.component';
 
 function MediaRelation (props) {
   const [page, setPage] = useState (0);
+  const [info, setNews] = useState ('');
+  const [maga, setMagazine] = useState ('');
+
   const upitem = 0 + page * 9;
   const botitem = 9 + page * 9;
   const change_page = direction => {
@@ -36,7 +39,7 @@ function MediaRelation (props) {
         <div className="row">
           {news
             .slice (upitem, botitem)
-            .map ((value, index) => <New data={value} />)}
+            .map ((value, index) => <New data={value} setNews={setNews} />)}
 
         </div>
         <div className="d-flex justify-content-center">
@@ -85,10 +88,42 @@ function MediaRelation (props) {
             overflowX: 'auto',
           }}
         >
-          {magazine.map ((value, index) => <Magazine data={value} />)}
+          {magazine.map ((value, index) => (
+            <Magazine data={value} setMagazine={setMagazine} />
+          ))}
         </div>
       </div>
-
+      {/* news modal */}
+      <div
+        className="modal fade"
+        id="news"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-lg">
+          <div className="modal-content" />
+          <img src={info} style={{width: '100%'}} />
+        </div>
+      </div>
+      {/* magazine modal */}
+      <div
+        className="modal fade"
+        id="magazine"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div
+          className="modal-dialog modal-lg text-center"
+          style={{height: '100%'}}
+        >
+          <div className="modal-content" />
+          <img src={maga} style={{height: '100%'}} />
+        </div>
+      </div>
     </main>
   );
 }
