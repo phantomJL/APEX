@@ -90,7 +90,7 @@ export const news = [
     description: 'newspaper',
   },
   {
-    title: 'Pop Start Spotlight Education',
+    title: 'Pop Star Spotlight Education',
     date: '2/10/2017',
     news_logo: '/img/mediaRelation/logo/china daily.png',
     img_url: '/img/mediaRelation/wangyuan.JPG',
