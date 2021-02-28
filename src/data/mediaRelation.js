@@ -81,12 +81,12 @@ export const news = [
     description: '',
   },
   {
-    title: 'Multination group OIH to bring top American fashion designers to the Chinese Market',
+    title: 'Multinational group OIH to bring top American fashion designers to the Chinese Market',
     date: '9/15/2019',
     news_logo: '/img/mediaRelation/logo/new_york_post_logo_logotype.PNG',
     img_url: 'http://n.sinaimg.cn/fashion/crawl/115/w550h365/20190917/7eb3-ietnfsp9656707.jpg',
     url_1: '/img/mediaRelation/news/OIH_NY_post_masterhead.jpg',
-    logo_style: 'round',
+    logo_style: '',
     description: 'newspaper',
   },
   {

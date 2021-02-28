@@ -4,6 +4,9 @@ import Nav from './nav.component';
 import '../../App.css';
 
 function Main (props) {
+  const openEmail = () => {
+    window.location.href = `mailto:hello@apexcomm.us`;
+  };
   return (
     <main
       className="main-canvas"
@@ -50,12 +53,15 @@ function Main (props) {
                 <i class="fab fa-vimeo-v" />
               </a>
 
-            </section> <section
+            </section>
+            <section
               class="gmail-bar avenir text-uppercase"
               style={{
                 writingMode: 'vertical-rl',
                 textOrientation: 'mixed',
+                cursor: 'pointer',
               }}
+              onClick={() => openEmail ()}
             >
 
               hello@apexcomm.us
