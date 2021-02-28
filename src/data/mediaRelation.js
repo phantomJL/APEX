@@ -89,6 +89,24 @@ export const news = [
     logo_style: 'round',
     description: 'newspaper',
   },
+  {
+    title: 'Pop start spotlight education',
+    date: '2/10/2017',
+    news_logo: '/img/mediaRelation/logo/china daily.png',
+    img_url: '/img/mediaRelation/wangyuan.jpg',
+    url_1: '/img/mediaRelation/news/Roy Wang_China Daily_021017.jpg',
+    logo_style: '',
+    description: 'newspaper',
+  },
+  {
+    title: "Wang Junkai and 'TFbodys' grab global spotlight",
+    date: '10/24/2016',
+    news_logo: '/img/mediaRelation/logo/china daily.png',
+    img_url: '/img/mediaRelation/WechatIMG918.jpeg',
+    url_1: '/img/mediaRelation/news/Karry Wang_China Daily_102416.jpg',
+    logo_style: '',
+    description: 'newspaper',
+  },
 ];
 
 export const magazine = [
