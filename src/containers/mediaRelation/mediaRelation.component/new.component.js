@@ -14,6 +14,7 @@ function New (props) {
         <img
           src={`${process.env.PUBLIC_URL}${props.data.news_logo}`}
           style={{
+            height: `${props.data.logo_style === 'round' ? '16%' : '6%'}`,
             width: `${props.data.logo_style === 'round' ? '16%' : '18%'}`,
             marginTop: 'auto',
           }}
@@ -57,7 +58,7 @@ function New (props) {
       >
         <div className="modal-dialog modal-lg">
           <div className="modal-content" />
-          <img src={show} style={{width: '100%', height: '80%'}} />
+          <img src={show} style={{width: '100%'}} />
         </div>
       </div>
 

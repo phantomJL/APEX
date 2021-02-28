@@ -10,7 +10,12 @@ function MediaRelation (props) {
   const upitem = 0 + page * 9;
   const botitem = 9 + page * 9;
   const change_page = direction => {
-    direction === 'left' ? setPage (page - 1) : setPage (page + 1);
+    if (direction === 'left') {
+      setPage (page - 1);
+    }
+    if (direction === 'right') {
+      setPage (page + 1);
+    }
   };
   const onWheel = e => {
     e.preventDefault ();
@@ -23,6 +28,7 @@ function MediaRelation (props) {
       behaviour: 'smooth', //if you want smooth scrolling
     });
   };
+  console.log (Math.ceil (news.length / 9));
   return (
     <main className="px-4">
       <div className="avenir p-4">
@@ -46,16 +52,16 @@ function MediaRelation (props) {
               ))}
             </ul> */}
             <div className="d-flex">
-              <div className="px-4">
+              <div className="px-4 new-page-button">
                 {page !== 0 &&
                   <i
                     class="fas fa-angle-left"
                     onClick={() => change_page ('left')}
                   />}
               </div>
-              <div className="px-4">
+              <div className="px-4 new-page-button">
 
-                {page !== Math.ceil ((news.length - 1) / 9) &&
+                {page !== Math.ceil (news.length / 9) - 1 &&
                   <i
                     class="fas fa-angle-right"
                     onClick={() => change_page ('right')}

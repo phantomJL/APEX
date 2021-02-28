@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function Magazine (props) {
   return (
@@ -7,14 +7,32 @@ function Magazine (props) {
         className="d-flex justify-content-center"
         style={{
           height: '230px',
-          backgroundColor: 'transparent !important',
         }}
+        data-toggle="modal"
+        data-target="#exampleModal"
       >
         <img
           src={`${process.env.PUBLIC_URL}${props.data.url}`}
           style={{height: '100%', objectFit: 'cover'}}
         />
       </div>
+      <div
+        className="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-lg">
+          <div className="modal-content" />
+          <img
+            src={`${process.env.PUBLIC_URL}${props.data.url}`}
+            // style={{width: '100%'}}
+          />
+        </div>
+      </div>
+
     </div>
   );
 }

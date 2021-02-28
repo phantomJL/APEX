@@ -406,6 +406,7 @@ input{
 /* modal*/
 .modal{
   top:10% !important;
+  height:80% !important;
 }
 .modal-content{
   background-color: black !important;
@@ -419,7 +420,12 @@ input{
   display:inline-block;
   height:450px;
 }
-
+.new-page-button{
+  cursor: pointer;
+}
+.new-page-button:hover{
+  color:#FF6E5D;
+}
 .news-img{
   position: relative;
   width: 90%;
