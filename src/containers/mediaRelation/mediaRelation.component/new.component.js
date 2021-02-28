@@ -12,7 +12,6 @@ function New (props) {
         <img
           src={`${process.env.PUBLIC_URL}${props.data.news_logo}`}
           style={{
-            height: `${props.data.logo_style === 'round' ? '16%' : '5%'}`,
             width: `${props.data.logo_style === 'round' ? '16%' : '18%'}`,
             marginTop: 'auto',
           }}

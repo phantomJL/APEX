@@ -81,7 +81,7 @@ export const news = [
     description: '',
   },
   {
-    title: 'Multinational group OIH to bring top American fashion designers to the Chinese Market',
+    title: 'Multinational Group OIH to Bring Top American Fashion Designers to the Chinese Market',
     date: '9/15/2019',
     news_logo: '/img/mediaRelation/logo/new_york_post_logo_logotype.PNG',
     img_url: 'http://n.sinaimg.cn/fashion/crawl/115/w550h365/20190917/7eb3-ietnfsp9656707.jpg',
@@ -90,7 +90,7 @@ export const news = [
     description: 'newspaper',
   },
   {
-    title: 'Pop start spotlight education',
+    title: 'Pop Start Spotlight Education',
     date: '2/10/2017',
     news_logo: '/img/mediaRelation/logo/china daily.png',
     img_url: '/img/mediaRelation/wangyuan.jpg',
@@ -99,7 +99,7 @@ export const news = [
     description: 'newspaper',
   },
   {
-    title: "Wang Junkai and 'TFbodys' grab global spotlight",
+    title: "Wang Junkai and 'TFboys' Grab Global Spotlight",
     date: '10/24/2016',
     news_logo: '/img/mediaRelation/logo/china daily.png',
     img_url: '/img/mediaRelation/WechatIMG984.jpeg',

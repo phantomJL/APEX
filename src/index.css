@@ -109,9 +109,6 @@ button{
   /* vertical-align: middle !important; */
   cursor: pointer;
 }
-img{
-  cursor: pointer !important;
-}
 
 .transition-button-color{
   background-color: #5b7cfd !important;
@@ -202,6 +199,9 @@ img{
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+.gmail-bar:hover{
+  color:#FF6E5D;
 }
 
 /* Style the icon bar links */
@@ -405,8 +405,8 @@ input{
 }
 /* modal*/
 .modal{
-  top:10% !important;
-  height:80% !important;
+  top:5% !important;
+  height:90% !important;
 }
 .modal-content{
   background-color: black !important;

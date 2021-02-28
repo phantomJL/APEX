@@ -10,6 +10,7 @@ function Video (props) {
         className="container"
         data-toggle="modal"
         data-target="#exampleModal"
+        style={{cursor: 'pointer'}}
         onClick={() => modalOnClick (props.data.video_link)}
       >
         <div className="cover video-cover">

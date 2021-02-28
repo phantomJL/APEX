@@ -103,8 +103,9 @@ function MediaRelation (props) {
         aria-hidden="true"
       >
         <div className="modal-dialog modal-lg">
-          <div className="modal-content" />
-          <img src={info} style={{width: '100%'}} />
+          <div className="modal-content">
+            <img src={info} style={{width: '100%'}} />
+          </div>
         </div>
       </div>
       {/* magazine modal */}
@@ -118,9 +119,8 @@ function MediaRelation (props) {
       >
         <div
           className="modal-dialog modal-lg text-center"
-          style={{height: '100%'}}
+          style={{height: '90%'}}
         >
-          <div className="modal-content" />
           <img src={maga} style={{height: '100%'}} />
         </div>
       </div>

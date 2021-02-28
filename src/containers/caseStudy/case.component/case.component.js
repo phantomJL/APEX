@@ -18,7 +18,9 @@ function Case (props) {
       </div>
       <div className="container p-0">
 
-        <div style={{width: '100%', backgroundColor: 'black'}}>
+        <div
+          style={{width: '100%', backgroundColor: 'black', cursor: 'pointer'}}
+        >
           <img
             alt="cover"
             src={`${process.env.PUBLIC_URL}${props.data.cover}`}

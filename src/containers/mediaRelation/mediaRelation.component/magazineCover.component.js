@@ -7,6 +7,7 @@ function Magazine (props) {
         className="d-flex justify-content-center"
         style={{
           height: '230px',
+          cursor: 'pointer',
         }}
         data-toggle="modal"
         data-target="#magazine"
