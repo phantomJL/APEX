@@ -11,6 +11,12 @@ export const caseStudy = [
     cover: '/img/caseStudy/Image.JPG',
   },
   {
+    case_name: 'Lay Zhang (张艺兴)',
+    case_cooperator: 'World Health Organization (WHO)',
+    cover: '/img/caseStudy/IMG_0299.JPG',
+  },
+
+  {
     case_name: 'Amber Kuo (郭采洁)',
     case_cooperator: 'T-mall',
     cover: '/img/caseStudy/2020 郭采洁 x 天猫.jpg',
