@@ -40,7 +40,10 @@ function New (props) {
               >
                 {' '}Read More
               </a>
-            : <a className="btn btn-outline-dark py-2 " href={props.data.url_1}>
+            : <a
+                className="btn btn-outline-dark py-2 "
+                onClick={() => window.open (props.data.url_1, '_blank')}
+              >
                 {' '}Go to Article
               </a>}
 

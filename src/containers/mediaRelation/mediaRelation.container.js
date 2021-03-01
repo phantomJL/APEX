@@ -9,7 +9,6 @@ function MediaRelation (props) {
   const [page, setPage] = useState (0);
   const [info, setNews] = useState ('');
   const [maga, setMagazine] = useState ('');
-
   const upitem = 0 + page * 9;
   const botitem = 9 + page * 9;
   const change_page = direction => {
@@ -19,6 +18,7 @@ function MediaRelation (props) {
     if (direction === 'right') {
       setPage (page + 1);
     }
+    window.scrollTo (0, 0);
   };
   const onWheel = e => {
     e.preventDefault ();
