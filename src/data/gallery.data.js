@@ -28,7 +28,7 @@ export const video = [
     video_link: '',
   },
   {
-    img_url: '/img/gallery/video/6. selina 4 16x6.75.png',
+    img_url: '/img/gallery/video/5. web_selina 4 16x6.75.jpg',
     magazine: 'NYFW F/W 2019 BTS',
     starring: 'Selina Jen (任家萱)',
     director: 'Yulizhe/Fnu',
@@ -49,7 +49,7 @@ export const video = [
     video_link: '/video/IAN ESQUIRE MY 1080.mp4',
   },
   {
-    img_url: '/img/gallery/video/Amber Kuo_Bazzar Men China_6.75x16.png',
+    img_url: '/img/gallery/video/8. web_Amber Kuo_Bazzar Men China_16x6.75.jpg',
     magazine: "Harper's Bazaar (China) June 2020 (Special Issue)",
     starring: 'Amber Kuo',
     director: 'Jeff Wang',
@@ -63,7 +63,7 @@ export const video = [
     video_link: '',
   },
   {
-    img_url: '/img/gallery/video/Amber Kuo_Lulualways 1_6.75x16.png',
+    img_url: '/img/gallery/video/10. web_Amber Kuo_Lulualways1_16x6.75.jpg',
     magazine: 'T-mall x Amber Kuo (郭采洁)',
     starring: '',
     director: '',
