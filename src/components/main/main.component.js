@@ -37,19 +37,35 @@ function Main (props) {
             >
               {props.children}
             </section> <section class="icon-bar">
-              <a href="https://www.instagram.com/apexcomm/" class="instagram">
+              <a
+                onClick={() =>
+                  window.open ('https://www.instagram.com/apexcomm/', '_blank')}
+                class="instagram"
+              >
                 <i class="fab fa-instagram" />
               </a>
-              <a href="https://www.weibo.com/u/5888176990" class="weibo">
+              <a
+                onClick={() =>
+                  window.open ('https://www.weibo.com/u/5888176990', '_blank')}
+                class="weibo"
+              >
                 <i class="fab fa-weibo" />
               </a>
 
               <a
-                href="https://www.youtube.com/channel/UCiFfqtera5aCdOApxZzXgxg"
+                onClick={() =>
+                  window.open (
+                    'https://www.youtube.com/channel/UCiFfqtera5aCdOApxZzXgxg',
+                    '_blank'
+                  )}
                 class="youtube"
               >
                 <i class="fab fa-youtube" />
-              </a> <a href="https://vimeo.com/apexcomm" class="vimeo">
+              </a> <a
+                onClick={() =>
+                  window.open ('https://vimeo.com/apexcomm', '_blank')}
+                class="vimeo"
+              >
                 <i class="fab fa-vimeo-v" />
               </a>
 
