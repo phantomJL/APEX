@@ -28,7 +28,7 @@ export const caseStudy = [
   },
 
   {
-    case_name: 'Jodie Comer/Nicholas Hoult/Gavin Thomas',
+    case_name: 'Nicholas Hoult/Gavin Thomas/Jodie Comer',
     case_cooperator: 'ELLEMEN (China) Fresh',
     cover: '/img/caseStudy/2.-jd-nick-gavin正方-1024x1024.jpg',
   },
