@@ -4,30 +4,51 @@ import emailjs from 'emailjs-com';
 
 function ContactUsContainer (props) {
   const [purpose, setPurpose] = useState ('Reach Out');
-  const [name, setName] = useState ('');
-  const [number, setNumber] = useState ('');
-  const [email, setEmail] = useState ('');
-  const [subject, setSubject] = useState ('');
-  const [message, setMessage] = useState ('');
+  // const [name, setName] = useState ('');
+  // const [number, setNumber] = useState ('');
+  // const [email, setEmail] = useState ('');
+  // const [subject, setSubject] = useState ('');
+  // const [message, setMessage] = useState ('');
 
   function sendEmail (e) {
     e.preventDefault ();
     console.log (e.target);
-    emailjs
-      .sendForm (
-        'service_fftillv',
-        'template_ltuptxd',
-        e.target,
-        'user_J1pqQnb31sKRv1hA9F0QO'
-      )
-      .then (
-        result => {
-          console.log (result.text);
-        },
-        error => {
-          console.log (error.text);
-        }
-      );
+    if (purpose === 'Reach Out') {
+      emailjs
+        .sendForm (
+          'service_g1beyp4',
+          'template_nob8jfo',
+          e.target,
+          'user_vqDbT4W4iarR10zKXuSiJ'
+        )
+        .then (
+          result => {
+            console.log (result.text);
+            document.getElementById ('myForm').reset ();
+          },
+          error => {
+            console.log (error.text);
+          }
+        );
+    }
+    if (purpose === 'Media Inquiry') {
+      emailjs
+        .sendForm (
+          'service_qruwgft',
+          'template_jmyr1sg',
+          e.target,
+          'user_iM1KcMZO1OQCsEraQwPJG'
+        )
+        .then (
+          result => {
+            console.log (result.text);
+            document.getElementById ('myForm').reset ();
+          },
+          error => {
+            console.log (error.text);
+          }
+        );
+    }
   }
 
   return (
@@ -52,42 +73,64 @@ function ContactUsContainer (props) {
         </button>
 
       </div>
-      <form className="contact-form p-4" onSubmit={sendEmail}>
+      <form className="contact-form p-4" id="myForm" onSubmit={sendEmail}>
         <div className="row article">
 
-          <div className="col-sm-12 col-md-4">
+          <div className="py-2 col-sm-12 col-md-4">
             <div>
-              {' '}<label>Name</label>
+              {' '}
+              <label className="d-flex">
+                Name <p className="text-danger">*</p>
+              </label>
             </div>
             <input
               className="short-input"
               type="text"
               name="name"
               style={{width: '100%'}}
+              required
             />
           </div>
 
-          <div className="col-sm-12 col-md-4 ">
+          <div className="py-2 col-sm-12 col-md-4 ">
             <div>
-              <label>Email</label>
+              <label className="d-flex">
+                Email <p className="text-danger">*</p>
+              </label>
             </div>
             <input
               className="short-input"
               type="email"
               name="email"
               style={{width: '100%'}}
+              required
             />
           </div>
-          <div className="col-sm-12 col-md-4 ">
-            {' '}<div><label>Phone number</label> </div>
+          <div className="py-2 col-sm-12 col-md-4 ">
+            {' '}<div>
+              <label className="d-flex">
+                Phone number <p className="text-danger">*</p>
+              </label>{' '}
+            </div>
             <input
               className="short-input"
               type="text"
               name="number"
               style={{width: '100%'}}
+              required
             />
           </div>
 
+        </div>
+        <div className="py-4 article">
+          <label>Subject</label>
+        </div>
+        <div>
+          <textarea
+            name="subject"
+            className="large-input"
+            style={{width: '100%'}}
+          />
         </div>
         <div className="py-4 article">
           <label>Message</label>
