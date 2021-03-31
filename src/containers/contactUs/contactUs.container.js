@@ -12,7 +12,6 @@ function ContactUsContainer (props) {
 
   function sendEmail (e) {
     e.preventDefault ();
-    console.log (e.target);
     if (purpose === 'Reach Out') {
       emailjs
         .sendForm (
