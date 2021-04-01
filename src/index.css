@@ -129,7 +129,7 @@ button{
 
 /* navigation */
 #mynav { 
-  z-index: 3000 !important;
+  z-index: 300!important;
  }
 
 .nav{

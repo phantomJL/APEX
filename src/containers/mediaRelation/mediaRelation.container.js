@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {withRouter} from 'react-router-dom';
 import {news, magazine} from '../../data/mediaRelation';
 import Magazine from './mediaRelation.component/magazineCover.component';
-import News from './mediaRelation.component/news.component';
+// import News from './mediaRelation.component/news.component';
 import New from './mediaRelation.component/new.component';
 
 function MediaRelation (props) {
