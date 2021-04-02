@@ -9,11 +9,14 @@ export default function SuccessPop () {
           marginTop: '5%',
         }}
       />
-      <h1 className="p-4 m-4">THANK YOU!</h1>
-      <h4 className="p-4 m-4" style={{marginBotton: '15%'}}>
+      <h2 className="p-4 m-4">THANK YOU!</h2>
+      <div
+        className="p-4 m-4 large-title"
+        style={{marginBotton: '15%', color: '#6c6c6c'}}
+      >
         Your message has been sent.
         We'll get in touch with you shortly. {' '}
-      </h4>
+      </div>
 
     </div>
   );
