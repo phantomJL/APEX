@@ -7,7 +7,7 @@ export default function SuccessPop () {
         WE HAVE RECEIEVED YOUR REQUEST AND WILL RESPOND SOON{' '}
       </h4>
       <p className="p-4 " style={{marginBottom: '15%'}}>
-        Please give us a follow to stay up-to-date with the latest news and products
+        Please give us a follow to stay up-to-date with the latest news and events
       </p>
     </div>
   );

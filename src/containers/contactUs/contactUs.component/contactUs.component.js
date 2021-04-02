@@ -11,64 +11,64 @@ export default function FormWithToasts (props) {
       autoDismiss: true,
     });
 
-    emailjs
-      .sendForm (
-        'service_fftillv',
-        'template_ltuptxd',
-        e.target,
-        'user_J1pqQnb31sKRv1hA9F0QO'
-      )
-      .then (
-        result => {
-          props.setSuccess (true);
-        },
-        error => {
-          addToast (error.text, {
-            appearance: 'error',
-            autoDismiss: true,
-          });
-        }
-      );
-    // if (props.purpose === 'Reach Out') {
-    //   emailjs
-    //     .sendForm (
-    //       'service_g1beyp4',
-    //       'template_nob8jfo',
-    //       e.target,
-    //       'user_vqDbT4W4iarR10zKXuSiJ'
-    //     )
-    //     .then (
-    //       result => {
-    //         props.setSuccess (true);
-    //       },
-    //       error => {
-    //         addToast (error.text, {
-    //           appearance: 'error',
-    //           autoDismiss: true,
-    //         });
-    //       }
-    //     );
-    // }
-    // if (props.purpose === 'Media Inquiry') {
-    //   emailjs
-    //     .sendForm (
-    //       'service_qruwgft',
-    //       'template_jmyr1sg',
-    //       e.target,
-    //       'user_iM1KcMZO1OQCsEraQwPJG'
-    //     )
-    //     .then (
-    //       result => {
-    //         props.setSuccess (true);
-    //       },
-    //       error => {
-    //         addToast (error.text, {
-    //           appearance: 'error',
-    //           autoDismiss: true,
-    //         });
-    //       }
-    //     );
-    // }
+    // emailjs
+    //   .sendForm (
+    //     'service_fftillv',
+    //     'template_ltuptxd',
+    //     e.target,
+    //     'user_J1pqQnb31sKRv1hA9F0QO'
+    //   )
+    //   .then (
+    //     result => {
+    //       props.setSuccess (true);
+    //     },
+    //     error => {
+    //       addToast (error.text, {
+    //         appearance: 'error',
+    //         autoDismiss: true,
+    //       });
+    //     }
+    //   );
+    if (props.purpose === 'Reach Out') {
+      emailjs
+        .sendForm (
+          'service_g1beyp4',
+          'template_nob8jfo',
+          e.target,
+          'user_vqDbT4W4iarR10zKXuSiJ'
+        )
+        .then (
+          result => {
+            props.setSuccess (true);
+          },
+          error => {
+            addToast (error.text, {
+              appearance: 'error',
+              autoDismiss: true,
+            });
+          }
+        );
+    }
+    if (props.purpose === 'Media Inquiry') {
+      emailjs
+        .sendForm (
+          'service_qruwgft',
+          'template_jmyr1sg',
+          e.target,
+          'user_iM1KcMZO1OQCsEraQwPJG'
+        )
+        .then (
+          result => {
+            props.setSuccess (true);
+          },
+          error => {
+            addToast (error.text, {
+              appearance: 'error',
+              autoDismiss: true,
+            });
+          }
+        );
+    }
   }
   return (
     <form className="contact-form p-4" id="myForm" onSubmit={sendEmail}>
@@ -104,20 +104,36 @@ export default function FormWithToasts (props) {
           />
         </div>
         <div className="py-2 col-sm-12 col-md-4 ">
-          {' '}<div>
-            <label className="d-flex">
-              Phone number <p className="text-danger">*</p>
-            </label>{' '}
-          </div>
-          <input
-            className="short-input"
-            type="text"
-            name="number"
-            style={{width: '100%'}}
-            required
-          />
+          {props.purpose == 'Media Inquiry'
+            ? <div>
+                <div>
+                  <label className="d-flex">
+                    Company <p className="text-danger">*</p>
+                  </label>
+                </div>
+                <input
+                  className="short-input"
+                  type="text"
+                  name="company"
+                  style={{width: '100%'}}
+                  required
+                />
+              </div>
+            : <div>
+                <div>
+                  <label className="d-flex">
+                    Phone number <p className="text-danger">*</p>
+                  </label>
+                </div>
+                <input
+                  className="short-input"
+                  type="number"
+                  name="number"
+                  style={{width: '100%'}}
+                  required
+                />
+              </div>}
         </div>
-
       </div>
       <div className="py-4 article">
         <label>Subject</label>
