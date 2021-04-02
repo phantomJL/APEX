@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {useToasts} from 'react-toast-notifications';
 import emailjs from 'emailjs-com';
 
@@ -10,54 +10,65 @@ export default function FormWithToasts (props) {
       appearance: 'info',
       autoDismiss: true,
     });
-    if (props.purpose === 'Reach Out') {
-      emailjs
-        .sendForm (
-          'service_g1beyp4',
-          'template_nob8jfo',
-          e.target,
-          'user_vqDbT4W4iarR10zKXuSiJ'
-        )
-        .then (
-          result => {
-            addToast ('message sent', {
-              appearance: 'success',
-              autoDismiss: true,
-            });
-            document.getElementById ('myForm').reset ();
-          },
-          error => {
-            addToast (error.text, {
-              appearance: 'error',
-              autoDismiss: true,
-            });
-          }
-        );
-    }
-    if (props.purpose === 'Media Inquiry') {
-      emailjs
-        .sendForm (
-          'service_qruwgft',
-          'template_jmyr1sg',
-          e.target,
-          'user_iM1KcMZO1OQCsEraQwPJG'
-        )
-        .then (
-          result => {
-            addToast ('message sent', {
-              appearance: 'success',
-              autoDismiss: true,
-            });
-            document.getElementById ('myForm').reset ();
-          },
-          error => {
-            addToast (error.text, {
-              appearance: 'error',
-              autoDismiss: true,
-            });
-          }
-        );
-    }
+
+    emailjs
+      .sendForm (
+        'service_fftillv',
+        'template_ltuptxd',
+        e.target,
+        'user_J1pqQnb31sKRv1hA9F0QO'
+      )
+      .then (
+        result => {
+          props.setSuccess (true);
+        },
+        error => {
+          addToast (error.text, {
+            appearance: 'error',
+            autoDismiss: true,
+          });
+        }
+      );
+    // if (props.purpose === 'Reach Out') {
+    //   emailjs
+    //     .sendForm (
+    //       'service_g1beyp4',
+    //       'template_nob8jfo',
+    //       e.target,
+    //       'user_vqDbT4W4iarR10zKXuSiJ'
+    //     )
+    //     .then (
+    //       result => {
+    //         props.setSuccess (true);
+    //       },
+    //       error => {
+    //         addToast (error.text, {
+    //           appearance: 'error',
+    //           autoDismiss: true,
+    //         });
+    //       }
+    //     );
+    // }
+    // if (props.purpose === 'Media Inquiry') {
+    //   emailjs
+    //     .sendForm (
+    //       'service_qruwgft',
+    //       'template_jmyr1sg',
+    //       e.target,
+    //       'user_iM1KcMZO1OQCsEraQwPJG'
+    //     )
+    //     .then (
+    //       result => {
+    //         props.setSuccess (true);
+    //       },
+    //       error => {
+    //         addToast (error.text, {
+    //           appearance: 'error',
+    //           autoDismiss: true,
+    //         });
+    //       }
+    //     );
+    // }
   }
   return (
     <form className="contact-form p-4" id="myForm" onSubmit={sendEmail}>
