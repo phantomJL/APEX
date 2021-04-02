@@ -9,10 +9,10 @@ export default function SuccessPop () {
           marginTop: '5%',
         }}
       />
-      <h1 className="p-4 m-4">THANK YOU !!</h1>
+      <h1 className="p-4 m-4">THANK YOU!</h1>
       <h4 className="p-4 m-4" style={{marginBotton: '15%'}}>
-        YOUR MESSAGE HAS BEEN SENT.
-        WE'LL GET IN TOUCH WITH YOU SHORTLY. {' '}
+        Your message has been sent.
+        We'll get in touch with you shortly. {' '}
       </h4>
 
     </div>
