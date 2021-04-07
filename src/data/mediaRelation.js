@@ -9,7 +9,7 @@ export const news = [
     description: 'Since 2013, Roy Wang [also known as Wang Yuan] has been one of China’s most popular young stars. As one third of Chinese boy band TFBoys since 2013, he grew up in the spotlight, singing about topics ranging from love to promoting communist values. Beyond his role in the group, he’s released several singles and albums as a soloist, pursued acting, and now he’s opted to study Stateside at Berklee College of Music in Boston, honing his craft as a burgeoning songwriter...',
   },
   {
-    title: 'Henry Lau Talks Global Aspirations, Upcoming Projects And How Haters Have Helped Him Thrive',
+    title: 'Henry Lau Talks Global Aspirations, Upcoming Projects and How Haters Have Helped Him Thrive',
     date: '4/18/2019',
     news_logo: '/img/mediaRelation/logo/Forbes.png',
     img_url: 'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Ftamarherman%2Ffiles%2F2019%2F04%2FAlyssaChia_HenryLau_MJ_AZC_25-e1555628644389-1200x782.jpg',
@@ -27,7 +27,7 @@ export const news = [
     description: '',
   },
   {
-    title: "We Had Henry Lau Read Thirst Tweets And We Honestly Can't Stop Giggling",
+    title: "We Had Henry Lau Read Thirst Tweets and We Honestly Can't Stop Giggling",
     date: '2/27/2019',
     news_logo: '/img/mediaRelation/logo/BuzzFeed.png',
     img_url: '/img/mediaRelation/henry buzzfeed.JPG',
@@ -56,7 +56,7 @@ export const news = [
   {
     title: 'Wang Yuan (UNICEF Special Advocate) - ECOSOC Youth Forum 2018',
     date: '1/31/2018',
-    news_logo: '/img/mediaRelation/logo/ecosoc_youth_forum-01.png',
+    news_logo: '/img/mediaRelation/logo/ecosoc_youth_forum-01.PNG',
     img_url: '/img/mediaRelation/IMG_4129.jpg',
     url_1: 'http://webtv.un.org/meetings-events/treaty-bodies/watch/wang-yuan-unicef-special-advocate-ecosoc-youth-forum-2018/5723556610001/?term=&lan=english',
     logo_style: 'round',
@@ -74,7 +74,7 @@ export const news = [
   {
     title: "Chinese superstar Roy Wang is join 700 young people at this wk's #Youth2030 event in NYC.",
     date: '1/30/2017',
-    news_logo: '/img/mediaRelation/logo/ecosoc_youth_forum-01.png',
+    news_logo: '/img/mediaRelation/logo/ecosoc_youth_forum-01.PNG',
     img_url: 'https://pbs.twimg.com/media/C3bzvK5WIAAlZTa?format=jpg&name=medium',
     url_1: 'https://twitter.com/un/status/826204598855618560?lang=en',
     logo_style: 'round',
@@ -93,7 +93,7 @@ export const news = [
     title: 'Pop Star Spotlight Education',
     date: '2/10/2017',
     news_logo: '/img/mediaRelation/logo/china daily.png',
-    img_url: '/img/mediaRelation/wangyuan.JPG',
+    img_url: '/img/mediaRelation/wangyuan.jpg',
     url_1: '/img/mediaRelation/news/Roy Wang_China Daily_021017.png',
     logo_style: '',
     description: 'newspaper',
