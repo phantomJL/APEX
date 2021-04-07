@@ -1,11 +1,18 @@
-import React from "react"
-import { withRouter } from "react-router-dom"
+import React from 'react';
+import {withRouter} from 'react-router-dom';
+import ImageLoader from '../../../components/shared/ImageLoader';
 
-function Picture(props){
-    return (
-            <div style ={{height:"270px"}} className="p-2">
-                <img src = {`${process.env.PUBLIC_URL}${props.data.img_url}`} style ={{height:"100%"}}/>
-            </div>
-    )
+function Picture (props) {
+  console.log (props.data);
+  return (
+    <div style={{height: '270px'}} className="p-2">
+      <ImageLoader
+        container={false}
+        imgHeight="100%"
+        imgOpacity={1}
+        url={props.data.img_url}
+      />
+    </div>
+  );
 }
-export default withRouter(Picture)
+export default withRouter (Picture);

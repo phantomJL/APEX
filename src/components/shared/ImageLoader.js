@@ -1,37 +1,45 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 
 export default function ImageLoader (props) {
+  const [load, setLoad] = useState (false);
+
   return (
+    <>
+    {props.container?
     <div
+    className={`${props.containerClass} full`}
+
       style={{
-        width: `${props.width}px`,
-        height: `${ImageStyle (props.style, props.width)}px`,
-        backgroundColor: 'red',
+        width: '100%',
+        opacity: load ? 1 : 0,
+        backgroundColor: load ? props.containerColor : 'transparent',
       }}
-    />
+    >
+      <img
+        alt="cover"
+        className={`${props.imgClass} full`}
+        src={`${process.env.PUBLIC_URL}${props.url}`}
+        style={{
+          width: '100%',
+          opacity: load ? props.imgOpacity : 0,
+        }}
+        onLoad={() => setLoad (true)}
+      />
+    </div>
+    : 
+    <img
+    alt="cover"
+    className="full"
+    src={`${process.env.PUBLIC_URL}${props.url}`}
+    style={{
+      width: props.imgWidth,
+      height: props.imgHeight,
+      opacity: load ? props.imgOpacity : 0,
+      objectFit: "cover",
+    }}
+    onLoad={() => setLoad (true)}
+  />
+    }
+    </>
   );
 }
-
-const ImageStyle = (style, width) => {
-  if (style === '1:1') {
-    return width;
-  }
-  if (style === '3:2') {
-    return width * 2 / 3;
-  }
-  if (style === '16:6.75') {
-    return width * 6.75 / 16;
-  }
-};
-
-const useWidth = myRef => {
-  const [width, setWidth] = useState (400);
-  useEffect (
-    () => {
-      setWidth (myRef.current.offsetWidth);
-    },
-    [myRef]
-  );
-  return {width};
-};
-export {useWidth};

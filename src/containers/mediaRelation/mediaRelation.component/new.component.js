@@ -1,15 +1,24 @@
 import React from 'react';
+import ImageLoader from '../../../components/shared/ImageLoader';
 
 function New (props) {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12 news p-4">
       <div className="d-flex py-2 news-img">
-        <img
+        {/* <img
           className="mr-3"
           src={`${process.env.PUBLIC_URL}${props.data.img_url}`}
           style={{width: '90%', objectFit: 'cover'}}
+        /> */}
+        <ImageLoader
+          container={false}
+          imgWidth="90%"
+          imgOpacity={1}
+          url={props.data.img_url}
         />
         <img
+          className="ml-3"
+          alt="logo"
           src={`${process.env.PUBLIC_URL}${props.data.news_logo}`}
           style={{
             width: `${props.data.logo_style === 'round' ? '16%' : '18%'}`,

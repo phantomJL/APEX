@@ -57,18 +57,18 @@ function MediaRelation (props) {
             <div className="d-flex">
               <div className="px-4 new-page-button">
                 {page !== 0 &&
-                  <i
-                    class="fas fa-angle-left"
-                    onClick={() => change_page ('left')}
-                  />}
+                  <div onClick={() => change_page ('left')}>
+
+                    <i class="fas fa-angle-left" />&nbsp;Previous Page{' '}
+                  </div>}
               </div>
               <div className="px-4 new-page-button">
 
                 {page !== Math.ceil (news.length / 9) - 1 &&
-                  <i
-                    class="fas fa-angle-right"
-                    onClick={() => change_page ('right')}
-                  />}
+                  <div onClick={() => change_page ('right')}>
+                    Next Page &nbsp;
+                    <i class="fas fa-angle-right" />
+                  </div>}
               </div>
             </div>
 

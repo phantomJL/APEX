@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
+import ImageLoader from '../../../components/shared/ImageLoader';
 function Video (props) {
   const modalOnClick = link => {
     props.setVideo (link);
@@ -13,14 +14,21 @@ function Video (props) {
         style={{cursor: 'pointer'}}
         onClick={() => modalOnClick (props.data.video_link)}
       >
-        <div className="cover video-cover">
+        {/* <div className="cover video-cover">
           <img
             className="cover-img"
             src={`${process.env.PUBLIC_URL}${props.data.img_url}`}
             style={{width: '100%'}}
           />
-        </div>
-
+        </div> */}
+        <ImageLoader
+          container={true}
+          containerColor="black"
+          containerClass={'cover video-cover'}
+          imgClass={'cover_img'}
+          imgOpacity={1}
+          url={props.data.img_url}
+        />
         <div className="bottom-left-gallery  p-2 article hide">
           <div className="text-white median-title py-2">
             {props.data.magazine}

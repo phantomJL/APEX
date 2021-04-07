@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageLoader from '../../../components/shared/ImageLoader';
 
 function Event (props) {
   const formatMe = n => {
@@ -8,7 +9,7 @@ function Event (props) {
   return (
     <div className="d-flex py-4">
       <div
-        className="px-2 align-self-end article"
+        className="px-2 align-self-end article full"
         style={{
           paddingBottom: '100px',
           borderRight: '1px solid',
@@ -17,15 +18,15 @@ function Event (props) {
       >
         {formatMe (props.index + 1)}
       </div>
+
       <div className="container p-0">
 
-        <div style={{width: '100%', backgroundColor: 'black'}}>
-          <img
-            alt="cover"
-            src={`${process.env.PUBLIC_URL}${props.data.cover}`}
-            style={{width: '100%', opacity: '70%'}}
-          />
-        </div>
+        <ImageLoader
+          container={true}
+          url={props.data.cover}
+          containerColor="black"
+          imgOpacity="70%"
+        />
         <div class="bottom-left p-2 article large-title text-white">
           {props.data.case_name}
         </div>

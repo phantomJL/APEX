@@ -1,43 +1,33 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React from 'react';
 import {withRouter} from 'react-router-dom';
 import {caseStudy, caseStudy_event} from '../../data/caseStudy.data';
 import Case from './case.component/case.component';
 import Event from './case.component/event.component';
-import ImageLoader, {useWidth} from '../../components/shared/ImageLoader';
 
 function CaseStudy (props) {
-  const componentRef = useRef ();
-  const {width} = useWidth (componentRef);
   return (
     <main style={{paddingLeft: '5%', paddingRight: '5%'}}>
       <section className="p-4">
         <div className="container">
-          {width !== 0 &&
-            <div className="row py-2">
+          <div className="row py-2">
 
-              {caseStudy.map ((value, index) => {
-                return (
-                  <div
-                    className="col-md-6 col-sm-12 col-lg-4"
-                    ref={componentRef}
-                  >
-                    <div>
-
-                      {`${props.value}`
-                        ? <Case data={value} index={index} />
-                        : <ImageLoader style={'1:1'} width={width} />}
-                    </div>
+            {caseStudy.map ((value, index) => {
+              return (
+                <div className="col-md-6 col-sm-12 col-lg-4">
+                  <div>
+                    <Case data={value} index={index} />
                   </div>
-                );
-              })}
-              {caseStudy_event.map ((value, index) => {
-                return (
-                  <div className="col-md-6 col-sm-12 col-lg-4">
-                    <Event data={value} index={caseStudy.length + index} />
-                  </div>
-                );
-              })}
-            </div>}
+                </div>
+              );
+            })}
+            {caseStudy_event.map ((value, index) => {
+              return (
+                <div className="col-md-6 col-sm-12 col-lg-4">
+                  <Event data={value} index={caseStudy.length + index} />
+                </div>
+              );
+            })}
+          </div>
         </div>
 
       </section>

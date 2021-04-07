@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageLoader from '../../../components/shared/ImageLoader';
 
 function Magazine (props) {
   return (
@@ -15,10 +16,13 @@ function Magazine (props) {
           props.setMagazine (`${process.env.PUBLIC_URL}${props.data.url}`);
         }}
       >
-        <img
-          src={`${process.env.PUBLIC_URL}${props.data.url}`}
-          style={{height: '100%', objectFit: 'cover'}}
+        <ImageLoader
+          container={false}
+          imgHeight="100%"
+          imgOpacity={1}
+          url={props.data.url}
         />
+
       </div>
 
     </div>

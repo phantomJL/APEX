@@ -3,6 +3,7 @@ export default function SuccessPop () {
   return (
     <div className="text-center p-4 m-4">
       <img
+        alt="gif"
         src={`${process.env.PUBLIC_URL}/img/contact/source.gif`}
         style={{
           width: '30%',
@@ -11,7 +12,7 @@ export default function SuccessPop () {
       />
       <h2 className="p-4 m-4">THANK YOU!</h2>
       <div
-        className="p-4 m-4 large-title"
+        className="p-4 large-title"
         style={{marginBotton: '15%', color: '#6c6c6c'}}
       >
         Your message has been sent.

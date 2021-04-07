@@ -240,11 +240,6 @@ button{
   display: inline-block;
 }
 
-.cover{
-  background-color: black;
-  width: 100% !important;
-}
-
 .hide{
   display: none;
 }
@@ -253,6 +248,10 @@ button{
   opacity: 0.7 !important;
 }
 
+.full{
+    transition: opacity 800ms ease 0ms;
+
+}
 /*video*/
 .video-cover:hover + .hide {
   display: block;

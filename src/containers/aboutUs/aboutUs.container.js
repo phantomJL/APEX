@@ -11,12 +11,18 @@ import {
 } from '../../data/aboutUs.data';
 import Icon from './aboutUs.component/Icon.conponent';
 import AboutUs from './aboutUs.png';
+import ImageLoader from '../../components/shared/ImageLoader';
 function AboutUS (props) {
   return (
     <main className="px-4">
       <div className="row p-4">
         <div className="col-12 col-md-6 align-self-end">
-          <img src={AboutUs} style={{width: '100%'}} />
+          <ImageLoader
+            container={false}
+            imgWidth="100%"
+            imgOpacity={1}
+            url={AboutUs}
+          />
         </div>
         <div className="col-12 col-md-6 align-self-center">
           <div className="article title py-2">

@@ -1,11 +1,12 @@
 import React from 'react';
+import ImageLoader from '../../../components/shared/ImageLoader';
 function Case (props) {
   const formatMe = n => {
     return n < 10 ? '0' + n : n;
   };
-
   return (
     <div className="d-flex py-4">
+
       <div
         className="px-2 align-self-end article"
         style={{
@@ -18,15 +19,12 @@ function Case (props) {
       </div>
       <div className="container p-0">
 
-        <div
-          style={{width: '100%', backgroundColor: 'black', cursor: 'pointer'}}
-        >
-          <img
-            alt="cover"
-            src={`${process.env.PUBLIC_URL}${props.data.cover}`}
-            style={{width: '100%', opacity: '70%'}}
-          />
-        </div>
+        <ImageLoader
+          container={true}
+          url={props.data.cover}
+          containerColor="black"
+          imgOpacity="70%"
+        />
         <div class="bottom-left p-2 article large-title text-white">
           {props.data.case_name}
           <br />
