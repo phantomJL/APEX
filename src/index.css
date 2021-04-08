@@ -244,13 +244,13 @@ button{
   display: none;
 }
 
-.cover-img:hover{
-  opacity: 0.7 !important;
+.video-cover:hover .cover_img{
+  opacity: 70% !important;
+
 }
 
 .full{
     transition: opacity 800ms ease 0ms;
-
 }
 /*video*/
 .video-cover:hover + .hide {
