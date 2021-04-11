@@ -213,6 +213,7 @@ button{
   transition: all 0.3s ease;
   font-size: 20px;
   color: black;
+  cursor: pointer;
 }
 
 /* Style the social media icons with color */

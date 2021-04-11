@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 
 export default function ImageLoader (props) {
   const [load, setLoad] = useState (false);
-
   return (
     <>
     {props.container?

@@ -31,7 +31,6 @@ class App extends Component {
       import ('@fortawesome/fontawesome-free/css/all.css'),
     ]);
   }
-
   render () {
     const NoMatch = () => <Redirect to="/nomatch" />;
     return (
