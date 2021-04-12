@@ -23,7 +23,11 @@ function Main (props) {
 
       {props.history.location.pathname === '/'
         ? <section
-            style={{position: 'absolute', height: '100%', overflowY: 'hidden'}}
+            style={{
+              position: 'absolute',
+              minHeight: '80vh',
+              overflowY: 'hidden',
+            }}
           >
             {props.children}
           </section>
@@ -33,6 +37,7 @@ function Main (props) {
               style={{
                 paddingLeft: '60px',
                 paddingRight: '60px',
+                minHeight: '100vh',
               }}
             >
               {props.children}
@@ -81,18 +86,20 @@ function Main (props) {
             >
 
               hello@apexcomm.us
-            </section> <footer
-              className="trocchi text-weight-bold text-center p-4 text-uppercase small-title"
-              style={{
-                position: 'relative',
-                bottom: '0 !important',
-                marginTop: '120px',
-              }}
-            >
-              ©2021 APEX Communications, INC.All Rights Reserved.
-            </footer>
-          </section>}
+            </section>
 
+          </section>}
+      <footer
+        className="trocchi text-weight-bold text-center p-4 text-uppercase small-title"
+        style={{
+          // position: 'relative',
+          // bottom: '0 !important',
+          // marginTop: '120px',
+          bottom: '50px',
+        }}
+      >
+        ©2021 APEX Communications, INC.All Rights Reserved.
+      </footer>
     </main>
   );
 }

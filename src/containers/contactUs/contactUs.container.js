@@ -19,7 +19,7 @@ function ContactUsContainer (props) {
   };
 
   return (
-    <main className="mx-auto" style={{width: '70%'}}>
+    <main className="mx-auto" style={{width: '70%', height: '100%'}}>
       {success == false
         ? <secion>
             <h1 className="article text-uppercase text-center p-4">
