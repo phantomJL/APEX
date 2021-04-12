@@ -11,7 +11,7 @@ export const video = [
     magazine: 'David Yurman BTS',
     starring: 'Alyssa Chia',
     director: 'Yulizhe/Fnu',
-    video_link: 'https://www.dropbox.com/s/mfhb2ipm6nhz0d7/Alyssa%20Chia%20×%20David%20Yurman_NYFW%20Feb%202019.mov?dl=0',
+    video_link: '',
   },
   {
     img_url: '/img/gallery/video/2. henry 16x6.75.png',
@@ -25,7 +25,7 @@ export const video = [
     magazine: 'DAZED China March.April 2020',
     starring: 'Timothée Chalamet',
     director: 'Yulizhe',
-    video_link: 'https://www.dropbox.com/s/071diemsk5qyr0g/Gavin%20Thomas%20-%20ELLEMEN%20Fresh%20Fashion%20Film.mp4?dl=0',
+    video_link: '',
   },
   {
     img_url: '/img/gallery/video/5. web_selina 4 16x6.75.jpg',
@@ -39,7 +39,7 @@ export const video = [
     magazine: 'ELLEMEN (China) Fresh April 2019',
     starring: 'Leo Wu (吴磊)',
     director: 'Yulizhe/Fnu',
-    video_link: 'https://www.dropbox.com/s/dp2jpzdt8njl624/15s%20watch%20final.mp4?dl=0',
+    video_link: '',
   },
   {
     img_url: '/img/gallery/video/Ian Somerhalder 6.75x16.png',

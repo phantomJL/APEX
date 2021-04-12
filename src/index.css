@@ -277,6 +277,9 @@ button{
   left: 16px;
 }
 
+video{
+  object-fit: cover !important;
+}
 
 /*button*/
 .btn{
