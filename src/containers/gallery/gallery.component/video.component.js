@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ImageLoader from '../../../components/shared/ImageLoader';
 function Video (props) {
+  const [showtitle, setShow] = useState (false);
+  const [opacity, setOpacity] = useState (1);
+
   const modalOnClick = link => {
     props.setVideo (link);
     props.setVideoPlay (true);
@@ -8,6 +11,11 @@ function Video (props) {
   return (
     <div className="col-12 col-lg-4 col-md-6 px-3 py-2">
       <div
+        onMouseEnter={() => {
+          setShow (true);
+          setOpacity (0.7);
+        }}
+        onMouseLeave={() => setShow (false)}
         className="container"
         data-toggle="modal"
         data-target="#exampleModal"
@@ -26,35 +34,36 @@ function Video (props) {
           containerColor="black"
           containerClass={'cover video-cover'}
           imgClass={'cover_img'}
-          imgOpacity={1}
+          imgOpacity={opacity}
           url={props.data.img_url}
         />
-        <div className="bottom-left-gallery  p-2 article hide">
-          <div className="text-white median-title py-2">
-            {props.data.magazine}
-          </div>
-          {props.data.starring
-            ? <div>
-                <div className="text-white font-weight-bold median-title">
-                  STARRING
+        {showtitle &&
+          <div className="bottom-left-gallery p-2 article">
+            <div className="text-white median-title py-2">
+              {props.data.magazine}
+            </div>
+            {props.data.starring
+              ? <div>
+                  <div className="text-white font-weight-bold median-title">
+                    STARRING
+                  </div>
+                  <div className="text-white median-title">
+                    {props.data.starring}
+                  </div>
                 </div>
-                <div className="text-white median-title">
-                  {props.data.starring}
+              : <div />}
+            {props.data.director
+              ? <div>
+                  <div className="text-white font-weight-bold median-title">
+                    DIRECTED BY
+                  </div>
+                  <div className="text-white median-title">
+                    {props.data.director}
+                  </div>
                 </div>
-              </div>
-            : <div />}
-          {props.data.director
-            ? <div>
-                <div className="text-white font-weight-bold median-title">
-                  DIRECTED BY
-                </div>
-                <div className="text-white median-title">
-                  {props.data.director}
-                </div>
-              </div>
-            : <div />}
+              : <div />}
 
-        </div>
+          </div>}
       </div>
     </div>
   );

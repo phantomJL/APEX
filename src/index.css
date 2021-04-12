@@ -247,18 +247,10 @@ button{
 
 .video-cover:hover .cover_img{
   opacity: 70% !important;
-
 }
 
 .full{
     transition: opacity 800ms ease 0ms;
-}
-/*video*/
-.video-cover:hover + .hide {
-  display: block;
-}
-video{
-  object-fit: cover;
 }
 
 /*video*/
@@ -279,10 +271,12 @@ video{
 }
 
 .bottom-left-gallery {
+  cursor:pointer;
   position: absolute;
   bottom: 8px;
   left: 16px;
 }
+
 
 /*button*/
 .btn{
