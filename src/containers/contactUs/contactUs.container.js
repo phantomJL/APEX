@@ -12,7 +12,7 @@ const ToastContainer = props => (
 );
 function ContactUsContainer (props) {
   const [purpose, setPurpose] = useState ('Reach Out');
-  const [success, setSuccess] = useState (true);
+  const [success, setSuccess] = useState (false);
 
   const successFun = () => {
     setSuccess (true);
