@@ -1,7 +1,12 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 export default function ImageLoader (props) {
   const [load, setLoad] = useState (false);
+  const [url, setUrl] = useState("")
+  
+  useEffect(()=>{
+    setUrl(props.url)
+  }, [props.url])
   return (
     <>
     {props.container?
@@ -17,7 +22,7 @@ export default function ImageLoader (props) {
       <img
         alt="cover"
         className={`${props.imgClass} full`}
-        src={`${process.env.PUBLIC_URL}${props.url}`}
+        src={`${process.env.PUBLIC_URL}${url}`}
         style={{
           width: '100%',
           opacity: load ? props.imgOpacity : 0,
@@ -29,7 +34,7 @@ export default function ImageLoader (props) {
     <img
     alt="cover"
     className="full"
-    src={`${process.env.PUBLIC_URL}${props.url}`}
+    src={`${process.env.PUBLIC_URL}${url}`}
     style={{
       width: props.imgWidth,
       height: props.imgHeight,

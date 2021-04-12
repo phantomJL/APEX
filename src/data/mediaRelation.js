@@ -36,7 +36,7 @@ export const news = [
     description: `The very talented and stylish Henry Lau stopped by BuzzFeed to read some hilarious(ly-worded) thirst tweets and he seemed a little nervous about it — although that smile tells me, "I'm ready. Bring it." `,
   },
   {
-    title: 'Henry Lau paid an official visit to Instagram New York Headquarter and meets with Director of Fashion Eva Chan',
+    title: 'Henry Lau Visits Instagram HQ in NYC and Chats with Director of Fashion Eva Chen',
     date: '2/14/2019',
     news_logo: 'https://www.pngkey.com/png/full/2-28310_instagram-logo-black-and-ahite-instagram-word-logo.png',
     img_url: '/img/mediaRelation/3482 IG - henry lau.jpg',
@@ -45,7 +45,7 @@ export const news = [
     description: '',
   },
   {
-    title: 'Pop superstar visits New York',
+    title: 'Pop Super Star Jackson Yi Visits New York',
     date: '2/3/2018',
     news_logo: '/img/mediaRelation/logo/china-daily.png',
     img_url: 'http://img2.chinadaily.com.cn/images/201802/03/5a74d59da3106e7d2d718924.jpeg',
@@ -72,7 +72,7 @@ export const news = [
     description: '16 Jackson Yi Visits The Empire State Building Premium High Res Photos. Browse 16 jackson yi visits the empire state building stock photos and images available, or start a new search to explore more stock photos and images.',
   },
   {
-    title: "Chinese superstar Roy Wang is join 700 young people at this wk's #Youth2030 event in NYC.",
+    title: "Chinese Superstar Roy Wang Joins 700 Young People at This Week's #Youth2030 Event in NYC.",
     date: '1/30/2017',
     news_logo: '/img/mediaRelation/logo/ecosoc_youth_forum-01.PNG',
     img_url: 'https://pbs.twimg.com/media/C3bzvK5WIAAlZTa?format=jpg&name=medium',
