@@ -7,7 +7,7 @@ export default function SuccessPop () {
         src={`${process.env.PUBLIC_URL}/img/contact/source.gif`}
         style={{
           width: '30%',
-          marginTop: '5%',
+          marginTop: '8%',
         }}
       />
       <h2 className="p-4 m-4">THANK YOU!</h2>
