@@ -25,7 +25,7 @@ function Main (props) {
         ? <section
             style={{
               position: 'absolute',
-              minHeight: '80vh',
+              minHeight: '80vh !important',
               overflowY: 'hidden',
             }}
           >
@@ -37,7 +37,7 @@ function Main (props) {
               style={{
                 paddingLeft: '60px',
                 paddingRight: '60px',
-                minHeight: '100vh',
+                minHeight: '80vh !important',
               }}
             >
               {props.children}
