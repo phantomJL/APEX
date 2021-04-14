@@ -25,23 +25,23 @@ function Main (props) {
         ? <section
             style={{
               position: 'absolute',
-              minHeight: '80vh !important',
+              minHeight: '100vh !important',
               overflowY: 'hidden',
             }}
           >
             {props.children}
           </section>
-        : <section>
+        : <section style={{minHeight: '82vh'}}>
             <section
               className="container-fluid "
               style={{
                 paddingLeft: '60px',
                 paddingRight: '60px',
-                minHeight: '80vh !important',
               }}
             >
               {props.children}
-            </section> <section class="icon-bar">
+            </section>
+            <section class="icon-bar">
               <a
                 onClick={() =>
                   window.open ('https://www.instagram.com/apexcomm/', '_blank')}
@@ -98,7 +98,7 @@ function Main (props) {
           bottom: '50px',
         }}
       >
-        ©2021 APEX Communications, INC.All Rights Reserved.
+        ©2021 APEX Communications, INC. All Rights Reserved.
       </footer>
     </main>
   );

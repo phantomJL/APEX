@@ -121,7 +121,7 @@ button{
 }
 
 .main-canvas{
-  min-height: 100% !important;
+  min-height: 100vh !important;
 }
 .avenir{
   font-family: Avenir;
@@ -243,10 +243,6 @@ button{
 
 .hide{
   display: none;
-}
-
-.video-cover:hover .cover_img{
-  opacity: 70% !important;
 }
 
 .full{

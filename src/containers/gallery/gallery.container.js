@@ -32,7 +32,7 @@ function Gallery (props) {
       </section>
 
       {show === 'video'
-        ? <section>
+        ? <section className="py-4">
             <div className="row">
               {video.map ((value, index) => (
                 <Video

@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 
 function MainPage (props) {
   return (
-    <main style={{height: '100%'}}>
+    <main style={{height: '100vh'}}>
       <ReactPlayer
         url={`${process.env.PUBLIC_URL}/video/Reel V7.mp4`}
         width="100%"

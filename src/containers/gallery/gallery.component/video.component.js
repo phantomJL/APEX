@@ -15,7 +15,10 @@ function Video (props) {
           setShow (true);
           setOpacity (0.7);
         }}
-        onMouseLeave={() => setShow (false)}
+        onMouseLeave={() => {
+          setShow (false);
+          setOpacity (1);
+        }}
         className="container"
         data-toggle="modal"
         data-target="#exampleModal"
