@@ -43,7 +43,10 @@ function Gallery (props) {
               ))}
             </div>
           </section>
-        : <section style={{marginLeft: '60px', marginRight: '60px'}}>
+        : <section
+            className="py-4"
+            style={{marginLeft: '60px', marginRight: '60px'}}
+          >
             <div className="d-flex flex-wrap">
               {random_magazine.map ((value, index) => <Picture data={value} />)}
             </div>
