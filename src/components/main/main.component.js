@@ -90,7 +90,7 @@ function Main (props) {
 
           </section>}
       <footer
-        className="trocchi text-weight-bold text-center p-4 text-uppercase small-title"
+        className="trocchi text-weight-bold text-center p-2 mt-2 text-uppercase small-title"
         style={{
           // position: 'relative',
           // bottom: '0 !important',

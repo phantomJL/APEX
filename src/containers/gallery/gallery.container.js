@@ -15,7 +15,7 @@ function Gallery (props) {
     .map (a => a.value);
 
   return (
-    <main className="px-4">
+    <main className="p-4">
       <section className="d-flex p-4 justify-content-center">
         <div
           className={`btn btn-line mx-4 article ${show === 'video' ? 'active' : ''}`}
