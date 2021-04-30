@@ -1,7 +1,7 @@
 import React from 'react';
 import {withRouter} from 'react-router-dom';
 import Nav from './nav.component';
-import '../../App.css';
+import '../../index.css';
 
 function Main (props) {
   const openEmail = () => {
@@ -32,13 +32,7 @@ function Main (props) {
             {props.children}
           </section>
         : <section style={{minHeight: '82vh'}}>
-            <section
-              className="container-fluid "
-              style={{
-                paddingLeft: '60px',
-                paddingRight: '60px',
-              }}
-            >
+            <section className="container-fluid content-padding">
               {props.children}
             </section>
             <section class="icon-bar">

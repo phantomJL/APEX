@@ -127,6 +127,12 @@ button{
   font-family: Avenir;
 }
 
+.content-padding{
+  padding-left: 10vw !important;
+  padding-right: 10vw !important;
+
+}
+
 /* navigation */
 #mynav { 
   z-index: 300!important;

@@ -13,7 +13,7 @@ function Video (props) {
       <div
         onMouseEnter={() => {
           setShow (true);
-          setOpacity (0.7);
+          setOpacity (0.6);
         }}
         onMouseLeave={() => {
           setShow (false);

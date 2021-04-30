@@ -72,7 +72,11 @@ function AboutUS (props) {
         >
           COLLABORATIONS
         </div>
-        <div className="d-flex flex-wrap justify-content-center">
+        <div
+          className="d-flex flex-wrap justify-content-center"
+          style={{marginBottom: '100px'}}
+        >
+
           {partner_horizontal.map ((value, index) => (
             <Icon data={value} width={'180px'} />
           ))}

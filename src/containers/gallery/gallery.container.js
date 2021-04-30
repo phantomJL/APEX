@@ -13,7 +13,6 @@ function Gallery (props) {
     .map (a => ({sort: Math.random (), value: a}))
     .sort ((a, b) => a.sort - b.sort)
     .map (a => a.value);
-
   return (
     <main className="p-4">
       <section className="d-flex p-4 justify-content-center">

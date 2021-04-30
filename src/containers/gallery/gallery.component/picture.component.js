@@ -3,7 +3,6 @@ import {withRouter} from 'react-router-dom';
 import ImageLoader from '../../../components/shared/ImageLoader';
 
 function Picture (props) {
-  console.log (props.data);
   return (
     <div style={{height: '270px'}} className="p-2">
       <ImageLoader
