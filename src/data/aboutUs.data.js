@@ -21,10 +21,10 @@ export const ourService = [
     title: 'Event Planning',
     intro: 'We make everything from scratch. We are attuned to the smallest detail of event logistics, with a strong level of advance planning and ground management, from start to finish.',
   },
-  {
-    title: 'Talent Mangement',
-    intro: '[US-China] Social media management, personal image development, performance management, career pathways and succession planning.',
-  },
+  // {
+  //   title: 'Talent Mangement',
+  //   intro: '[US-China] Social media management, personal image development, performance management, career pathways and succession planning.',
+  // },
 ];
 export const partner_horizontal = [
   {img: '/img/aboutUS/partner/1280px-World_Health_Organization_Logo.png'},
