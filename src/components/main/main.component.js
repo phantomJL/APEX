@@ -11,7 +11,7 @@ function Main (props) {
     <main
       className="main-canvas"
       style={{
-        position: props.history.location.pathname === '/' ? 'relative' : '',
+        position: props.history.location.pathname === '/' ? 'absolute' : '',
       }}
     >
       <section className="sticky-top">
