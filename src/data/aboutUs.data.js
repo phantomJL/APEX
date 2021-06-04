@@ -38,7 +38,7 @@ export const client_horizontal = [
   // {img: '/img/aboutUS/client/WechatIMG134.jpeg'},
   // {img: '/img/aboutUS/client/WechatIMG129.jpeg'},
   // {img: '/img/aboutUS/client/WechatIMG147.jpeg'},
-  {img: '/img/aboutUS/client/WechatIMG157.jpeg'},
+  {img: '/img/aboutUS/client/IMG_1033.JPG'},
 
   {img: '/img/aboutUS/client/DY_LOGO_BLACK-01.png'},
 
