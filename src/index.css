@@ -141,7 +141,7 @@ button{
   z-index: 300!important;
  }
 
-.nav{
+nav{
   font-family: Avenir !important;
   color: #6c6c6c;
 }
@@ -157,6 +157,33 @@ button{
   color: #FF6E5D !important;
 }
 
+@media (max-width: 992px) {
+  .navbar-collapse {
+      position: fixed;
+      top: 50px; /* adjust to height of navbar */
+      right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 75%;
+      height: 100%;
+      background-color: #fff !important;
+  }
+
+  .navbar-collapse.collapsing {
+      right: -75%;
+      transition: height 0s ease !important;
+  }
+
+  .navbar-collapse.show {
+      right: 0;
+      transition: right 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+      transition: right 500ms ease-in-out;
+  }
+}
 /* navigation */
 .article {
   font-family: futura !important;
@@ -215,19 +242,19 @@ button{
 }
 
 /* Style the icon bar links */
-.icon-bar a {
+a {
   display: block;
   text-align: center;
   padding: 5px;
   transition: all 0.3s ease;
   font-size: 20px;
-  color: black;
+  color: black !important;
   cursor: pointer;
 }
 
 /* Style the social media icons with color */
-.icon-bar a:hover {
-  color: #FF6E5D;
+a:hover {
+  color: #FF6E5D !important;
 }
 
 /* about us*/
