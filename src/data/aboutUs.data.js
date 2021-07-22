@@ -46,6 +46,7 @@ export const client_horizontal = [
 
   {img: '/img/aboutUS/client/Orient International东方国际.png'},
   {img: '/img/aboutUS/client/KL-logo 横.gif'},
+  {img: '/img/aboutUS/client/logo-man.png'},
 ];
 
 export const client_square = [
@@ -65,6 +66,4 @@ export const client_square = [
   {img: '/img/aboutUS/client/WAOTW.png'},
 
   {img: '/img/aboutUS/client/Wis面膜.jpg'},
-
-  {img: '/img/aboutUS/client/微信图片_20190213083256.png'},
 ];

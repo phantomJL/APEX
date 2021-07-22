@@ -13,6 +13,17 @@ function Gallery (props) {
     .map (a => ({sort: Math.random (), value: a}))
     .sort ((a, b) => a.sort - b.sort)
     .map (a => a.value);
+  const [width, setWidth] = useState (window.innerWidth);
+  const updateDimensions = () => {
+    setWidth (window.innerWidth);
+  };
+  useEffect (
+    () => {
+      window.addEventListener ('resize', updateDimensions);
+      return () => window.removeEventListener ('resize', updateDimensions);
+    },
+    [updateDimensions, width]
+  );
   return (
     <main className="p-4">
       <section className="d-flex p-4 justify-content-center">
@@ -46,9 +57,18 @@ function Gallery (props) {
             className="py-4"
             style={{marginLeft: '60px', marginRight: '60px'}}
           >
-            <div className="d-flex flex-wrap">
-              {random_magazine.map ((value, index) => <Picture data={value} />)}
-            </div>
+            {width < 992
+              ? <div className="d-flex flex-wrap">
+                  {random_magazine.map ((value, index) => (
+                    <Picture data={value} height={'170px'} />
+                  ))}
+                </div>
+              : <div className="d-flex flex-wrap">
+                  {random_magazine.map ((value, index) => (
+                    <Picture data={value} height={'260px'} />
+                  ))}
+                </div>}
+
           </section>}
       <div
         className="modal fade"

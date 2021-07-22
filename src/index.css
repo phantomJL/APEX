@@ -160,14 +160,20 @@ nav{
 @media (max-width: 992px) {
   .navbar-collapse {
       position: fixed;
-      top: 50px; /* adjust to height of navbar */
+      top: 0px; /* adjust to height of navbar */
       right: 0;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-      width: 75%;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 30px;
+      width: 45%;
       height: 100%;
-      background-color: #fff !important;
+      font-size: 50px !important;
+      background-color: rgb(248,227,225) !important;
+  }
+  .navbar-collapse .nav-link{
+    /* font-weight: B; */
+   font-size: 10px !important;
+   margin-top: 5px;
   }
 
   .navbar-collapse.collapsing {
@@ -183,8 +189,16 @@ nav{
   .navbar-toggler.collapsed ~ .navbar-collapse {
       transition: right 500ms ease-in-out;
   }
+  .navbar-toggler.collapsed .close-icon {
+    display: none;
+ }
+
+ .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: none;
+ }
 }
 /* navigation */
+
 .article {
   font-family: futura !important;
 }

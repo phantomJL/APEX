@@ -6,11 +6,11 @@ export default function Nav (props) {
   const gallery = useRef ();
   const mediaRelation = useRef ();
   const contactUs = useRef ();
-  const [current_page, setPage] = useState ('/');
+  // const [current_page, setPage] = useState ('/');
 
   const navToPage = page => {
     props.history.push (`/${page}`);
-    setPage (`/${page}`);
+    // setPage (`/${page}`);
   };
   useEffect (() => {
     props.history.location.pathname === '/AboutUS'
@@ -39,7 +39,7 @@ export default function Nav (props) {
   };
   return (
     <nav
-      className="navbar navbar-expand-lg p-3 "
+      className="navbar navbar-expand-lg p-3 w-100"
       id="mynav"
       style={{
         backgroundColor: props.color === 'white' ? '#FFFFFF' : 'transparent',
@@ -65,15 +65,27 @@ export default function Nav (props) {
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        style={{zIndex: '1000'}}
       >
-        <i class="fas fa-bars" />
+        <div
+          className="navbar-toggler-icon"
+          style={{
+            color: props.color === 'white' ? '' : 'white',
+          }}
+        >
+          <i class="fas fa-bars" />
+        </div>
+        <div class="close-icon py-1">
+          <i class="fas fa-times" />
+        </div>
       </button>
+
       <div
         class="collapse navbar-collapse flex-row-reverse"
         id="navbarSupportedContent"
       >
         <ul className="navbar-nav small-title">
-          <li className="nav-item px-2 d-flex justify-content-center">
+          <li className="nav-item px-2 d-flex ">
             <div
               ref={aboutUS}
               className="nav-link"
@@ -84,7 +96,7 @@ export default function Nav (props) {
               ABOUT US
             </div>
           </li>
-          <li className="nav-item px-2 d-flex justify-content-center">
+          <li className="nav-item px-2 d-flex ">
             <div
               ref={caseStudy}
               className="nav-link"
@@ -95,7 +107,7 @@ export default function Nav (props) {
               WORK
             </div>
           </li>
-          <li className="nav-item px-2 d-flex justify-content-center">
+          <li className="nav-item px-2 d-flex ">
             <div
               ref={gallery}
               className="nav-link"
@@ -106,7 +118,7 @@ export default function Nav (props) {
               GALLERY
             </div>
           </li>
-          <li className="nav-item px-2 d-flex justify-content-center">
+          <li className="nav-item px-2 d-flex ">
             <div
               ref={mediaRelation}
               className="nav-link"
@@ -117,7 +129,7 @@ export default function Nav (props) {
               MEDIA RELATIONS
             </div>
           </li>
-          <li className="nav-item px-2 d-flex justify-content-center">
+          <li className="nav-item px-2 d-flex ">
             <div
               ref={contactUs}
               className="nav-link"
@@ -128,55 +140,6 @@ export default function Nav (props) {
               CONTACT US
             </div>
           </li>
-          {window.innerWidth <= 768
-            ? <div>
-                <li className="nav-item px-2 d-flex justify-content-center">
-                  <a
-                    onClick={() =>
-                      window.open (
-                        'https://www.instagram.com/apexcomm/',
-                        '_blank'
-                      )}
-                    class="instagram px-2"
-                  >
-                    <i class="fab fa-instagram" />
-                  </a>
-                  <a
-                    onClick={() =>
-                      window.open (
-                        'https://www.weibo.com/u/5888176990',
-                        '_blank'
-                      )}
-                    class="weibo px-2"
-                  >
-                    <i class="fab fa-weibo " />
-                  </a>
-
-                  <a
-                    onClick={() =>
-                      window.open (
-                        'https://www.youtube.com/channel/UCiFfqtera5aCdOApxZzXgxg',
-                        '_blank'
-                      )}
-                    class="youtube px-2"
-                  >
-                    <i class="fab fa-youtube " />
-                  </a> <a
-                    onClick={() =>
-                      window.open ('https://vimeo.com/apexcomm', '_blank')}
-                    class="vimeo px-2"
-                  >
-                    <i class="fab fa-vimeo-v" />
-                  </a>
-                </li>
-                <li
-                  className="d-flex justify-content-center"
-                  style={{fontSize: '8px'}}
-                >
-                  HELLO@APEXCOMM.US
-                </li>
-              </div>
-            : <div />}
         </ul>
       </div>
     </nav>

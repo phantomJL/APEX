@@ -3,7 +3,7 @@ import ImageLoader from '../../../components/shared/ImageLoader';
 
 function New (props) {
   return (
-    <div className="col-lg-4 col-md-6 col-sm-12 news p-4">
+    <div className="col-lg-4 col-md-6 col-12 news p-4">
       <div className="d-flex py-2 news-img">
         {/* <img
           className="mr-3"
@@ -12,7 +12,7 @@ function New (props) {
         /> */}
         <ImageLoader
           container={false}
-          imgWidth="90%"
+          imgWidth="70%"
           imgOpacity={1}
           url={props.data.img_url}
         />
@@ -58,7 +58,6 @@ function New (props) {
 
         </div>
       </div>
-
     </div>
   );
 }

@@ -4,7 +4,7 @@ import ImageLoader from '../../../components/shared/ImageLoader';
 
 function Picture (props) {
   return (
-    <div style={{height: '270px'}} className="p-2">
+    <div style={{height: `${props.height}`}} className="p-2">
       <ImageLoader
         container={false}
         imgHeight="100%"

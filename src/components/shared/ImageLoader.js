@@ -20,12 +20,12 @@ export default function ImageLoader (props) {
       }}
     >
       <img
-        alt="cover"
         className={`${props.imgClass} full`}
         src={`${process.env.PUBLIC_URL}${url}`}
         style={{
           width: '100%',
           opacity: load ? props.imgOpacity : 0,
+          objectFit:"contain",
         }}
         onLoad={() => setLoad (true)}
       />
