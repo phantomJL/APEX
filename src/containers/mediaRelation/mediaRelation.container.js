@@ -109,10 +109,10 @@ function MediaRelation (props) {
         aria-hidden="true"
       >
         <div
-          className="modal-dialog modal-lg text-center"
+          className="d-flex modal-dialog modal-lg text-center align-items-center justify-content-center"
           style={{height: '90%'}}
         >
-          <img src={maga} style={{height: '100%'}} />
+          <img src={maga} className="magazine" />
         </div>
       </div>
     </main>

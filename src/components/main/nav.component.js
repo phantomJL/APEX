@@ -6,30 +6,32 @@ export default function Nav (props) {
   const gallery = useRef ();
   const mediaRelation = useRef ();
   const contactUs = useRef ();
-  // const [collapsed, setCollapsed] = useState (true);
-
+  const [currentWidth, setCurrentWidth] = useState ('0');
   const navToPage = page => {
-    // setCollapsed (true);
+    setCurrentWidth ('0');
     props.history.push (`/${page}`);
   };
 
-  useEffect (() => {
-    props.history.location.pathname === '/AboutUS'
-      ? aboutUS.current.setAttribute ('class', 'nav-link disabled')
-      : aboutUS.current.setAttribute ('class', 'nav-link');
-    props.history.location.pathname === '/CaseStudy'
-      ? caseStudy.current.setAttribute ('class', 'nav-link disabled')
-      : caseStudy.current.setAttribute ('class', 'nav-link');
-    props.history.location.pathname === '/Gallery'
-      ? gallery.current.setAttribute ('class', 'nav-link disabled')
-      : gallery.current.setAttribute ('class', 'nav-link');
-    props.history.location.pathname === '/MediaRelation'
-      ? mediaRelation.current.setAttribute ('class', 'nav-link disabled')
-      : mediaRelation.current.setAttribute ('class', 'nav-link');
-    props.history.location.pathname === '/ContactUs'
-      ? contactUs.current.setAttribute ('class', 'nav-link disabled')
-      : contactUs.current.setAttribute ('class', 'nav-link');
-  });
+  useEffect (
+    () => {
+      props.history.location.pathname === '/AboutUS'
+        ? aboutUS.current.setAttribute ('class', 'nav-link disabled')
+        : aboutUS.current.setAttribute ('class', 'nav-link');
+      props.history.location.pathname === '/CaseStudy'
+        ? caseStudy.current.setAttribute ('class', 'nav-link disabled')
+        : caseStudy.current.setAttribute ('class', 'nav-link');
+      props.history.location.pathname === '/Gallery'
+        ? gallery.current.setAttribute ('class', 'nav-link disabled')
+        : gallery.current.setAttribute ('class', 'nav-link');
+      props.history.location.pathname === '/MediaRelation'
+        ? mediaRelation.current.setAttribute ('class', 'nav-link disabled')
+        : mediaRelation.current.setAttribute ('class', 'nav-link');
+      props.history.location.pathname === '/ContactUs'
+        ? contactUs.current.setAttribute ('class', 'nav-link disabled')
+        : contactUs.current.setAttribute ('class', 'nav-link');
+    },
+    [props.history.location.pathname]
+  );
   const MouseOut = event => {
     event.target.style.color = '#6c6c6c';
   };
@@ -43,7 +45,7 @@ export default function Nav (props) {
       className="navbar fixed-top navbar-expand-lg p-3 "
       id="mynav"
       style={{
-        backgroundColor: props.color === 'white' ? '#FFFFFF' : 'transparent',
+        backgroundColor: props.color === 'black' ? '' : 'white',
         position: props.color === 'white' ? '' : 'absolute',
         overflow: 'hidden',
       }}
@@ -70,11 +72,12 @@ export default function Nav (props) {
         aria-label="Toggle navigation"
         style={{zIndex: '1000'}}
       >
-        <div class="close-icon">
+        <div class="close-icon" onClick={() => setCurrentWidth ('0')}>
           <i class="fas fa-times" />
         </div>
         <div
           className="navbar-toggler-icon"
+          onClick={() => setCurrentWidth ('100%')}
           style={{
             color: props.color === 'white' ? '' : 'white',
           }}
@@ -156,6 +159,13 @@ export default function Nav (props) {
           </li>
         </ul>
       </div>
+      <div
+        className="overlay"
+        style={{width: currentWidth}}
+        onClick={() => setCurrentWidth ('0')}
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+      />
     </nav>
   );
 }

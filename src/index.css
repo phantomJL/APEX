@@ -161,6 +161,8 @@ nav{
 @media (max-width: 767px) {
   .navbar-collapse {
       position: fixed;
+  z-index: 2;
+
       top: 0px; /* adjust to height of navbar */
       right: 0;
       padding-right: 20px;
@@ -206,6 +208,28 @@ nav{
  .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
     display: none;
  }
+ .overlay{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0, 0.7);
+  overflow-x: hidden;
+  transition: 0.7s;
+ }
+
+ /* media relation */
+ .magazine{
+  width: 100%;
+  height:unset !important;
+
+ }
+}
+ /* media relation */
+.magazine{
+   height:100%;
 }
 /* navigation */
 

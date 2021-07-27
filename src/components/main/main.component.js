@@ -38,7 +38,9 @@ function Main (props) {
         ? <section
             style={{
               position: 'absolute',
-              marginTop: '50px',
+              marginTop: props.history.location.pathname === '/'
+                ? '0px'
+                : '50px',
               minHeight: '100vh !important',
               overflow: 'hidden !important',
             }}
@@ -47,7 +49,12 @@ function Main (props) {
             <footer
               className="trocchi text-weight-bold text-center p-4 mt-4 text-uppercase small-title"
               style={{
-                position: 'relative',
+                width: '100%',
+                position: 'absolute',
+                bottom: 0,
+                color: props.history.location.pathname === '/'
+                  ? 'white'
+                  : 'black',
               }}
             >
               ©2021 APEX Communications, INC. All Rights Reserved.
@@ -120,10 +127,10 @@ function Main (props) {
             <footer
               className="trocchi text-weight-bold text-center p-2 mt-2 text-uppercase small-title"
               style={{
-                // position: 'relative',
-                // bottom: '0 !important',
-                // marginTop: '120px',
-                bottom: '50px',
+                position: 'relative',
+                bottom: '0 !important',
+                marginTop: '120px',
+                bottom: '25px',
               }}
             >
               ©2021 APEX Communications, INC. All Rights Reserved.
