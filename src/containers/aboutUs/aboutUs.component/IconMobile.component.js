@@ -5,7 +5,7 @@ function IconMobile (props) {
     <div className=" col-4 p-2">
       <div
         style={{height: `60px`}}
-        className={`${props.data.img ? 'rounded border ' : ''} " justify-content-center align-items-center"`}
+        className={`${props.data.img ? 'shadow-sm rounded border ' : ''} " justify-content-center align-items-center"`}
       >
         <img
           className="p-2"

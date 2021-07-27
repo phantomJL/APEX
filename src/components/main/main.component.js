@@ -11,6 +11,7 @@ function Main (props) {
   const updateDimensions = () => {
     setWidth (window.innerWidth);
   };
+
   useEffect (
     () => {
       updateDimensions ();

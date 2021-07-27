@@ -147,6 +147,7 @@ nav{
 }
 
 .nav-link{
+  /* width: auto; */
   font-size: 12px !important; 
   cursor: pointer;
 }
@@ -164,17 +165,27 @@ nav{
       right: 0;
       padding-right: 20px;
       padding-left: 20px;
-      padding-top: 30px;
+      padding-top: 50px;
       width: 45%;
       height: 100%;
-      font-size: 50px !important;
       background-color: rgb(248,227,225) !important;
   }
-  .navbar-collapse .nav-link{
-    /* font-weight: B; */
-   font-size: 10px !important;
+  .nav-link{
+    font-size: 15px !important;
+    margin-top: 10px;
+  }
+  /* .navbar-collapse.collapsing.nav-item{
+
+    max-width: 0% !important;
+   font-size: 50px !important;
    margin-top: 5px;
   }
+  .navbar-collapse.show .nav-item{
+    max-width: 100% !important;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: max-width 10s linear;
+  } */
 
   .navbar-collapse.collapsing {
       right: -75%;
@@ -183,11 +194,10 @@ nav{
 
   .navbar-collapse.show {
       right: 0;
-      transition: right 300ms ease-in-out;
-  }
-
-  .navbar-toggler.collapsed ~ .navbar-collapse {
       transition: right 500ms ease-in-out;
+  }
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: right 500ms ease-in-out;
   }
   .navbar-toggler.collapsed .close-icon {
     display: none;
@@ -472,7 +482,7 @@ input{
 }
 .news-img{
   position: relative;
-  width: 90%;
+  width: 100% !important;
   height:52%;
   z-index: 2;
 
@@ -482,8 +492,9 @@ input{
   position: absolute;
   width: 80%;
   height:40%;
-  left:10%;
+  right:15px !important;
   top:48%;
   z-index: 1;
   background-color: #FFE4E1;
+
 }

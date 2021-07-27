@@ -6,12 +6,13 @@ export default function Nav (props) {
   const gallery = useRef ();
   const mediaRelation = useRef ();
   const contactUs = useRef ();
-  // const [current_page, setPage] = useState ('/');
+  // const [collapsed, setCollapsed] = useState (true);
 
   const navToPage = page => {
+    // setCollapsed (true);
     props.history.push (`/${page}`);
-    // setPage (`/${page}`);
   };
+
   useEffect (() => {
     props.history.location.pathname === '/AboutUS'
       ? aboutUS.current.setAttribute ('class', 'nav-link disabled')
@@ -57,8 +58,9 @@ export default function Nav (props) {
           style={{width: '80px'}}
         />
       </div>
+
       <button
-        class="navbar-toggler"
+        class="navbar-toggler collapsed"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -67,6 +69,9 @@ export default function Nav (props) {
         aria-label="Toggle navigation"
         style={{zIndex: '1000'}}
       >
+        <div class="close-icon">
+          <i class="fas fa-times" />
+        </div>
         <div
           className="navbar-toggler-icon"
           style={{
@@ -75,9 +80,7 @@ export default function Nav (props) {
         >
           <i class="fas fa-bars" />
         </div>
-        <div class="close-icon py-1">
-          <i class="fas fa-times" />
-        </div>
+
       </button>
 
       <div
@@ -87,6 +90,8 @@ export default function Nav (props) {
         <ul className="navbar-nav small-title">
           <li className="nav-item px-2 d-flex ">
             <div
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
               ref={aboutUS}
               className="nav-link"
               onClick={e => navToPage ('AboutUS')}
@@ -98,6 +103,8 @@ export default function Nav (props) {
           </li>
           <li className="nav-item px-2 d-flex ">
             <div
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
               ref={caseStudy}
               className="nav-link"
               onClick={e => navToPage ('CaseStudy')}
@@ -110,6 +117,8 @@ export default function Nav (props) {
           <li className="nav-item px-2 d-flex ">
             <div
               ref={gallery}
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
               className="nav-link"
               onClick={e => navToPage ('Gallery')}
               onMouseOver={MouseOver}
@@ -122,6 +131,8 @@ export default function Nav (props) {
             <div
               ref={mediaRelation}
               className="nav-link"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
               onClick={e => navToPage ('MediaRelation')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
@@ -133,6 +144,8 @@ export default function Nav (props) {
             <div
               ref={contactUs}
               className="nav-link"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
               onClick={e => navToPage ('ContactUs')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}

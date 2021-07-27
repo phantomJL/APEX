@@ -35,7 +35,7 @@ function MediaRelation (props) {
     <main className="px-4">
       <div className="avenir p-4">
         <div className="py-4 subtitle font-weight-bold">NEWS & EVENTS</div>
-        <div className="d-flex flex-wrap ">
+        <div className="row" style={{width: '90vw'}}>
           {news
             .slice (upitem, botitem)
             .map ((value, index) => <New data={value} setNews={setNews} />)}
