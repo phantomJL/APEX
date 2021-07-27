@@ -166,12 +166,21 @@ nav{
       padding-right: 20px;
       padding-left: 20px;
       padding-top: 50px;
-      width: 50%;
+      width: 60%;
       height: 100%;
       background-color: rgb(248,227,225) !important;
   }
+  .black-mirror{
+    position: relative;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    background-color: black !important;
+    opacity: 70%;
+    z-index: 2000 !important;
+  }
   .nav-link{
-    font-size: 13px !important;
+    font-size: 12px !important;
     margin-top: 10px;
   }
   /* .navbar-collapse.collapsing.nav-item{
