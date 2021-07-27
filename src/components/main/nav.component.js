@@ -40,11 +40,12 @@ export default function Nav (props) {
   };
   return (
     <nav
-      className="navbar navbar-expand-lg p-3 w-100"
+      className="navbar fixed-top navbar-expand-lg p-3 "
       id="mynav"
       style={{
         backgroundColor: props.color === 'white' ? '#FFFFFF' : 'transparent',
         position: props.color === 'white' ? '' : 'absolute',
+        overflow: 'hidden',
       }}
     >
       <div

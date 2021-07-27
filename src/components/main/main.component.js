@@ -27,7 +27,7 @@ function Main (props) {
         position: props.history.location.pathname === '/' ? 'absolute' : '',
       }}
     >
-      <section className="sticky-top">
+      <section>
         <Nav
           history={props.history}
           color={props.history.location.pathname === '/' ? 'black' : 'white'}

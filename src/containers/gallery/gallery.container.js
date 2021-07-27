@@ -58,7 +58,7 @@ function Gallery (props) {
             {width < 992
               ? <div className="d-flex flex-wrap">
                   {random_magazine.map ((value, index) => (
-                    <Picture data={value} height={'170px'} />
+                    <Picture data={value} height={'150px'} />
                   ))}
                 </div>
               : <div className="d-flex flex-wrap">

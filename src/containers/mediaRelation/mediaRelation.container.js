@@ -35,7 +35,7 @@ function MediaRelation (props) {
     <main className="px-4">
       <div className="avenir p-4">
         <div className="py-4 subtitle font-weight-bold">NEWS & EVENTS</div>
-        <div className="row" style={{width: '90vw'}}>
+        <div className="row">
           {news
             .slice (upitem, botitem)
             .map ((value, index) => <New data={value} setNews={setNews} />)}
@@ -65,7 +65,7 @@ function MediaRelation (props) {
           </nav>
         </div>
       </div>
-      <div className="avenir p-4" style={{width: '100%', overflowY: 'hidden'}}>
+      <div className="avenir p-4" style={{width: '90vw', overflowY: 'hidden'}}>
         <div className="py-4 subtitle font-weight-bold">
           MAGAZINE
         </div>
@@ -76,6 +76,7 @@ function MediaRelation (props) {
           onWheel={onWheel}
           style={{
             overflowX: 'auto',
+            width: '100%',
           }}
         >
           {magazine.map ((value, index) => (
