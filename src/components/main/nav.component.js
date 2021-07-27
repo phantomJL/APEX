@@ -39,126 +39,123 @@ export default function Nav (props) {
       : (event.target.style.color = 'white');
   };
   return (
-    <div>
-      <nav
-        className="navbar fixed-top navbar-expand-lg p-3 "
-        id="mynav"
-        style={{
-          backgroundColor: props.color === 'white' ? '#FFFFFF' : 'transparent',
-          position: props.color === 'white' ? '' : 'absolute',
-          overflow: 'hidden',
-        }}
+    <nav
+      className="navbar fixed-top navbar-expand-lg p-3 "
+      id="mynav"
+      style={{
+        backgroundColor: props.color === 'white' ? '#FFFFFF' : 'transparent',
+        position: props.color === 'white' ? '' : 'absolute',
+        overflow: 'hidden',
+      }}
+    >
+      <div
+        className="navbar-brand"
+        style={{cursor: 'pointer'}}
+        onClick={e => props.history.push ('/')}
       >
+        <img
+          alt="logo"
+          src={`${process.env.PUBLIC_URL}/img/apex_${props.color === 'white' ? 'black' : 'white'}.png`}
+          style={{width: '80px'}}
+        />
+      </div>
+
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        style={{zIndex: '1000'}}
+      >
+        <div class="close-icon">
+          <i class="fas fa-times" />
+        </div>
         <div
-          className="navbar-brand"
-          style={{cursor: 'pointer'}}
-          onClick={e => props.history.push ('/')}
+          className="navbar-toggler-icon"
+          style={{
+            color: props.color === 'white' ? '' : 'white',
+          }}
         >
-          <img
-            alt="logo"
-            src={`${process.env.PUBLIC_URL}/img/apex_${props.color === 'white' ? 'black' : 'white'}.png`}
-            style={{width: '80px'}}
-          />
+          <i class="fas fa-bars" />
         </div>
 
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style={{zIndex: '1000'}}
-        >
-          <div class="close-icon">
-            <i class="fas fa-times" />
-          </div>
-          <div
-            className="navbar-toggler-icon"
-            style={{
-              color: props.color === 'white' ? '' : 'white',
-            }}
-          >
-            <i class="fas fa-bars" />
-          </div>
+      </button>
 
-        </button>
-
-        <div
-          class="collapse navbar-collapse flex-row-reverse"
-          id="navbarSupportedContent"
-        >
-          <ul className="navbar-nav small-title">
-            <li className="nav-item px-2 d-flex ">
-              <div
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                ref={aboutUS}
-                className="nav-link"
-                onClick={e => navToPage ('AboutUS')}
-                onMouseOver={MouseOver}
-                onMouseOut={MouseOut}
-              >
-                ABOUT US
-              </div>
-            </li>
-            <li className="nav-item px-2 d-flex ">
-              <div
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                ref={caseStudy}
-                className="nav-link"
-                onClick={e => navToPage ('CaseStudy')}
-                onMouseOver={MouseOver}
-                onMouseOut={MouseOut}
-              >
-                WORK
-              </div>
-            </li>
-            <li className="nav-item px-2 d-flex ">
-              <div
-                ref={gallery}
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                className="nav-link"
-                onClick={e => navToPage ('Gallery')}
-                onMouseOver={MouseOver}
-                onMouseOut={MouseOut}
-              >
-                GALLERY
-              </div>
-            </li>
-            <li className="nav-item px-2 d-flex ">
-              <div
-                ref={mediaRelation}
-                className="nav-link"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                onClick={e => navToPage ('MediaRelation')}
-                onMouseOver={MouseOver}
-                onMouseOut={MouseOut}
-              >
-                MEDIA RELATIONS
-              </div>
-            </li>
-            <li className="nav-item px-2 d-flex ">
-              <div
-                ref={contactUs}
-                className="nav-link"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                onClick={e => navToPage ('ContactUs')}
-                onMouseOver={MouseOver}
-                onMouseOut={MouseOut}
-              >
-                CONTACT US
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div className="black-mirror" />
-    </div>
+      <div
+        class="collapse navbar-collapse flex-row-reverse"
+        id="navbarSupportedContent"
+      >
+        <ul className="navbar-nav small-title">
+          <li className="nav-item px-2 d-flex ">
+            <div
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              ref={aboutUS}
+              className="nav-link"
+              onClick={e => navToPage ('AboutUS')}
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+            >
+              ABOUT US
+            </div>
+          </li>
+          <li className="nav-item px-2 d-flex ">
+            <div
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              ref={caseStudy}
+              className="nav-link"
+              onClick={e => navToPage ('CaseStudy')}
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+            >
+              WORK
+            </div>
+          </li>
+          <li className="nav-item px-2 d-flex ">
+            <div
+              ref={gallery}
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              className="nav-link"
+              onClick={e => navToPage ('Gallery')}
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+            >
+              GALLERY
+            </div>
+          </li>
+          <li className="nav-item px-2 d-flex ">
+            <div
+              ref={mediaRelation}
+              className="nav-link"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              onClick={e => navToPage ('MediaRelation')}
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+            >
+              MEDIA RELATIONS
+            </div>
+          </li>
+          <li className="nav-item px-2 d-flex ">
+            <div
+              ref={contactUs}
+              className="nav-link"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              onClick={e => navToPage ('ContactUs')}
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+            >
+              CONTACT US
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 }

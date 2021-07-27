@@ -38,6 +38,7 @@ function Main (props) {
         ? <section
             style={{
               position: 'absolute',
+              marginTop: '50px',
               minHeight: '100vh !important',
               overflow: 'hidden !important',
             }}
@@ -53,7 +54,12 @@ function Main (props) {
             </footer>
           </section>
         : <section>
-            <section style={{minHeight: '82vh'}}>
+            <section
+              style={{
+                minHeight: '82vh',
+                marginTop: '50px',
+              }}
+            >
               <section className="container-fluid content-padding">
                 {props.children}
               </section>
