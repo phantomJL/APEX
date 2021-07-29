@@ -48,10 +48,7 @@ function AboutUS (props) {
       </div>
 
       <div className="p-4">
-        <div
-          className="article title py-2 text-center"
-          style={{marginTop: '100px', marginBottom: '50px'}}
-        >
+        <div className="article title py-2 text-center space">
           SERVICES
         </div>
         <div className="row">
@@ -61,10 +58,7 @@ function AboutUS (props) {
         </div>
       </div>
       <div className="p-4 ">
-        <div
-          className="article title py-2 text-center"
-          style={{marginTop: '100px', marginBottom: '50px'}}
-        >
+        <div className="article title py-2 text-center space">
           CLIENTS
         </div>
         {width < 768
@@ -91,7 +85,7 @@ function AboutUS (props) {
           COLLABORATIONS
         </div>
         {width < 768
-          ? <div className="d-flex flex-wrap" style={{marginBottom: '100px'}}>
+          ? <div className="d-flex flex-wrap space">
               {[
                 ...partner_horizontal,
                 ...partner_square,

@@ -40,6 +40,9 @@ export default function Nav (props) {
       ? (event.target.style.color = 'black')
       : (event.target.style.color = 'white');
   };
+  const changeWidth = () => {
+    currentWidth === '0' ? setCurrentWidth ('100%') : setCurrentWidth ('0');
+  };
   return (
     <nav
       className="navbar fixed-top navbar-expand-lg p-3 "
@@ -66,18 +69,18 @@ export default function Nav (props) {
         class="navbar-toggler collapsed"
         type="button"
         data-toggle="collapse"
+        onClick={() => changeWidth ()}
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
         style={{zIndex: '1000'}}
       >
-        <div class="close-icon" onClick={() => setCurrentWidth ('0')}>
+        <div class="close-icon">
           <i class="fas fa-times" />
         </div>
         <div
           className="navbar-toggler-icon"
-          onClick={() => setCurrentWidth ('100%')}
           style={{
             color: props.color === 'white' ? '' : 'white',
           }}

@@ -158,75 +158,7 @@ nav{
   color: #FF6E5D !important;
 }
 
-@media (max-width: 767px) {
-  .navbar-collapse {
-      position: fixed;
-  z-index: 2;
 
-      top: 0px; /* adjust to height of navbar */
-      right: 0;
-      padding-right: 20px;
-      padding-left: 20px;
-      padding-top: 50px;
-      width: 60%;
-      height: 100%;
-      background-color: rgb(248,227,225) !important;
-  }
-  .nav-link{
-    font-size: 12px !important;
-    margin-top: 10px;
-  }
-  /* .navbar-collapse.collapsing.nav-item{
-
-    max-width: 0% !important;
-   font-size: 50px !important;
-   margin-top: 5px;
-  }
-  .navbar-collapse.show .nav-item{
-    max-width: 100% !important;
-    white-space: nowrap;
-    overflow: hidden;
-    transition: max-width 10s linear;
-  } */
-
-  .navbar-collapse.collapsing {
-      right: -75%;
-      transition: height 0s ease !important;
-  }
-
-  .navbar-collapse.show {
-      right: 0;
-      transition: right 500ms ease-in-out;
-  }
-  .navbar-toggler.collapsed ~ .navbar-collapse {
-    transition: right 500ms ease-in-out;
-  }
-  .navbar-toggler.collapsed .close-icon {
-    display: none;
- }
-
- .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
-    display: none;
- }
- .overlay{
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: rgba(0,0,0, 0.7);
-  overflow-x: hidden;
-  transition: 0.7s;
- }
-
- /* media relation */
- .magazine{
-  width: 100%;
-  height:unset !important;
-
- }
-}
  /* media relation */
 .magazine{
    height:100%;
@@ -247,7 +179,7 @@ nav{
 }
 
 .title{
-  font-size:30px !important;
+  font-size:30px ;
 }
 
 .subtitle{
@@ -312,6 +244,10 @@ a:hover {
 }
 .card-body {
   padding:0px !important;
+}
+.space{
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 /* case study */
 .group > .row {
@@ -521,4 +457,122 @@ input{
   z-index: 1;
   background-color: #FFE4E1;
 
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    position: fixed;
+    z-index: 2;
+    top: 0px; /* adjust to height of navbar */
+    right: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(248,227,225) !important;
+  }
+  .nav-link{
+
+    font-size: 12px !important;
+    margin-top: 10px;
+    animation-name: moveInRight;
+    animation-duration: 3s;
+  }
+
+  .navbar-collapse.collapsing {
+      right: -75%;
+      transition: height 0s ease !important;
+  }
+
+  .navbar-collapse.show {
+      right: 0;
+      transition: right 500ms ease-in-out;
+  }
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: right 500ms ease-in-out;
+  }
+  .navbar-toggler.collapsed .close-icon {
+    display: none;
+ }
+
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: none;
+ }
+  .overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0, 0.7);
+    overflow-x: hidden;
+    transition: 0.7s;
+ }
+
+ /* media relation */
+  .magazine{
+  width: 100%;
+  height:unset !important;
+
+ }
+ /* text */
+  .title{
+  font-size:20px ;
+  text-align: center;
+  animation-name: moveInleft;
+    animation-duration: 3s;
+  }
+  .subtitle{
+    font-size:20px !important;
+  }
+  .small-title{
+    font-size:9px !important;
+  }
+  .median-title{
+    font-size:10px !important;
+  }
+  .large-title{
+    font-size:12px !important;
+    
+  }
+  .paragraph{
+    font-size:15px !important;
+  }
+  @keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(100px);
+  }
+
+  80% {
+      transform: translateX(0px);
+  }
+  
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+
+}
+  /* about us */
+  .space{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  }
 }

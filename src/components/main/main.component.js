@@ -37,7 +37,10 @@ function Main (props) {
       {props.history.location.pathname === '/' || width < 768
         ? <section
             style={{
-              position: 'absolute',
+              position: props.history.location.pathname === '/'
+                ? 'absolute'
+                : '',
+              width: '100%',
               marginTop: props.history.location.pathname === '/'
                 ? '0px'
                 : '50px',
@@ -47,10 +50,12 @@ function Main (props) {
           >
             {props.children}
             <footer
-              className="trocchi text-weight-bold text-center p-4 mt-4 text-uppercase small-title"
+              className="trocchi text-weight-bold text-center p-4  text-uppercase small-title"
               style={{
                 width: '100%',
-                position: 'absolute',
+                position: props.history.location.pathname === '/'
+                  ? 'absolute'
+                  : '',
                 bottom: 0,
                 color: props.history.location.pathname === '/'
                   ? 'white'
