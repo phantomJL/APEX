@@ -1,2 +1,0 @@
-(this.webpackJsonpAPEX=this.webpackJsonpAPEX||[]).push([[13],{89:function(e,t,n){"use strict";n.r(t);var a=n(0),c=n.n(a),i=n(1),o=n(53),h=n.n(o);t.default=Object(i.g)((function(e){return c.a.createElement("main",{style:{height:"100vh"}},c.a.createElement(h.a,{url:"".concat("","/video/Reel V7.mp4"),width:"100%",height:"100%",playing:!0,controls:!1,muted:!0,loop:!0}))}))}}]);
-//# sourceMappingURL=13.c1c6bc33.chunk.js.map
