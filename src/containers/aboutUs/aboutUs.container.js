@@ -16,16 +16,25 @@ import AboutUs from './aboutUs.png';
 import ImageLoader from '../../components/shared/ImageLoader';
 function AboutUS (props) {
   const [width, setWidth] = useState (window.innerWidth);
+  const [scrollTop, setScrollTop] = useState (0);
   const updateDimensions = () => {
     setWidth (window.innerWidth);
   };
+  const onScroll = () => {
+    let currentPosition = window.pageYOffset; // or use document.documentElement.scrollTop;
+    setScrollTop (currentPosition <= 0 ? 0 : currentPosition);
+  };
   useEffect (
     () => {
+      window.addEventListener ('scroll', onScroll);
+      return () => window.removeEventListener ('scroll', onScroll);
+
       window.addEventListener ('resize', updateDimensions);
       return () => window.removeEventListener ('resize', updateDimensions);
     },
-    [updateDimensions, width]
+    [onScroll, updateDimensions, width, scrollTop]
   );
+
   return (
     <main className="px-4">
       <div className="row p-4">
@@ -38,7 +47,9 @@ function AboutUS (props) {
           />
         </div>
         <div className="col-12 col-md-6 align-self-center">
-          <div className="article title py-2">
+          <div
+            className={`article title text-animation py-2 ${scrollTop > 0 && 'text-animation'}`}
+          >
             OUR STORY
           </div>
           <div className="article paragraph py-2">
@@ -48,7 +59,9 @@ function AboutUS (props) {
       </div>
 
       <div className="p-4">
-        <div className="article title py-2 text-center space">
+        <div
+          className={`article title py-2 text-center space ${scrollTop > 100 && 'text-animation'}`}
+        >
           SERVICES
         </div>
         <div className="row">
@@ -58,10 +71,12 @@ function AboutUS (props) {
         </div>
       </div>
       <div className="p-4 ">
-        <div className="article title py-2 text-center space">
+        <div
+          className={`article title py-2 text-center space ${scrollTop > 734 && 'text-animation'}`}
+        >
           CLIENTS
         </div>
-        {width < 768
+        {width < 376
           ? <div className="d-flex flex-wrap">
               {[...client_horizontal, ...client_square].map ((value, index) => (
                 <IconMobile data={value} />
@@ -81,10 +96,12 @@ function AboutUS (props) {
             </div>}
       </div>
       <div className="p-4">
-        <div className="article title py-2 text-center">
+        <div
+          className={`article title py-2 text-center ${scrollTop > 1171 && 'text-animation'}`}
+        >
           COLLABORATIONS
         </div>
-        {width < 768
+        {width < 376
           ? <div className="d-flex flex-wrap space">
               {[
                 ...partner_horizontal,

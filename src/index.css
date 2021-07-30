@@ -459,7 +459,7 @@ input{
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 376px) {
   .navbar-collapse {
     position: fixed;
     z-index: 2;
@@ -521,7 +521,10 @@ input{
   .title{
   font-size:20px ;
   text-align: center;
-  animation-name: moveInleft;
+
+  }
+  .text-animation{
+    animation-name: moveInRight;
     animation-duration: 3s;
   }
   .subtitle{

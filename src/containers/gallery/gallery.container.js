@@ -25,7 +25,7 @@ function Gallery (props) {
     [updateDimensions, width]
   );
   return (
-    <main className="p-4">
+    <main className="px-md-4 py-4">
       <section className="d-flex p-4 justify-content-center">
         <div
           className={`btn btn-line mx-4 article ${show === 'video' ? 'active' : ''}`}

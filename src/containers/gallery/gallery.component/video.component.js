@@ -9,7 +9,7 @@ function Video (props) {
     props.setVideoPlay (true);
   };
   return (
-    <div className="col-12 col-lg-4 col-md-6 px-3 py-2">
+    <div className="col-12 col-lg-4 col-md-6 px-md-3 py-md-2">
       <div
         onMouseEnter={() => {
           setShow (true);

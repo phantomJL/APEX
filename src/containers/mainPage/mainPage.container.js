@@ -20,7 +20,7 @@ function MainPage (props) {
         url={`${process.env.PUBLIC_URL}/video/Reel V7.mp4`}
         width="100%"
         height="100%"
-        playing={width < 768 ? false : true}
+        playing={width < 376 ? false : true}
         controls={false}
         muted={true}
         loop={true}

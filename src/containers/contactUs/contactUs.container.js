@@ -31,7 +31,7 @@ function ContactUsContainer (props) {
 
   return (
     <div>
-      {width < 768
+      {width < 376
         ? <div style={{position: 'relative', height: '89vh'}}>
             <ContactUsMobile />
           </div>
