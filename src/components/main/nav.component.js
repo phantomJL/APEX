@@ -45,7 +45,7 @@ export default function Nav (props) {
   };
   return (
     <nav
-      className="navbar fixed-top navbar-expand-lg p-3 "
+      className="navbar fixed-top navbar-expand-md p-3 "
       id="mynav"
       style={{
         backgroundColor: props.color === 'black' ? '' : 'white',
