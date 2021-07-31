@@ -34,7 +34,7 @@ function Main (props) {
         />
       </section>
 
-      {props.history.location.pathname === '/' || width < 376
+      {props.history.location.pathname === '/' || width < 641
         ? <section
             style={{
               position: props.history.location.pathname === '/'

@@ -76,7 +76,7 @@ function AboutUS (props) {
         >
           CLIENTS
         </div>
-        {width < 376
+        {width < 641
           ? <div className="d-flex flex-wrap">
               {[...client_horizontal, ...client_square].map ((value, index) => (
                 <IconMobile data={value} />
@@ -101,7 +101,7 @@ function AboutUS (props) {
         >
           COLLABORATIONS
         </div>
-        {width < 376
+        {width < 641
           ? <div className="d-flex flex-wrap space">
               {[
                 ...partner_horizontal,
