@@ -459,7 +459,7 @@ input{
 
 }
 
-@media (max-width: 641px) {
+@media (max-width: 768px) {
   .navbar-collapse {
     position: fixed;
     z-index: 2;
