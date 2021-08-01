@@ -14,25 +14,19 @@ import IconMobile from './aboutUs.component/IconMobile.component';
 
 import AboutUs from './aboutUs.png';
 import ImageLoader from '../../components/shared/ImageLoader';
+import OnScrollWrap from '../../components/shared/OnScrollWrap';
 function AboutUS (props) {
   const [width, setWidth] = useState (window.innerWidth);
-  const [scrollTop, setScrollTop] = useState (0);
   const updateDimensions = () => {
     setWidth (window.innerWidth);
   };
-  const onScroll = () => {
-    let currentPosition = window.pageYOffset; // or use document.documentElement.scrollTop;
-    setScrollTop (currentPosition <= 0 ? 0 : currentPosition);
-  };
+
   useEffect (
     () => {
-      window.addEventListener ('scroll', onScroll);
-      return () => window.removeEventListener ('scroll', onScroll);
-
       window.addEventListener ('resize', updateDimensions);
       return () => window.removeEventListener ('resize', updateDimensions);
     },
-    [onScroll, updateDimensions, width, scrollTop]
+    [updateDimensions, width]
   );
 
   return (
@@ -47,79 +41,81 @@ function AboutUS (props) {
           />
         </div>
         <div className="col-12 col-md-6 align-self-center">
-          <div
-            className={`article title text-animation py-2 ${scrollTop > 0 && 'text-animation'}`}
-          >
-            OUR STORY
-          </div>
-          <div className="article paragraph py-2">
-            {ourStory.description}
-          </div>
+          <OnScrollWrap page={'OUR STORY'}>
+            <div className={`article title text-animation py-2 `}>
+              OUR STORY
+            </div>
+            <div className="article paragraph py-2">
+              {ourStory.description}
+            </div>
+          </OnScrollWrap>
         </div>
       </div>
 
       <div className="p-4">
-        <div
-          className={`article title py-2 text-center space ${scrollTop > 100 && 'text-animation'}`}
-        >
-          SERVICES
-        </div>
-        <div className="row">
-          {ourService.map ((value, index) => {
-            return <Service key={index} data={value} />;
-          })}
-        </div>
+        <OnScrollWrap page={'SERVICES'}>
+          <div className={`article title py-2 text-center space`}>
+            SERVICES
+          </div>
+          <div className="row">
+            {ourService.map ((value, index) => {
+              return <Service key={index} data={value} />;
+            })}
+          </div>
+        </OnScrollWrap>
       </div>
       <div className="p-4 ">
-        <div
-          className={`article title py-2 text-center space ${scrollTop > 734 && 'text-animation'}`}
-        >
-          CLIENTS
-        </div>
-        {width < 767
-          ? <div className="d-flex flex-wrap">
-              {[...client_horizontal, ...client_square].map ((value, index) => (
-                <IconMobile data={value} />
-              ))}
-            </div>
-          : <div>
-              <div className="d-flex flex-wrap justify-content-center">
-                {client_horizontal.map ((value, index) => (
-                  <Icon data={value} width={'180px'} />
-                ))}
+        <OnScrollWrap page={'CLIENTS'}>
+          <div className={`article title py-2 text-center space `}>
+            CLIENTS
+          </div>
+          {width < 767
+            ? <div className="d-flex flex-wrap">
+                {[
+                  ...client_horizontal,
+                  ...client_square,
+                ].map ((value, index) => <IconMobile data={value} />)}
               </div>
-              <div className="d-flex flex-wrap justify-content-center">
-                {client_square.map ((value, index) => (
-                  <Icon data={value} width={'120px'} />
-                ))}
-              </div>
-            </div>}
+            : <div>
+                <div className="d-flex flex-wrap justify-content-center">
+                  {client_horizontal.map ((value, index) => (
+                    <Icon data={value} width={'180px'} />
+                  ))}
+                </div>
+                <div className="d-flex flex-wrap justify-content-center">
+                  {client_square.map ((value, index) => (
+                    <Icon data={value} width={'120px'} />
+                  ))}
+                </div>
+              </div>}
+        </OnScrollWrap>
       </div>
       <div className="p-4">
-        <div
-          className={`article title py-2 text-center ${scrollTop > 1171 && 'text-animation'}`}
-        >
-          COLLABORATIONS
-        </div>
-        {width < 767
-          ? <div className="d-flex flex-wrap space">
-              {[
-                ...partner_horizontal,
-                ...partner_square,
-              ].map ((value, index) => <IconMobile data={value} />)}
-            </div>
-          : <div style={{marginBottom: '100px'}}>
-              <div className="d-flex flex-wrap justify-content-center">
-                {partner_horizontal.map ((value, index) => (
-                  <Icon data={value} width={'180px'} />
-                ))}
+        <OnScrollWrap page={'COLLABORATIONS'}>
+          <div className={`article title py-2 text-center space`}>
+            COLLABORATIONS
+          </div>
+          {width < 767
+            ? <div className="d-flex flex-wrap ">
+                {[
+                  ...partner_horizontal,
+                  ...partner_square,
+                ].map ((value, index) => <IconMobile data={value} />)}
               </div>
-              <div className="d-flex flex-wrap justify-content-center">
-                {partner_square.map ((value, index) => (
-                  <Icon data={value} width={'120px'} />
-                ))}
-              </div>
-            </div>}
+            : <div style={{marginBottom: '100px'}}>
+                <div className="d-flex flex-wrap justify-content-center">
+                  {partner_horizontal.map ((value, index) => (
+                    <Icon data={value} width={'180px'} />
+                  ))}
+                </div>
+                <div className="d-flex flex-wrap justify-content-center">
+                  {partner_square.map ((value, index) => (
+                    <Icon data={value} width={'120px'} />
+                  ))}
+                </div>
+              </div>}
+        </OnScrollWrap>
+
       </div>
     </main>
   );

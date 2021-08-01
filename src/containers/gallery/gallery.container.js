@@ -42,7 +42,7 @@ function Gallery (props) {
       </section>
 
       {show === 'video'
-        ? <section className="py-4">
+        ? <section className="py-4" style={{overflowX: 'hidden'}}>
             <div className="row">
               {video.map ((value, index) => (
                 <Video
@@ -58,7 +58,7 @@ function Gallery (props) {
             {width < 992
               ? <div className="d-flex flex-wrap">
                   {random_magazine.map ((value, index) => (
-                    <Picture data={value} height={'150px'} />
+                    <Picture data={value} height={'160px'} />
                   ))}
                 </div>
               : <div className="d-flex flex-wrap">
