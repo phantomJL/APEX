@@ -32,24 +32,26 @@ function AboutUS (props) {
   return (
     <main className="px-4">
       <div className="row p-4">
-        <div className="col-12 col-md-6 align-self-end">
-          <ImageLoader
-            container={false}
-            imgWidth="100%"
-            imgOpacity={1}
-            url={AboutUs}
-          />
-        </div>
-        <div className="col-12 col-md-6 align-self-center">
-          <OnScrollWrap page={'OUR STORY'}>
+        <OnScrollWrap page={'OUR STORY'}>
+
+          <div className="col-12 col-md-6 align-self-end">
+            <ImageLoader
+              container={false}
+              imgWidth="100%"
+              imgOpacity={1}
+              url={AboutUs}
+            />
+          </div>
+          <div className="col-12 col-md-6 align-self-center">
             <div className={`article title text-animation py-2 `}>
               OUR STORY
             </div>
             <div className="article paragraph py-2">
               {ourStory.description}
             </div>
-          </OnScrollWrap>
-        </div>
+          </div>
+        </OnScrollWrap>
+
       </div>
 
       <div className="p-4">
@@ -92,7 +94,7 @@ function AboutUS (props) {
       </div>
       <div className="p-4">
         <OnScrollWrap page={'COLLABORATIONS'}>
-          <div className={`article title py-2 text-center space`}>
+          <div className={`article title py-2 text-center `}>
             COLLABORATIONS
           </div>
           {width < 767
