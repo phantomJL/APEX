@@ -20,7 +20,7 @@ export default function ImageLoader (props) {
       }}
     >
       <img
-        className={`${props.imgClass} full`}
+        className={`${props.imgClass}`}
         src={`${process.env.PUBLIC_URL}${url}`}
         style={{
           width: '100%',
@@ -33,7 +33,7 @@ export default function ImageLoader (props) {
     : 
     <img
     alt="cover"
-    className="full"
+    // className="full"
     src={`${process.env.PUBLIC_URL}${url}`}
     style={{
       width: props.imgWidth,
