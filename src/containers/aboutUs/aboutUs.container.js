@@ -43,7 +43,7 @@ function AboutUS (props) {
             />
           </div>
           <div className="col-12 col-md-6 align-self-center">
-            <div className={`article title text-animation py-2 `}>
+            <div className={`article title py-2 `}>
               OUR STORY
             </div>
             <div className="article paragraph py-2">
