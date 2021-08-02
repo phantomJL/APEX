@@ -265,7 +265,7 @@ a:hover {
   display: none;
 }
 
-.full{
+.animation{
     transition: opacity 800ms ease 0ms;
 }
 

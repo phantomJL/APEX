@@ -5,6 +5,7 @@ export default function Nav (props) {
   const [currentPage, setCurrentPage] = useState ('');
 
   const navToPage = page => {
+    setCurrentWidth ('0');
     props.history.push (`/${page}`);
   };
 

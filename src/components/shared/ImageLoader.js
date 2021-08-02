@@ -11,7 +11,7 @@ export default function ImageLoader (props) {
     <>
     {props.container?
     <div
-    className={`${props.containerClass} full`}
+    className={`${props.containerClass} animation`}
 
       style={{
         width: '100%',
@@ -33,7 +33,7 @@ export default function ImageLoader (props) {
     : 
     <img
     alt="cover"
-    // className="full"
+    className="animation"
     src={`${process.env.PUBLIC_URL}${url}`}
     style={{
       width: props.imgWidth,
