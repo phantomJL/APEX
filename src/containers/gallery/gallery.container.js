@@ -26,7 +26,7 @@ function Gallery (props) {
   );
   return (
     <main className="px-md-4 py-4">
-      <section className="d-flex p-4 justify-content-center">
+      <section className="d-flex p-4 justify-content-center  freeze">
         <div
           className={`btn btn-line mx-4 article ${show === 'video' ? 'active' : ''}`}
           onClick={e => setShow ('video')}
