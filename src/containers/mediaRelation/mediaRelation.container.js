@@ -76,7 +76,6 @@ function MediaRelation (props) {
           onWheel={onWheel}
           style={{
             overflowX: 'auto',
-            width: '100%',
           }}
         >
           {magazine.map ((value, index) => (

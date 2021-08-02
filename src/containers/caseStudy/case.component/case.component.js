@@ -15,7 +15,7 @@ function Case (props) {
           marginRight: '8px',
         }}
       >
-        {formatMe (props.index + 1)}
+        <>{formatMe (props.index + 1)}</>
       </div>
       <div className="container p-0">
 

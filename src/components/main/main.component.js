@@ -43,7 +43,7 @@ function Main (props) {
               width: '100%',
               marginTop: props.history.location.pathname === '/'
                 ? '0px'
-                : '50px',
+                : '60px',
               minHeight: '100vh !important',
               overflow: 'hidden !important',
             }}
@@ -68,8 +68,8 @@ function Main (props) {
         : <section>
             <section
               style={{
-                minHeight: '82vh',
-                marginTop: '50px',
+                minHeight: '90vh',
+                marginTop: '60px',
               }}
             >
               <section className="container-fluid content-padding">

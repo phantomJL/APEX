@@ -31,8 +31,8 @@ function AboutUS (props) {
 
   return (
     <main className="px-4">
-      <div className="row p-4">
-        <OnScrollWrap page={'OUR STORY'}>
+      <OnScrollWrap page={'OUR STORY'}>
+        <div className="row p-4">
 
           <div className="col-12 col-md-6 align-self-end">
             <ImageLoader
@@ -50,9 +50,9 @@ function AboutUS (props) {
               {ourStory.description}
             </div>
           </div>
-        </OnScrollWrap>
 
-      </div>
+        </div>
+      </OnScrollWrap>
 
       <div className="p-4">
         <OnScrollWrap page={'SERVICES'}>

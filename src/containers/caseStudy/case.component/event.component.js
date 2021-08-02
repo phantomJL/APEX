@@ -9,14 +9,14 @@ function Event (props) {
   return (
     <div className="d-flex py-4">
       <div
-        className="px-2 align-self-end article full"
+        className="px-2 align-self-end article"
         style={{
           paddingBottom: '100px',
           borderRight: '1px solid',
           marginRight: '8px',
         }}
       >
-        {formatMe (props.index + 1)}
+      <>{formatMe (props.index + 1)}</>
       </div>
 
       <div className="container p-0">

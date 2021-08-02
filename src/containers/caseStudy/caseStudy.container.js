@@ -23,7 +23,10 @@ function CaseStudy (props) {
             {caseStudy_event.map ((value, index) => {
               return (
                 <div className="col-md-6 col-sm-12 col-lg-4">
-                  <Event data={value} index={caseStudy.length + index} />
+                  <div>
+
+                    <Event data={value} index={caseStudy.length + index} />
+                  </div>
                 </div>
               );
             })}
