@@ -49,21 +49,16 @@ function Main (props) {
             }}
           >
             {props.children}
-            <footer
-              className="trocchi text-weight-bold text-center p-4  text-uppercase small-title"
-              style={{
-                width: '100%',
-                position: props.history.location.pathname === '/'
-                  ? 'absolute'
-                  : '',
-                bottom: 0,
-                color: props.history.location.pathname === '/'
-                  ? 'white'
-                  : 'black',
-              }}
-            >
-              ©2021 APEX Communications, INC. All Rights Reserved.
-            </footer>
+            {props.history.location.pathname !== '/' &&
+              <footer
+                className="trocchi text-weight-bold text-center p-4  text-uppercase small-title"
+                style={{
+                  width: '100%',
+                  bottom: 0,
+                }}
+              >
+                ©2021 APEX Communications, INC. All Rights Reserved.
+              </footer>}
           </section>
         : <section>
             <section

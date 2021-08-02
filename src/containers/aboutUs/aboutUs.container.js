@@ -86,7 +86,7 @@ function AboutUS (props) {
                 </div>
                 <div className="d-flex flex-wrap justify-content-center">
                   {client_square.map ((value, index) => (
-                    <Icon data={value} width={'120px'} />
+                    <Icon data={value} width={'130px'} />
                   ))}
                 </div>
               </div>}
@@ -104,7 +104,10 @@ function AboutUS (props) {
                   ...partner_square,
                 ].map ((value, index) => <IconMobile data={value} />)}
               </div>
-            : <div style={{marginBottom: '100px'}}>
+            : <div
+                className="d-flex justify-content-center"
+                style={{marginBottom: '100px'}}
+              >
                 <div className="d-flex flex-wrap justify-content-center">
                   {partner_horizontal.map ((value, index) => (
                     <Icon data={value} width={'180px'} />

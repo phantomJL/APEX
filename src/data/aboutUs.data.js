@@ -50,6 +50,8 @@ export const client_horizontal = [
 ];
 
 export const client_square = [
+  {img: '/img/aboutUS/client/IMG_2691.WEBP'},
+
   {img: '/img/aboutUS/client/1200px-Tmall-logo_2.png'},
   {img: '/img/aboutUS/client/Dragon_Television_(China)_logo.png'},
 

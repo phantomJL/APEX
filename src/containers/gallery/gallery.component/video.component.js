@@ -1,9 +1,20 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import ImageLoader from '../../../components/shared/ImageLoader';
 function Video (props) {
   const [showtitle, setShow] = useState (false);
   const [opacity, setOpacity] = useState (1);
+  const [width, setWidth] = useState (window.innerWidth);
+  const updateDimensions = () => {
+    setWidth (window.innerWidth);
+  };
 
+  useEffect (
+    () => {
+      window.addEventListener ('resize', updateDimensions);
+      return () => window.removeEventListener ('resize', updateDimensions);
+    },
+    [updateDimensions, width]
+  );
   const modalOnClick = link => {
     props.setVideo (link);
     props.setVideoPlay (true);
@@ -37,10 +48,10 @@ function Video (props) {
           containerColor="black"
           containerClass={'cover video-cover'}
           imgClass={'cover_img'}
-          imgOpacity={opacity}
+          imgOpacity={width < 767 ? 0.8 : opacity}
           url={props.data.img_url}
         />
-        {showtitle &&
+        {(showtitle || width < 767) &&
           <div className="bottom-left-gallery p-2 article">
             <div className="text-white median-title py-2">
               {props.data.magazine}
@@ -55,16 +66,17 @@ function Video (props) {
                   </div>
                 </div>
               : <div />}
-            {props.data.director
-              ? <div>
-                  <div className="text-white font-weight-bold median-title">
-                    DIRECTED BY
+            {width >= 767 &&
+              (props.data.director
+                ? <div>
+                    <div className="text-white font-weight-bold median-title">
+                      DIRECTED BY
+                    </div>
+                    <div className="text-white median-title">
+                      {props.data.director}
+                    </div>
                   </div>
-                  <div className="text-white median-title">
-                    {props.data.director}
-                  </div>
-                </div>
-              : <div />}
+                : <div />)}
 
           </div>}
       </div>

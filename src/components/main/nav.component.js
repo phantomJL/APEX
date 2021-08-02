@@ -1,34 +1,17 @@
 import React, {useEffect, useRef, useState} from 'react';
 import '../../App.css';
 export default function Nav (props) {
-  const aboutUS = useRef ();
-  const caseStudy = useRef ();
-  const gallery = useRef ();
-  const mediaRelation = useRef ();
-  const contactUs = useRef ();
   const [currentWidth, setCurrentWidth] = useState ('0');
+  const [currentPage, setCurrentPage] = useState ('');
+
   const navToPage = page => {
-    setCurrentWidth ('0');
     props.history.push (`/${page}`);
   };
 
   useEffect (
     () => {
-      props.history.location.pathname === '/AboutUS'
-        ? aboutUS.current.setAttribute ('class', 'nav-link disabled')
-        : aboutUS.current.setAttribute ('class', 'nav-link');
-      props.history.location.pathname === '/CaseStudy'
-        ? caseStudy.current.setAttribute ('class', 'nav-link disabled')
-        : caseStudy.current.setAttribute ('class', 'nav-link');
-      props.history.location.pathname === '/Gallery'
-        ? gallery.current.setAttribute ('class', 'nav-link disabled')
-        : gallery.current.setAttribute ('class', 'nav-link');
-      props.history.location.pathname === '/MediaRelation'
-        ? mediaRelation.current.setAttribute ('class', 'nav-link disabled')
-        : mediaRelation.current.setAttribute ('class', 'nav-link');
-      props.history.location.pathname === '/ContactUs'
-        ? contactUs.current.setAttribute ('class', 'nav-link disabled')
-        : contactUs.current.setAttribute ('class', 'nav-link');
+      setCurrentPage (props.history.location.pathname);
+      window.scrollTo (0, 0);
     },
     [props.history.location.pathname]
   );
@@ -99,8 +82,7 @@ export default function Nav (props) {
             <div
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
-              ref={aboutUS}
-              className="nav-link"
+              className={`nav-link ${currentPage === '/AboutUS' && 'selected'}`}
               onClick={e => navToPage ('AboutUS')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
@@ -112,8 +94,7 @@ export default function Nav (props) {
             <div
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
-              ref={caseStudy}
-              className="nav-link"
+              className={`nav-link ${currentPage === '/CaseStudy' && 'selected'}`}
               onClick={e => navToPage ('CaseStudy')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
@@ -123,10 +104,9 @@ export default function Nav (props) {
           </li>
           <li className="nav-item px-2 d-flex ">
             <div
-              ref={gallery}
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
-              className="nav-link"
+              className={`nav-link ${currentPage === '/Gallery' && 'selected'}`}
               onClick={e => navToPage ('Gallery')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
@@ -136,8 +116,7 @@ export default function Nav (props) {
           </li>
           <li className="nav-item px-2 d-flex ">
             <div
-              ref={mediaRelation}
-              className="nav-link"
+              className={`nav-link ${currentPage === '/MediaRelation' && 'selected'}`}
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
               onClick={e => navToPage ('MediaRelation')}
@@ -149,8 +128,7 @@ export default function Nav (props) {
           </li>
           <li className="nav-item px-2 d-flex ">
             <div
-              ref={contactUs}
-              className="nav-link"
+              className={`nav-link ${currentPage === '/ContactUs' && 'selected'}`}
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
               onClick={e => navToPage ('ContactUs')}
