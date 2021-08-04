@@ -20,6 +20,7 @@ export default function ImageLoader (props) {
       }}
     >
       <img
+      alt = "cover"
         className={`${props.imgClass}`}
         src={`${process.env.PUBLIC_URL}${url}`}
         style={{

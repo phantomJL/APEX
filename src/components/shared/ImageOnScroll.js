@@ -1,15 +1,18 @@
 import React, {useState, useEffect, useRef} from 'react';
 import './Button.css';
 
-export default function OnScrollWrap (props) {
+export default function ImageOnScroll (props) {
   const [show, setShow] = useState (true);
+  const [load, setLoad] = useState (false);
+  const [url, setUrl] = useState ('');
   const getDiv = useRef ();
   useEffect (
     () => {
+      setUrl (props.url);
       window.addEventListener ('scroll', isInViewport);
       return () => window.removeEventListener ('scroll', isInViewport);
     },
-    [isInViewport]
+    [isInViewport, props.url]
   );
 
   const isInViewport = (offset = 0) => {
@@ -23,12 +26,18 @@ export default function OnScrollWrap (props) {
   //   };
 
   return (
-    <div
+    <img
+      alt="images"
       ref={el => (getDiv.current = el)}
-      className={`${show ? 'text-animation' : ''}`}
-      style={{display: show ? 'block' : 'hidden'}}
-    >
-      {props.children}
-    </div>
+      className={`${show ? 'animation' : ''}`}
+      src={`${process.env.PUBLIC_URL}${url}`}
+      style={{
+        width: props.imgWidth,
+        height: props.imgHeight,
+        opacity: load ? (show ? props.imgOpacity : 0) : 0,
+        objectFit: 'cover',
+      }}
+      onLoad={() => setLoad (true)}
+    />
   );
 }

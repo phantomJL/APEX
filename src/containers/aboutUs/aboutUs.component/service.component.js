@@ -1,10 +1,7 @@
 import React from 'react';
 function Service (props) {
   return (
-    <div
-      className="col-12 col-md-4 mb-3"
-      style={{paddingRight: '30px', paddingLeft: '30px'}}
-    >
+    <div className="col-12 col-md-4 mb-3">
       <div class="card h-100">
         <div class="card-body h-100">
           <div className="article subtitle card-title py-2">

@@ -158,7 +158,11 @@ nav{
   color: #FF6E5D !important;
 }
 
-
+/* case study */
+.case{
+  padding-left: 5%;
+  padding-right: 5%;
+}
  /* media relation */
 .magazine{
    height:100%;
@@ -540,7 +544,7 @@ input{
     right: 0;
     background-color: rgba(0,0,0, 0.7);
     overflow-x: hidden;
-    transition: 0.7s;
+    transition: 0.5s;
  }
  /* media relation */
   .magazine{
@@ -555,6 +559,15 @@ input{
    width: 100%;
    z-index: 50;
  }
+   /* about us */
+   .space{
+    margin-top: 50px !important;
+    margin-bottom: 0 !important;
+    }
+    /* case study */
+    .case{
+      padding: 0%;
+    }
  /* text */
   .title{
   font-size:20px ;
@@ -578,9 +591,5 @@ input{
     font-size:15px !important;
   }
  
-  /* about us */
-  .space{
-  margin-top: 50px !important;
-  margin-bottom: 0 !important;
-  }
+
 }

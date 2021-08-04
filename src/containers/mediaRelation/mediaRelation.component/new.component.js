@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageLoader from '../../../components/shared/ImageLoader';
+import OnScrollWrap from '../../../components/shared/OnScrollWrap';
 
 function New (props) {
   return (

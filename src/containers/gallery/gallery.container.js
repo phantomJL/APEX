@@ -55,7 +55,7 @@ function Gallery (props) {
           </section>
         : <section className="py-4">
 
-            {width < 992
+            {width < 767
               ? <div className="d-flex flex-wrap">
                   {random_magazine.map ((value, index) => (
                     <Picture data={value} height={'160px'} />

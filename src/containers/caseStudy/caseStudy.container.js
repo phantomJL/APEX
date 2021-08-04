@@ -6,7 +6,7 @@ import Event from './case.component/event.component';
 
 function CaseStudy (props) {
   return (
-    <main style={{paddingLeft: '5%', paddingRight: '5%'}}>
+    <main className="case">
       <section className="p-4">
         <div className="container">
           <div className="row py-2">
