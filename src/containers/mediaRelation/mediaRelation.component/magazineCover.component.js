@@ -3,7 +3,7 @@ import ImageLoader from '../../../components/shared/ImageLoader';
 
 function Magazine (props) {
   return (
-    <div className="container p-2 my-2">
+    <div className="container pr-2 my-2">
       <div
         className="d-flex justify-content-center"
         style={{

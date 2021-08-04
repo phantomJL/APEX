@@ -49,7 +49,7 @@ function Video (props) {
           containerColor="black"
           containerClass={'cover video-cover'}
           imgClass={'cover_img'}
-          imgOpacity={width < 767 ? 0.8 : opacity}
+          imgOpacity={width < 767 ? 0.9 : opacity}
           url={props.data.img_url}
         />
         {(showtitle || width < 767) &&
