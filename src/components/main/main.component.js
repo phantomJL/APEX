@@ -51,7 +51,7 @@ function Main (props) {
             {props.children}
             {props.history.location.pathname !== '/' &&
               <footer
-                className="trocchi text-weight-bold text-center p-4  text-uppercase small-title"
+                className="trocchi text-weight-bold text-center p-1 text-uppercase small-title"
                 style={{
                   width: '100%',
                   bottom: 0,
@@ -63,7 +63,7 @@ function Main (props) {
         : <section>
             <section
               style={{
-                minHeight: '90vh',
+                minHeight: '100vh',
                 marginTop: '60px',
               }}
             >
@@ -128,9 +128,8 @@ function Main (props) {
               className="trocchi text-weight-bold text-center p-2 mt-2 text-uppercase small-title"
               style={{
                 position: 'relative',
-                bottom: '0 !important',
                 marginTop: '120px',
-                bottom: '25px',
+                bottom: '6px',
               }}
             >
               ©2021 APEX Communications, INC. All Rights Reserved.
