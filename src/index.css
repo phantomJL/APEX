@@ -174,7 +174,7 @@ nav{
 }
 .about-text{
   font-family: Futura !important;
-  text
+  text-transform: uppercase;
 
 }
 .trocchi {
@@ -594,7 +594,7 @@ input{
   }
   .about-text{
     font-family: 'Merriweather', serif !important;
-    text-transform: uppercase;
+   
   }
   
   .paragraph{
