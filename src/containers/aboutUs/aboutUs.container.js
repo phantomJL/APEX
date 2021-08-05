@@ -43,10 +43,10 @@ function AboutUS (props) {
             />
           </div>
           <div className="col-12 col-md-6 align-self-center">
-            <div className={`article title py-2 `}>
-              OUR STORY
+            <div className={`about-text title py-3 `}>
+              Our Story
             </div>
-            <div className="article paragraph py-2">
+            <div className="paragraph py-3">
               {ourStory.description}
             </div>
           </div>
@@ -56,8 +56,8 @@ function AboutUS (props) {
 
       <div className="p-4">
         <OnScrollWrap page={'SERVICES'}>
-          <div className={`article title py-2 text-center space`}>
-            SERVICES
+          <div className={`about-text title py-3 text-center space`}>
+            Services
           </div>
           <div className="row">
             {ourService.map ((value, index) => {
@@ -68,8 +68,8 @@ function AboutUS (props) {
       </div>
       <div className="p-4 ">
         <OnScrollWrap page={'CLIENTS'}>
-          <div className={`article title py-2 text-center space `}>
-            CLIENTS
+          <div className={`about-text title py-3 text-center space `}>
+            Clients
           </div>
           {width < 767
             ? <div className="d-flex flex-wrap">
@@ -94,8 +94,8 @@ function AboutUS (props) {
       </div>
       <div className="p-4">
         <OnScrollWrap page={'COLLABORATIONS'}>
-          <div className={`article title py-2 text-center `}>
-            COLLABORATIONS
+          <div className={`about-text title py-3 text-center `}>
+            Collaborations
           </div>
           {width < 767
             ? <div className="d-flex flex-wrap ">

@@ -2,7 +2,7 @@ body {
   margin: 0 !important;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue","Helvitica","Quicksand", sans-serif
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -170,9 +170,12 @@ nav{
 /* navigation */
 
 .article {
-  font-family: futura !important;
+  font-family: Futura !important;
 }
+.about-text{
+  font-family: Futura !important;
 
+}
 .trocchi {
   font-family: trocchi !important;
 }
@@ -203,6 +206,7 @@ nav{
 }
 .paragraph{
   font-size:15px !important;
+  font-family: Futura !important;
 }
 
 
@@ -570,7 +574,7 @@ input{
     }
  /* text */
   .title{
-  font-size:20px ;
+  font-size:23px ;
   text-align: center;
 
   }
@@ -587,8 +591,15 @@ input{
     font-size:12px !important;
     
   }
+  .about-text{
+    font-family: 'Merriweather', serif !important;
+  }
+  
   .paragraph{
     font-size:15px !important;
+    font-family: Avenir !important;
+    color:#6c6c6c !important;
+    /* letter-spacing: 1px; */
   }
  
 

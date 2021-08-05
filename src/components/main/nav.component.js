@@ -88,7 +88,7 @@ export default function Nav (props) {
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
             >
-              ABOUT US
+              WHO WE ARE
             </div>
           </li>
           <li className="nav-item px-2 d-flex ">
