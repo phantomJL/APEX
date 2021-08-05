@@ -19,7 +19,7 @@ function MainPage (props) {
       <ReactPlayer
         url={
           width < 767
-            ? `${process.env.PUBLIC_URL}/video/Reel mobile.mp4`
+            ? `${process.env.PUBLIC_URL}/video/Reel.mp4`
             : `${process.env.PUBLIC_URL}/video/Reel V7.mp4`
         }
         width="100%"
