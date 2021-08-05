@@ -11,8 +11,8 @@ export default function Nav (props) {
 
   useEffect (
     () => {
-      setCurrentPage (props.history.location.pathname);
       window.scrollTo (0, 0);
+      setCurrentPage (props.history.location.pathname);
     },
     [props.history.location.pathname]
   );

@@ -15,12 +15,16 @@ function MainPage (props) {
     [updateDimensions]
   );
   return (
-    <main style={{height: '100vh'}}>
+    <main style={{height: '100vh', overflowY: 'hidden !important'}}>
       <ReactPlayer
-        url={`${process.env.PUBLIC_URL}/video/Reel V7.mp4`}
+        url={
+          width < 767
+            ? `${process.env.PUBLIC_URL}/video/Reel mobile.mp4`
+            : `${process.env.PUBLIC_URL}/video/Reel V7.mp4`
+        }
         width="100%"
         height="100%"
-        playing={width < 767 ? false : true}
+        playing={true}
         controls={false}
         muted={true}
         loop={true}
