@@ -60,45 +60,46 @@ function ContactUsContainer (props) {
                 <FormWithToasts purpose={purpose} setSuccess={successFun} />
               </ToastProvider>
               {width < 767 &&
-                <section className="d-flex justify-content-around">
-                  <a
-                    onClick={() =>
-                      window.open (
-                        'https://www.instagram.com/apexcomm/',
-                        '_blank'
-                      )}
-                    class="instagram"
-                  >
-                    <i class="fab fa-instagram" />
-                  </a>
-                  <a
-                    onClick={() =>
-                      window.open (
-                        'https://www.weibo.com/u/5888176990',
-                        '_blank'
-                      )}
-                    class="weibo"
-                  >
-                    <i class="fab fa-weibo" />
-                  </a>
+                <section className="d-flex justify-content-center px-4">
+                  <div className="d-flex">
+                    <a
+                      onClick={() =>
+                        window.open (
+                          'https://www.instagram.com/apexcomm/',
+                          '_blank'
+                        )}
+                      className="instagram px-2 py-4"
+                    >
+                      <i class="fab fa-instagram" />
+                    </a>
+                    <a
+                      onClick={() =>
+                        window.open (
+                          'https://www.weibo.com/u/5888176990',
+                          '_blank'
+                        )}
+                      className="weibo px-2 py-4"
+                    >
+                      <i class="fab fa-weibo" />
+                    </a>
 
-                  <a
-                    onClick={() =>
-                      window.open (
-                        'https://www.youtube.com/channel/UCiFfqtera5aCdOApxZzXgxg',
-                        '_blank'
-                      )}
-                    class="youtube"
-                  >
-                    <i class="fab fa-youtube" />
-                  </a> <a
-                    onClick={() =>
-                      window.open ('https://vimeo.com/apexcomm', '_blank')}
-                    class="vimeo"
-                  >
-                    <i class="fab fa-vimeo-v" />
-                  </a>
-
+                    <a
+                      onClick={() =>
+                        window.open (
+                          'https://www.youtube.com/channel/UCiFfqtera5aCdOApxZzXgxg',
+                          '_blank'
+                        )}
+                      className="youtube px-2 py-4"
+                    >
+                      <i class="fab fa-youtube" />
+                    </a> <a
+                      onClick={() =>
+                        window.open ('https://vimeo.com/apexcomm', '_blank')}
+                      className="vimeo px-2 py-4"
+                    >
+                      <i class="fab fa-vimeo-v" />
+                    </a>
+                  </div>
                 </section>}
             </secion>
           : <SuccessPop />}

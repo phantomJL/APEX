@@ -177,8 +177,8 @@ nav{
   text-transform: uppercase;
 
 }
-.trocchi {
-  font-family: trocchi !important;
+.times {
+  font-family: 'Times New Roman', Times, serif !important;
 }
 
 
@@ -586,7 +586,7 @@ input{
     font-size:15px !important;
   }
   .small-title{
-    font-size:9px !important;
+    font-size:6px !important;
   }
   .median-title{
     font-size:10px !important;

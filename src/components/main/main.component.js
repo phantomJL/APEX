@@ -51,7 +51,7 @@ function Main (props) {
             {props.children}
             {props.history.location.pathname !== '/' &&
               <footer
-                className="trocchi text-weight-bold text-center p-1 text-uppercase small-title"
+                className="times text-weight-bold text-center p-1 text-uppercase small-title"
                 style={{
                   width: '100%',
                   bottom: 0,
@@ -125,7 +125,7 @@ function Main (props) {
 
             </section>
             <footer
-              className="trocchi text-weight-bold text-center p-2 mt-2 text-uppercase small-title"
+              className="times text-weight-bold text-center p-2 mt-2 text-uppercase small-title"
               style={{
                 position: 'relative',
                 marginTop: '120px',
