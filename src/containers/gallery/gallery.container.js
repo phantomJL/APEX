@@ -42,7 +42,7 @@ function Gallery (props) {
       </section>
 
       {show === 'video'
-        ? <section className="py-4" style={{overflowX: 'hidden'}}>
+        ? <section className="py-4 video-margin" style={{overflowX: 'hidden'}}>
             <div className="row">
               {video.map ((value, index) => (
                 <Video
