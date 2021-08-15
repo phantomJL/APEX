@@ -35,9 +35,6 @@ export const partner_square = [
 ];
 
 export const client_horizontal = [
-  // {img: '/img/aboutUS/client/WechatIMG134.jpeg'},
-  // {img: '/img/aboutUS/client/WechatIMG129.jpeg'},
-  // {img: '/img/aboutUS/client/WechatIMG147.jpeg'},
   {img: '/img/aboutUS/client/IMG_1033.JPG'},
 
   {img: '/img/aboutUS/client/DY_LOGO_BLACK-01.png'},
@@ -47,6 +44,7 @@ export const client_horizontal = [
   {img: '/img/aboutUS/client/Orient International东方国际.png'},
   {img: '/img/aboutUS/client/KL-logo 横.gif'},
   {img: '/img/aboutUS/client/logo-man.png'},
+  {img: '/img/aboutUS/client/Mag_Dazed China.png'},
 ];
 
 export const client_square = [
@@ -54,8 +52,6 @@ export const client_square = [
 
   {img: '/img/aboutUS/client/1200px-Tmall-logo_2.png'},
   {img: '/img/aboutUS/client/Dragon_Television_(China)_logo.png'},
-
-  {img: '/img/aboutUS/client/Mag_Dazed China.jpg'},
 
   {img: '/img/aboutUS/client/Mag_elleman新青年 logo 源文件2.png'},
 

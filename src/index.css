@@ -127,7 +127,7 @@ button{
   width: 100%;
 }
 .avenir{
-  font-family: Avenir;
+  font-family: 'Mulish', sans-serif;
 }
 
 .content-padding{
@@ -142,7 +142,7 @@ button{
  }
 
 nav{
-  font-family: Avenir !important;
+  font-family: 'Mulish', sans-serif !important;
   color: #6c6c6c;
 }
 
@@ -311,7 +311,7 @@ video{
 
 /*button*/
 .btn{
-  font-family: Avenir !important;
+  font-family: 'Mulish', sans-serif !important;
   border-radius:0 !important;
 }
 
@@ -602,7 +602,7 @@ input{
   
   .paragraph{
     font-size:15px !important;
-    font-family: Avenir !important;
+    font-family: 'Mulish', sans-serif !important;
     color:#6c6c6c !important;
     /* letter-spacing: 1px; */
   }
