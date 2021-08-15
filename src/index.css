@@ -170,10 +170,10 @@ nav{
 /* navigation */
 
 .article {
-  font-family: Futura !important;
+  font-family: 'Mulish', sans-serif  !important;
 }
 .about-text{
-  font-family: Futura !important;
+  font-family: 'Trocchi', serif !important;
   text-transform: uppercase;
 
 }
@@ -207,7 +207,7 @@ nav{
 }
 .paragraph{
   font-size:15px !important;
-  font-family: Futura !important;
+  font-family: 'Mulish', sans-serif !important;
 }
 
 
@@ -577,6 +577,10 @@ input{
       padding: 0%;
     }
  /* text */
+  .article{
+    font-family:Avenir !important;
+  }
+
   .title{
   font-size:23px ;
   text-align: center;
@@ -602,7 +606,7 @@ input{
   
   .paragraph{
     font-size:15px !important;
-    font-family: 'Mulish', sans-serif !important;
+    font-family: Avenir !important;
     color:#6c6c6c !important;
     /* letter-spacing: 1px; */
   }
