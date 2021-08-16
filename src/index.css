@@ -501,6 +501,10 @@ input{
 
 }
 @media (max-width: 767px) {
+  .btn{
+    font-family: Avenir !important;
+    border-radius:0 !important;
+  }
   .navbar-collapse {
     position: fixed;
     z-index: 2;
@@ -512,6 +516,10 @@ input{
     width: 60%;
     height: 100%;
     background-color: rgb(248,227,225) !important;
+  }
+  nav{
+    font-family: Avenir !important;
+    color: #6c6c6c;
   }
   .nav-link{
 
@@ -577,6 +585,9 @@ input{
       padding: 0%;
     }
  /* text */
+ .avenir{
+  font-family: Avenir, sans-serif;
+}
   .article{
     font-family:Avenir !important;
   }
