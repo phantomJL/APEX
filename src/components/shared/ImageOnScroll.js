@@ -20,10 +20,6 @@ export default function ImageOnScroll (props) {
     const top = getDiv.current.getBoundingClientRect ().top;
     setShow (top <= window.innerHeight);
   };
-  //   const onScroll = () => {
-  //     let currentPosition = window.pageYOffset; // or use document.documentElement.scrollTop;
-  //     setScrollTop (currentPosition <= 0 ? 0 : currentPosition);
-  //   };
 
   return (
     <img

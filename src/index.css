@@ -25,7 +25,6 @@ body {
 
 html{
   height:100%;
-  scroll-behavior: smooth;
   margin: 0 !important;;
 }
 html, body, #app, #app>div {
@@ -127,7 +126,7 @@ button{
   width: 100%;
 }
 .avenir{
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .content-padding{
@@ -142,7 +141,7 @@ button{
  }
 
 nav{
-  font-family: 'Mulish', sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
   color: #6c6c6c;
 }
 
@@ -170,7 +169,7 @@ nav{
 /* navigation */
 
 .article {
-  font-family: 'Mulish', sans-serif  !important;
+  font-family: 'Manrope', sans-serif  !important;
 }
 .about-text{
   font-family: 'Trocchi', serif !important;
@@ -207,8 +206,12 @@ nav{
 }
 .paragraph{
   font-size:15px !important;
-  font-family: 'Mulish', sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
 }
+.contact-title{
+  font-family: 'Trocchi', serif !important;
+}
+
 
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
@@ -311,7 +314,7 @@ video{
 
 /*button*/
 .btn{
-  font-family: 'Mulish', sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
   border-radius:0 !important;
 }
 
@@ -614,7 +617,7 @@ input{
     font-family: 'Trocchi', serif !important;
     text-transform:none !important;
   }
-  
+
   .paragraph{
     font-size:15px !important;
     font-family: Avenir !important;

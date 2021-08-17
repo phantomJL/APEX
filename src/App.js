@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import Main from './components/main/main.component';
+import ScrollToTop from './components/shared/ScrollToTop';
 
 const MainPage = React.lazy (() =>
   import ('./containers/mainPage/mainPage.container')
@@ -36,23 +37,25 @@ class App extends Component {
     return (
       <Main>
         <React.Suspense fallback={<div>Loading...</div>}>
-          <Switch>
-            <Route exact path="/" component={MainPage} />
-            <Route exact path="/AboutUs" component={AboutUs} />
-            <Route exact path="/CaseStudy" component={CaseStudy} />
-            <Route exact path="/Gallery" component={Gallery} />
-            <Route exact path="/MediaRelation" component={MediaRelation} />
-            <Route exact path="/ContactUs" component={ContactUsContainer} />
+          <ScrollToTop>
+            <Switch>
+              <Route exact path="/" component={MainPage} />
+              <Route exact path="/AboutUs" component={AboutUs} />
+              <Route exact path="/CaseStudy" component={CaseStudy} />
+              <Route exact path="/Gallery" component={Gallery} />
+              <Route exact path="/MediaRelation" component={MediaRelation} />
+              <Route exact path="/ContactUs" component={ContactUsContainer} />
 
-            <Route exact path="/nomatch" component={Page404} />
+              <Route exact path="/nomatch" component={Page404} />
 
-            {/* <Logo>
+              {/* <Logo>
             <Switch>
               <Route exact path="/dashboard" component={dashboard} />
               <Route component={NoMatch} />
             </Switch>
           </Logo> */}
-          </Switch>
+            </Switch>
+          </ScrollToTop>
         </React.Suspense>
       </Main>
     );

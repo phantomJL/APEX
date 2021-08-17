@@ -43,10 +43,10 @@ function AboutUS (props) {
             />
           </div>
           <div className="col-12 col-md-6 align-self-center">
-            <div className={`about-text title py-3 `}>
+            <div className={`about-text title py-4 space`}>
               Our Story
             </div>
-            <div className="paragraph py-3">
+            <div className="paragraph">
               {ourStory.description}
             </div>
           </div>
@@ -94,7 +94,7 @@ function AboutUS (props) {
       </div>
       <div className="p-4">
         <OnScrollWrap page={'COLLABORATIONS'}>
-          <div className={`about-text title py-3 text-center `}>
+          <div className={`about-text title py-3 text-center space`}>
             Collaborations
           </div>
           {width < 767

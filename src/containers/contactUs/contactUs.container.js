@@ -36,7 +36,7 @@ function ContactUsContainer (props) {
       >
         {success == false
           ? <secion>
-              <h1 className="article text-uppercase text-center p-4">
+              <h1 className=" contact-title text-uppercase text-center p-4">
                 Let's work together
               </h1>
               <div className="d-flex justify-content-center p-4">
