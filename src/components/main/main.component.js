@@ -63,7 +63,7 @@ function Main (props) {
         : <section>
             <section
               style={{
-                minHeight: '100vh',
+                minHeight: '86vh',
                 marginTop: '60px',
               }}
             >

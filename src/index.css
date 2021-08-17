@@ -184,7 +184,9 @@ nav{
 .microsoft{
   font-family: 'Microsoft New Tai Lue' !important;
 }
-
+.prata{
+  font-family: Futura !important;
+}
 .title{
   font-size:30px ;
 }
@@ -593,6 +595,9 @@ input{
 }
   .article{
     font-family:Avenir !important;
+  }
+  .prata{
+    font-family: Avenir !important;
   }
 
   .title{

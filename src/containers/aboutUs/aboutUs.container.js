@@ -43,7 +43,10 @@ function AboutUS (props) {
             />
           </div>
           <div className="col-12 col-md-6 align-self-center">
-            <div className={`about-text title py-4 space`}>
+            <div
+              className={`about-text title py-4 `}
+              style={{marginBottom: '50px'}}
+            >
               Our Story
             </div>
             <div className="paragraph">

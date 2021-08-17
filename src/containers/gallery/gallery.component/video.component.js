@@ -53,7 +53,7 @@ function Video (props) {
           url={props.data.img_url}
         />
         {(showtitle || width < 767) &&
-          <div className="bottom-left-gallery p-2 article">
+          <div className="bottom-left-gallery p-2 prata">
             <div className="text-white median-title py-2">
               {props.data.magazine}
             </div>
