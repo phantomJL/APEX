@@ -126,7 +126,7 @@ button{
   width: 100%;
 }
 .avenir{
-  font-family: 'Manrope', sans-serif;
+  font-family: 'FuturaRennerRegular'
 }
 
 .content-padding{
@@ -142,12 +142,14 @@ button{
 
 nav{
   font-family: 'Manrope', sans-serif !important;
+  letter-spacing: 0.8px;
   color: #6c6c6c;
 }
 
 .nav-link{
   /* width: auto; */
   font-size: 12px !important; 
+  letter-spacing: 0.8px;
   cursor: pointer;
 }
 
@@ -169,12 +171,10 @@ nav{
 /* navigation */
 
 .article {
-  font-family: 'Manrope', sans-serif  !important;
+  font-family: 'FuturaRennerRegular'
 }
 .about-text{
   font-family: 'Trocchi', serif !important;
-  text-transform: uppercase;
-
 }
 .times {
   font-family: 'Times New Roman', Times, serif !important;
@@ -185,7 +185,7 @@ nav{
   font-family: 'Microsoft New Tai Lue' !important;
 }
 .prata{
-  font-family: Futura !important;
+  font-family: 'FuturaRennerRegular'!important;
 }
 .title{
   font-size:30px ;
@@ -195,7 +195,7 @@ nav{
   animation-duration: 2s;
 }
 .subtitle{
-  font-size:20px !important;
+  font-size:18px !important;
 }
 .small-title{
   font-size:9px !important;
@@ -208,8 +208,11 @@ nav{
 }
 .paragraph{
   font-size:15px !important;
+  letter-spacing: .8px;
+  line-height: 1.8;
   font-family: 'Manrope', sans-serif !important;
 }
+
 .contact-title{
   font-family: 'Trocchi', serif !important;
 }
@@ -262,9 +265,11 @@ a:hover {
 .card-body {
   padding:0px !important;
 }
-.space{
-  margin-top: 100px;
-  margin-bottom: 50px;
+.space-top{
+  margin-top: 80px;
+}
+.space-bottom{
+  margin-bottom: 30px;
 }
 /* case study */
 .group > .row {
@@ -317,6 +322,7 @@ video{
 /*button*/
 .btn{
   font-family: 'Manrope', sans-serif !important;
+  letter-spacing: 0.8px;
   border-radius:0 !important;
 }
 
@@ -581,9 +587,12 @@ input{
    margin-top: 10px;
  }
    /* about us */
-   .space{
-    margin-top: 50px !important;
-    margin-bottom: 0 !important;
+   .space-top{
+    margin-top: 30px !important;
+   
+    }
+    .space-bottom{
+      margin-bottom: 0 !important;
     }
     /* case study */
     .case{
@@ -620,7 +629,6 @@ input{
   }
   .about-text{
     font-family: 'Trocchi', serif !important;
-    text-transform:none !important;
   }
 
   .paragraph{

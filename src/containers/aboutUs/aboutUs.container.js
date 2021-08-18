@@ -43,13 +43,10 @@ function AboutUS (props) {
             />
           </div>
           <div className="col-12 col-md-6 align-self-center">
-            <div
-              className={`about-text title py-4 `}
-              style={{marginBottom: '50px'}}
-            >
+            <div className={`about-text title py-3 space-bottom`}>
               Our Story
             </div>
-            <div className="paragraph">
+            <div className="paragraph py-4">
               {ourStory.description}
             </div>
           </div>
@@ -59,7 +56,9 @@ function AboutUS (props) {
 
       <div className="p-4">
         <OnScrollWrap page={'SERVICES'}>
-          <div className={`about-text title py-3 text-center space`}>
+          <div
+            className={`about-text title py-3 text-center space-top space-bottom`}
+          >
             Services
           </div>
           <div className="row">
@@ -71,11 +70,13 @@ function AboutUS (props) {
       </div>
       <div className="p-4 ">
         <OnScrollWrap page={'CLIENTS'}>
-          <div className={`about-text title py-3 text-center space `}>
+          <div
+            className={`about-text title py-3 text-center space-top space-bottom `}
+          >
             Clients
           </div>
           {width < 767
-            ? <div className="d-flex flex-wrap">
+            ? <div className="d-flex flex-wrap py-2">
                 {[
                   ...client_horizontal,
                   ...client_square,
@@ -97,11 +98,11 @@ function AboutUS (props) {
       </div>
       <div className="p-4">
         <OnScrollWrap page={'COLLABORATIONS'}>
-          <div className={`about-text title py-3 text-center space`}>
+          <div className={`about-text title py-3 text-center space-bottom`}>
             Collaborations
           </div>
           {width < 767
-            ? <div className="d-flex flex-wrap ">
+            ? <div className="d-flex flex-wrap py-2">
                 {[
                   ...partner_horizontal,
                   ...partner_square,

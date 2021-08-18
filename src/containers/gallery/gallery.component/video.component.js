@@ -59,7 +59,10 @@ function Video (props) {
             </div>
             {props.data.starring
               ? <div>
-                  <div className="text-white font-weight-bold median-title">
+                  <div
+                    className="text-white median-title"
+                    style={{fontWeight: 950}}
+                  >
                     STARRING
                   </div>
                   <div className="text-white median-title">
@@ -70,7 +73,10 @@ function Video (props) {
             {width >= 767 &&
               (props.data.director
                 ? <div>
-                    <div className="text-white font-weight-bold median-title">
+                    <div
+                      className="text-white median-title"
+                      style={{fontWeight: 950}}
+                    >
                       DIRECTED BY
                     </div>
                     <div className="text-white median-title">
