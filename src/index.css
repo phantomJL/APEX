@@ -126,8 +126,8 @@ button{
   width: 100%;
 }
 .avenir{
-  font-family: 'FuturaRennerRegular'
-}
+  font-family: 'Manrope', sans-serif !important;
+  letter-spacing: 0.8px;}
 
 .content-padding{
   padding-left: 5vw !important;
@@ -204,7 +204,7 @@ nav{
   font-size:10px !important;
 }
 .large-title{
-  font-size:12px !important;
+  font-size:13.5px !important;
 }
 .paragraph{
   font-size:15px !important;
@@ -514,6 +514,7 @@ input{
 @media (max-width: 767px) {
   .btn{
     font-family: Avenir !important;
+    letter-spacing: normal;
     border-radius:0 !important;
   }
   .navbar-collapse {
@@ -601,12 +602,18 @@ input{
  /* text */
  .avenir{
   font-family: Avenir, sans-serif;
+  letter-spacing: normal;
+
 }
   .article{
     font-family:Avenir !important;
+    letter-spacing: normal;
+
   }
   .prata{
     font-family: Avenir !important;
+    letter-spacing: normal;
+
   }
 
   .title{
@@ -634,6 +641,8 @@ input{
   .paragraph{
     font-size:15px !important;
     font-family: Avenir !important;
+    letter-spacing: normal;
+
     color:#6c6c6c !important;
     /* letter-spacing: 1px; */
   }
