@@ -601,7 +601,7 @@ input{
     }
  /* text */
  .avenir{
-  font-family: Avenir, sans-serif;
+  font-family: Avenir !important;
   letter-spacing: normal;
 
 }
