@@ -33,8 +33,8 @@ function MediaRelation (props) {
   console.log (Math.ceil (news.length / 9));
   return (
     <main className="px-4">
-      <div className="avenir p-4">
-        <div className="py-4 subtitle font-weight-bold">NEWS & EVENTS</div>
+      <div className="about-text p-4">
+        <div className="py-4 subtitle font-weight-bold">News & Events</div>
         <div className="row">
           {news
             .slice (upitem, botitem)
@@ -65,9 +65,12 @@ function MediaRelation (props) {
           </nav>
         </div>
       </div>
-      <div className="avenir p-4" style={{width: '90vw', overflowY: 'hidden'}}>
+      <div
+        className="about-text p-4"
+        style={{width: '90vw', overflowY: 'hidden'}}
+      >
         <div className="py-4 subtitle font-weight-bold">
-          MAGAZINE
+          Magazine
         </div>
 
         <div

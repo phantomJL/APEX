@@ -9,7 +9,7 @@ function Event (props) {
   return (
     <div className="d-flex py-4">
       <div
-        className="px-2 align-self-end article"
+        className="px-2 align-self-end case"
         style={{
           paddingBottom: '100px',
           borderRight: '1px solid',
@@ -27,7 +27,7 @@ function Event (props) {
           containerColor="black"
           imgOpacity="70%"
         />
-        <div class="bottom-left p-2 article large-title text-white">
+        <div class="bottom-left p-2 case large-title text-white">
           {props.data.case_name}
         </div>
       </div>

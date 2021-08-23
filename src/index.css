@@ -169,9 +169,13 @@ nav{
    height:100%;
 }
 /* navigation */
-
+.case{
+  font-family: 'Manrope', sans-serif !important;
+  letter-spacing: 0.8px;
+}
 .article {
-  font-family: 'FuturaRennerRegular'
+    font-family: 'Manrope', sans-serif !important;
+  letter-spacing: 0.8px;
 }
 .about-text{
   font-family: 'Trocchi', serif !important;
@@ -185,7 +189,8 @@ nav{
   font-family: 'Microsoft New Tai Lue' !important;
 }
 .prata{
-  font-family: 'FuturaRennerRegular'!important;
+  font-family: 'Manrope', sans-serif !important;
+  letter-spacing: 0.8px;
 }
 .title{
   font-size:30px ;
@@ -315,9 +320,6 @@ a:hover {
   left: 16px;
 }
 
-video{
-  object-fit: cover !important;
-}
 
 /*button*/
 .btn{
@@ -600,10 +602,13 @@ input{
       padding: 0%;
     }
  /* text */
+ .case{
+  font-family: Avenir !important;
+  letter-spacing: normal;
+ }
  .avenir{
   font-family: Avenir !important;
   letter-spacing: normal;
-
 }
   .article{
     font-family:Avenir !important;
@@ -628,7 +633,7 @@ input{
     font-size:6px !important;
   }
   .median-title{
-    font-size:10px !important;
+    font-size:8px !important;
   }
   .large-title{
     font-size:12px !important;

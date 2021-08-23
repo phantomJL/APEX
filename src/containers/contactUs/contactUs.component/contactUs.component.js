@@ -1,9 +1,19 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useToasts} from 'react-toast-notifications';
 import emailjs from 'emailjs-com';
 
 export default function FormWithToasts (props) {
   const {addToast} = useToasts ();
+  const [purpose, setPurpose] = useState ('');
+
+  useEffect (
+    () => {
+      setPurpose (props.purpose);
+      document.getElementById ('myForm').reset ();
+    },
+    [props.purpose]
+  );
+
   function sendEmail (e) {
     e.preventDefault ();
     addToast ('Message is on its way, Please wait!', {
@@ -11,25 +21,7 @@ export default function FormWithToasts (props) {
       autoDismiss: true,
     });
 
-    // emailjs
-    //   .sendForm (
-    //     'service_fftillv',
-    //     'template_ltuptxd',
-    //     e.target,
-    //     'user_J1pqQnb31sKRv1hA9F0QO'
-    //   )
-    //   .then (
-    //     result => {
-    //       props.setSuccess (true);
-    //     },
-    //     error => {
-    //       addToast (error.text, {
-    //         appearance: 'error',
-    //         autoDismiss: true,
-    //       });
-    //     }
-    //   );
-    if (props.purpose === 'Reach Out') {
+    if (purpose === 'Reach Out') {
       emailjs
         .sendForm (
           'service_g1beyp4',
@@ -49,7 +41,7 @@ export default function FormWithToasts (props) {
           }
         );
     }
-    if (props.purpose === 'Media Inquiry') {
+    if (purpose === 'Media Inquiry') {
       emailjs
         .sendForm (
           'service_qruwgft',
@@ -108,7 +100,7 @@ export default function FormWithToasts (props) {
             ? <div>
                 <div>
                   <label className="d-flex">
-                    Company <p className="text-danger">*</p>
+                    Company/Organization <p className="text-danger">*</p>
                   </label>
                 </div>
                 <input
@@ -127,10 +119,11 @@ export default function FormWithToasts (props) {
                 </div>
                 <input
                   className="short-input"
-                  type="number"
+                  type="tel"
                   name="number"
+                  placeholder="123-456-7890"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                   style={{width: '100%'}}
-                  required
                 />
               </div>}
         </div>

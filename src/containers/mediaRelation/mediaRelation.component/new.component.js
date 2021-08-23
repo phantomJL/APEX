@@ -53,7 +53,7 @@ function New (props) {
                 className="btn btn-outline-dark py-2 "
                 onClick={() => window.open (props.data.url_1, '_blank')}
               >
-                {' '}Go to Article
+                {' '}Read More
               </a>}
 
         </div>

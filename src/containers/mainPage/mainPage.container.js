@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {withRouter} from 'react-router-dom';
 import ReactPlayer from 'react-player';
-
+import './main.css';
 function MainPage (props) {
   const [width, setWidth] = useState (window.innerWidth);
   const updateDimensions = () => {
