@@ -196,6 +196,9 @@ nav{
   font-family: 'Manrope', sans-serif !important;
   letter-spacing: 0.8px;
 }
+.news-title{
+  font-weight:normal !important;
+}
 .title{
   font-size:30px ;
 }
@@ -623,7 +626,9 @@ input{
     letter-spacing: normal;
 
   }
-
+  .news-title{
+    font-weight:bold !important;
+  }
   .title{
   font-size:23px ;
   text-align: center;

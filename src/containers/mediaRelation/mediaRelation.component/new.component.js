@@ -31,7 +31,7 @@ function New (props) {
         <div className="news-font small-title py-2" style={{width: '100%'}}>
           {props.data.date}
         </div>
-        <div className="news-font py-2" style={{width: '100%'}}>
+        <div className="news-font news-title py-2" style={{width: '100%'}}>
           {props.data.title}
         </div>
 
