@@ -36,7 +36,7 @@ code {
 }
 
 video{
-  object-fit: scale-down;
+  object-fit: scale-down !important;
 }
 #root {
   width:100%;

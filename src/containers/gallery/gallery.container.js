@@ -4,7 +4,7 @@ import Picture from './gallery.component/picture.component';
 import Video from './gallery.component/video.component';
 import {video, magazine} from '../../data/gallery.data';
 import ReactPlayer from 'react-player';
-
+import '../../index.css';
 function Gallery (props) {
   const [show, setShow] = useState ('video');
   const [play, setPlay] = useState ('');
