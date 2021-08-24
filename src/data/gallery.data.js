@@ -22,7 +22,7 @@ export const video = [
   },
   {
     img_url: '/img/gallery/video/Timmy.png',
-    magazine: 'DAZED China March.April 2020',
+    magazine: 'DAZED China March/April 2020',
     starring: 'Timothée Chalamet',
     director: 'Yulizhe',
     video_link: '',
