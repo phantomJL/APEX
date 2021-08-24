@@ -85,7 +85,7 @@ function Gallery (props) {
                 className="react-player"
                 url={play}
                 width="100%"
-                height="100%"
+                // height="100%"
                 playing={videoPlay}
                 controls={true}
                 config={{
