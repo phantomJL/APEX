@@ -111,7 +111,7 @@ function Main (props) {
 
               </section>
               <section
-                class="gmail-bar avenir text-uppercase"
+                class="gmail-bar news text-uppercase"
                 style={{
                   writingMode: 'vertical-rl',
                   textOrientation: 'mixed',

@@ -27,7 +27,7 @@ function Event (props) {
           containerColor="black"
           imgOpacity="70%"
         />
-        <div class="bottom-left p-2 case large-title text-white">
+        <div class="bottom-left p-2 case  text-white">
           {props.data.case_name}
         </div>
       </div>

@@ -82,7 +82,7 @@ export default function Nav (props) {
             <div
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
-              className={`nav-link ${currentPage === '/AboutUS' && 'selected'}`}
+              className={`nav-link ${currentPage === '/AboutUS' ? 'selected' : ''}`}
               onClick={e => navToPage ('AboutUS')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
@@ -94,7 +94,7 @@ export default function Nav (props) {
             <div
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
-              className={`nav-link ${currentPage === '/CaseStudy' && 'selected'}`}
+              className={`nav-link ${currentPage === '/CaseStudy' ? 'selected' : ''}`}
               onClick={e => navToPage ('CaseStudy')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
@@ -106,7 +106,7 @@ export default function Nav (props) {
             <div
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
-              className={`nav-link ${currentPage === '/Gallery' && 'selected'}`}
+              className={`nav-link ${currentPage === '/Gallery' ? 'selected' : ''}`}
               onClick={e => navToPage ('Gallery')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
@@ -116,7 +116,7 @@ export default function Nav (props) {
           </li>
           <li className="nav-item px-2 d-flex ">
             <div
-              className={`nav-link ${currentPage === '/MediaRelation' && 'selected'}`}
+              className={`nav-link ${currentPage === '/MediaRelation' ? 'selected' : ''}`}
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
               onClick={e => navToPage ('MediaRelation')}
@@ -128,7 +128,7 @@ export default function Nav (props) {
           </li>
           <li className="nav-item px-2 d-flex ">
             <div
-              className={`nav-link ${currentPage === '/ContactUs' && 'selected'}`}
+              className={`nav-link ${currentPage === '/ContactUs' ? 'selected' : ''}`}
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
               onClick={e => navToPage ('ContactUs')}

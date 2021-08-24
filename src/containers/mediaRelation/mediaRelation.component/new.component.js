@@ -28,10 +28,10 @@ function New (props) {
       </div>
       <div className="news-intro p-3 d-flex align-content-around flex-wrap">
 
-        <div className="avenir small-title py-2" style={{width: '100%'}}>
+        <div className="news-font small-title py-2" style={{width: '100%'}}>
           {props.data.date}
         </div>
-        <div className="avenir font-weight-bold py-2" style={{width: '100%'}}>
+        <div className="news-font py-2" style={{width: '100%'}}>
           {props.data.title}
         </div>
 

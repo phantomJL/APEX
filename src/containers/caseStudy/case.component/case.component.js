@@ -25,11 +25,11 @@ function Case (props) {
           containerColor="black"
           imgOpacity="70%"
         />
-        <div class="bottom-left p-2 article large-title text-white">
+        <div class="bottom-left p-2 article  text-white">
           {props.data.case_name}
           <br />
           {props.data.case_name_supplment &&
-            <div class="article large-title">
+            <div class="article ">
               {props.data.case_name_supplment}
               <br />
             </div>}
@@ -38,7 +38,7 @@ function Case (props) {
           {props.data.case_cooperator}
           <br />
           {props.data.case_cooperator_supplement &&
-            <div class="article large-title">
+            <div class="article ">
               {props.data.case_cooperator_supplement}
             </div>}
         </div>

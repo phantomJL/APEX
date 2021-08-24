@@ -125,9 +125,9 @@ button{
   min-height: 100vh !important;
   width: 100%;
 }
-.avenir{
+.news-font{
   font-family: 'Manrope', sans-serif !important;
-  letter-spacing: 0.8px;}
+  letter-spacing: 0.7px;}
 
 .content-padding{
   padding-left: 5vw !important;
@@ -151,6 +151,8 @@ nav{
   font-size: 12px !important; 
   letter-spacing: 0.8px;
   cursor: pointer;
+  animation-name: none !important;
+  transition: none !important;
 }
 
 
@@ -536,7 +538,6 @@ input{
     color: #6c6c6c;
   }
   .nav-link{
-
     font-size: 12px !important;
     margin-top: 10px;
     animation-name: moveInRight;
@@ -606,7 +607,7 @@ input{
   font-family: Avenir !important;
   letter-spacing: normal;
  }
- .avenir{
+ .news-font{
   font-family: Avenir !important;
   letter-spacing: normal;
 }
