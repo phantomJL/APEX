@@ -24,7 +24,7 @@ export default function FormWithToasts (props) {
     if (purpose === 'Reach Out') {
       emailjs
         .sendForm (
-          'service_g1beyp4',
+          'service_23pfiuf',
           'template_nob8jfo',
           e.target,
           'user_vqDbT4W4iarR10zKXuSiJ'
@@ -44,7 +44,7 @@ export default function FormWithToasts (props) {
     if (purpose === 'Media Inquiry') {
       emailjs
         .sendForm (
-          'service_qruwgft',
+          'service_83p84jv',
           'template_jmyr1sg',
           e.target,
           'user_iM1KcMZO1OQCsEraQwPJG'
