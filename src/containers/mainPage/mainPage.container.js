@@ -15,7 +15,7 @@ function MainPage (props) {
     [updateDimensions]
   );
   return (
-    <main style={{height: '100vh', overflowY: 'hidden !important'}}>
+    <main id="main" style={{height: '100vh', overflowY: 'hidden !important'}}>
       <ReactPlayer
         url={
           width < 767

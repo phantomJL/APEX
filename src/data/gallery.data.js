@@ -1,5 +1,12 @@
 export const video = [
   {
+    img_url: '/img/gallery/video/Fala Chen_Vogue HK_HR.png',
+    magazine: 'ELLEMEN (China) Fresh  April 2019',
+    starring: 'Nicholas Hoult',
+    director: 'Yulizhe/Fnu',
+    video_link: 'https://www.dropbox.com/s/5qtnas47jyky4qo/Fala%20Chen%20x%20Vogue%20HK%20x%20HR.mov?dl=0',
+  },
+  {
     img_url: '/img/gallery/video/5. nick 16x6.75.jpg',
     magazine: 'ELLEMEN (China) Fresh  April 2019',
     starring: 'Nicholas Hoult',

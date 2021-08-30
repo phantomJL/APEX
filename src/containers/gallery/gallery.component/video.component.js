@@ -20,7 +20,10 @@ function Video (props) {
     props.setVideoPlay (true);
   };
   return (
-    <div className="col-12 col-lg-4 col-md-6 px-md-3 py-md-2 py-1 px-3">
+    <div
+      className="col-12 col-lg-4 col-md-6 px-md-3 py-md-2 py-1 px-3"
+      style={{height: '200px'}}
+    >
 
       <div
         onMouseEnter={() => {
@@ -37,13 +40,7 @@ function Video (props) {
         style={{cursor: 'pointer'}}
         onClick={() => modalOnClick (props.data.video_link)}
       >
-        {/* <div className="cover video-cover">
-          <img
-            className="cover-img"
-            src={`${process.env.PUBLIC_URL}${props.data.img_url}`}
-            style={{width: '100%'}}
-          />
-        </div> */}
+
         <ImageLoader
           container={true}
           containerColor="black"
