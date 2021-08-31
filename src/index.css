@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width:100%;
-  height:fit-content;
+  height:fit-content !important;
   min-width:320px;
   background: #FFFFFF !important;
 }
@@ -27,7 +27,7 @@ html{
   height:100%;
   margin: 0 !important;;
 }
-html, body, #app, #app>div {
+#app, #app>div {
   height: 100%
 }
 code {
@@ -124,7 +124,6 @@ button{
 }
 
 .main-canvas{
-  min-height: 100vh !important;
   width: 100%;
 }
 .news-font{
