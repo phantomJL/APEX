@@ -87,6 +87,12 @@ export const video = [
 
 export const magazine = [
   {img_url: 'img/gallery/magazine/fala3.png'},
+  {img_url: 'img/gallery/magazine/fala1.png'},
+  {img_url: 'img/gallery/magazine/fala2.png'},
+  {img_url: 'img/gallery/magazine/fala4.png'},
+  {img_url: 'img/gallery/magazine/fala5.png'},
+  {img_url: 'img/gallery/magazine/fala6.png'},
+
   {img_url: 'img/gallery/magazine/200716x郭采洁0264.jpg'},
   {img_url: 'img/gallery/magazine/200716郭采洁歌力思logo-.jpg'},
   {img_url: 'img/gallery/magazine/200716郭采洁歌力思logo.jpg'},
