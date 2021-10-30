@@ -111,6 +111,12 @@ export const news = [
 
 export const magazine = [
   {
+    url: '/img/mediaRelation/VHK 032_COVER.jpg',
+  },
+  {
+    url: '/img/mediaRelation/VHK 032_COVER2.jpg',
+  },
+  {
     url: '/img/mediaRelation/2020_6_Bazzar Men×Amber Kuo.jpg',
   },
   {
@@ -124,6 +130,9 @@ export const magazine = [
   },
   {
     url: '/img/mediaRelation/2019_12_001_Cover_ESQMYBBB19_Print2.jpg',
+  },
+  {
+    url: '/img/mediaRelation/2019_Winter_Leo Wu_ELLEMEN Fresh.jpg',
   },
   {
     url: '/img/mediaRelation/2019_10_SPOTLIGHT×Mengjie Jiang.jpg',

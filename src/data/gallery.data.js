@@ -1,5 +1,12 @@
 export const video = [
   {
+    img_url: '/img/gallery/video/fala chen x vogue hk 2.jpg',
+    magazine: 'VOGUE (Hong Kong) November 2021',
+    starring: 'Fala Chen',
+    director: 'Eli Schmidt',
+    video_link: 'https://www.dropbox.com/s/2kbit824h8uq9xl/FALA%20CHEN%20V4%20FINAL.MOV?dl=0',
+  },
+  {
     img_url: '/img/gallery/video/Fala Chen_Vogue HK_HR.png',
     magazine: 'VOGUE HK x Helena Rubinstein',
     starring: 'Fala Chen',
