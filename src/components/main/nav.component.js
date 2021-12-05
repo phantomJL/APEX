@@ -59,13 +59,18 @@ export default function Nav (props) {
         aria-label="Toggle navigation"
         style={{zIndex: '1000'}}
       >
-        <div class="close-icon">
+        <div
+          class="close-icon"
+          style={{
+            color: 'black !important',
+          }}
+        >
           <i class="fas fa-times" />
         </div>
         <div
           className="navbar-toggler-icon"
           style={{
-            color: props.color === 'white' ? 'black' : 'white',
+            color: props.color === 'white' ? 'black !important' : 'white',
           }}
         >
           <i class="fas fa-bars" />
