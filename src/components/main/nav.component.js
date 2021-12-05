@@ -65,7 +65,7 @@ export default function Nav (props) {
         <div
           className="navbar-toggler-icon"
           style={{
-            color: props.color === 'white' ? '' : 'white',
+            color: props.color === 'white' ? 'black' : 'white',
           }}
         >
           <i class="fas fa-bars" />

@@ -578,6 +578,18 @@ input{
     overflow-x: hidden;
     transition: 0.5s;
  }
+ .close-icon:hover:active{
+   color: black !important;
+ }
+ .close-icon{
+  color: black !important;
+ }
+ .navbar-toggler-icon:hover{
+   color:white !important;
+ }
+ .navbar-toggler-icon:active{
+  color:white !important;
+}
  /* media relation */
   .magazine{
   width: 100%;
