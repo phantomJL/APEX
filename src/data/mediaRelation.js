@@ -111,6 +111,9 @@ export const news = [
 
 export const magazine = [
   {
+    url: '/img/gallery/magazine/P092-099_ZHU122002_Page_1.jpg',
+  },
+  {
     url: '/img/mediaRelation/VHK 032_COVER.jpg',
   },
   {

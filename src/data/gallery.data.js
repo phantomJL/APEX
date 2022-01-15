@@ -1,5 +1,12 @@
 export const video = [
   {
+    img_url: '/img/gallery/video/ZHU x NYLON China 4.png',
+    magazine: 'NYLON (China) January 2022',
+    starring: 'ZHU',
+    director: 'Shawn Zhang',
+    video_link: 'https://www.dropbox.com/s/9oylecx4joglb33/Nylon%20X%20ZHU%20V2.mp4?dl=0',
+  },
+  {
     img_url: '/img/gallery/video/fala chen x vogue hk 2.jpg',
     magazine: 'VOGUE (Hong Kong) November 2021',
     starring: 'Fala Chen',
@@ -8,7 +15,7 @@ export const video = [
   },
   {
     img_url: '/img/gallery/video/Fala Chen_Vogue HK_HR.png',
-    magazine: 'VOGUE HK x Helena Rubinstein',
+    magazine: 'VOGUE (Hong Kong) x Helena Rubinstein',
     starring: 'Fala Chen',
     director: '',
     video_link: 'https://www.dropbox.com/s/5qtnas47jyky4qo/Fala%20Chen%20x%20Vogue%20HK%20x%20HR.mov?dl=0',
@@ -36,7 +43,7 @@ export const video = [
   },
   {
     img_url: '/img/gallery/video/Timmy.png',
-    magazine: 'DAZED China March/April 2020',
+    magazine: 'DAZED (China) March/April 2020',
     starring: 'Timothée Chalamet',
     director: 'Yulizhe',
     video_link: '',
@@ -93,6 +100,12 @@ export const video = [
 ];
 
 export const magazine = [
+  {img_url: 'img/gallery/magazine/P092-099_ZHU122002_Page_1.jpg'},
+  {img_url: 'img/gallery/magazine/nylon-0105ZHU-2.jpg'},
+  {img_url: 'img/gallery/magazine/nylon-0105ZHU-4.jpg'},
+  {img_url: 'img/gallery/magazine/nylon-0105ZHU.jpg'},
+  {img_url: 'img/gallery/magazine/nylon-0105ZHUh.jpg'},
+
   {img_url: 'img/gallery/magazine/fala3.png'},
   {img_url: 'img/gallery/magazine/fala1.png'},
   {img_url: 'img/gallery/magazine/fala2.png'},
