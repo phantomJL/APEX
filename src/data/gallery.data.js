@@ -60,7 +60,7 @@ export const video = [
     magazine: 'ELLEMEN (China) Fresh April 2019',
     starring: 'Leo Wu (吴磊)',
     director: 'Yulizhe/Fnu',
-    video_link: '',
+    video_link: 'https://www.dropbox.com/s/72gjfsbl0g3setq/%E5%90%B4%E7%A3%8A%20x%20Ellemen%20Fresh_%E6%89%8B%E8%A1%A8.MP4?dl=0',
   },
   {
     img_url: '/img/gallery/video/Ian Somerhalder 6.75x16.png',
