@@ -81,7 +81,7 @@ function AboutUS (props) {
         </div>
         {width < 767
           ? <div className="d-flex flex-wrap py-2">
-              {[...client_horizontal, ...client_square].map ((value, index) => (
+              {[...client, ...client2].map ((value, index) => (
                 <IconMobile data={value} />
               ))}
             </div>
