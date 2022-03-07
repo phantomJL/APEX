@@ -1,7 +1,7 @@
 export const video = [
   {
     img_url: '/img/gallery/video/ApedeMod.jpeg',
-    magazine: 'NYLON (China) January 2022',
+    magazine: 'APEDE MOD x Grazia (China)',
     video_link: 'https://www.dropbox.com/s/albs3ktykh3fjop/Grazia%20China%20x%20Apede%20Mod-NY-Final-out-2.mp4?dl=0',
   },
   {
