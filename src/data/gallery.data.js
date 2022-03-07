@@ -1,5 +1,10 @@
 export const video = [
   {
+    img_url: '/img/gallery/video/ApedeMod.jpeg',
+    magazine: 'NYLON (China) January 2022',
+    video_link: 'https://www.dropbox.com/s/albs3ktykh3fjop/Grazia%20China%20x%20Apede%20Mod-NY-Final-out-2.mp4?dl=0',
+  },
+  {
     img_url: '/img/gallery/video/ZHU x NYLON China 4.png',
     magazine: 'NYLON (China) January 2022',
     starring: 'ZHU',
@@ -7,15 +12,8 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/9oylecx4joglb33/Nylon%20X%20ZHU%20V2.mp4?dl=0',
   },
   {
-    img_url: '/img/gallery/video/fala chen x vogue hk 2.jpg',
-    magazine: 'VOGUE (Hong Kong) November 2021',
-    starring: 'Fala Chen',
-    director: 'Eli Schmidt',
-    video_link: 'https://www.dropbox.com/s/2kbit824h8uq9xl/FALA%20CHEN%20V4%20FINAL.MOV?dl=0',
-  },
-  {
     img_url: '/img/gallery/video/Fala Chen_Vogue HK_HR.png',
-    magazine: 'VOGUE (Hong Kong) x Helena Rubinstein',
+    magazine: 'Helena Rubinstein x VOGUE (Hong Kong)',
     starring: 'Fala Chen',
     director: '',
     video_link: 'https://www.dropbox.com/s/5qtnas47jyky4qo/Fala%20Chen%20x%20Vogue%20HK%20x%20HR.mov?dl=0',
@@ -57,7 +55,7 @@ export const video = [
   },
   {
     img_url: '/img/gallery/video/Leo Wu.png',
-    magazine: 'ELLEMEN (China) Fresh April 2019',
+    magazine: 'Wear OS by Google x ELLENMAN (China)',
     starring: 'Leo Wu (吴磊)',
     director: 'Yulizhe/Fnu',
     video_link: 'https://www.dropbox.com/s/72gjfsbl0g3setq/%E5%90%B4%E7%A3%8A%20x%20Ellemen%20Fresh_%E6%89%8B%E8%A1%A8.MP4?dl=0',
@@ -71,7 +69,7 @@ export const video = [
   },
   {
     img_url: '/img/gallery/video/8. web_Amber Kuo_Bazzar Men China_16x6.75.jpg',
-    magazine: "Harper's Bazaar (China) June 2020 (Special Issue)",
+    magazine: "Harper's Bazaar MEN (China) June 2020 (Special Issue)",
     starring: 'Amber Kuo',
     director: 'Jeff Wang',
     video_link: 'https://www.dropbox.com/s/9juc4kqttwwyd3b/Final_Bazzar%20Men%C3%97Amber%20Kuo%20with%20CN%20ENG%20subtitle.mp4?dl=0',
