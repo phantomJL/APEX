@@ -86,16 +86,7 @@ function AboutUS (props) {
               ))}
             </div>
           : <div>
-              {/* <div className="d-flex flex-wrap justify-content-center">
-                  {client_horizontal.map ((value, index) => (
-                    <Icon data={value} width={'180px'} />
-                  ))}
-                </div>
-                <div className="d-flex flex-wrap justify-content-center">
-                  {client_square.map ((value, index) => (
-                    <Icon data={value} width={'130px'} />
-                  ))}
-                </div> */}
+
               <div className="d-flex flex-wrap justify-content-center">
                 {client.map ((value, index) => (
                   <Icon data={value} width={'130px'} />
@@ -109,7 +100,7 @@ function AboutUS (props) {
             </div>}
         {/* </OnScrollWrap> */}
       </div>
-      <div className="p-4">
+      <div className="p-4 mt-4">
         {/* <OnScrollWrap page={'COLLABORATIONS'}> */}
         <div className={`about-text title py-3 text-center space-bottom`}>
           Collaborations
