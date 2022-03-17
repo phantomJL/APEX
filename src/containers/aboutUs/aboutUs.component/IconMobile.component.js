@@ -2,7 +2,7 @@ import React from 'react';
 
 function IconMobile (props) {
   return (
-    <div className=" col-3 py-2">
+    <div className=" col-4 py-2">
       <div
         style={{height: `60px`}}
         className={`${props.data.img ? 'shadow-sm rounded border ' : ''} " justify-content-center align-items-center"`}
