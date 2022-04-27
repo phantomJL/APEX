@@ -104,10 +104,10 @@ export const magazine = [
   {img_url: 'img/gallery/magazine/nylon-0105ZHU.jpg'},
   {img_url: 'img/gallery/magazine/nylon-0105ZHUh.jpg'},
 
-  {img_url: 'img/gallery/magazine/fala3.png'},
+  // {img_url: 'img/gallery/magazine/fala3.png'},
   {img_url: 'img/gallery/magazine/fala1.png'},
-  {img_url: 'img/gallery/magazine/fala2.png'},
-  {img_url: 'img/gallery/magazine/Fala4.png'},
+  // {img_url: 'img/gallery/magazine/fala2.png'},
+  // {img_url: 'img/gallery/magazine/Fala4.png'},
   {img_url: 'img/gallery/magazine/Fala5.png'},
   {img_url: 'img/gallery/magazine/Fala6.png'},
 
