@@ -110,6 +110,9 @@ export const magazine = [
   {img_url: 'img/gallery/magazine/5001646644210_.pic.jpg'},
   {img_url: 'img/gallery/magazine/5031646644210_.pic_hd.jpg'},
   {img_url: 'img/gallery/magazine/5051646644246_.pic_hd.jpg'},
+  {img_url: 'img/gallery/magazine/SET_1-702_FINAL.png'},
+  {img_url: 'img/gallery/magazine/SET_2-571_FINAL.png'},
+  {img_url: 'img/gallery/magazine/SET_3-121_FINAL.png'},
 
   {img_url: 'img/gallery/magazine/200716x郭采洁0264.jpg'},
   {img_url: 'img/gallery/magazine/200716郭采洁歌力思logo-.jpg'},
