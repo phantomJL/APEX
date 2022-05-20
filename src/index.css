@@ -217,8 +217,10 @@ nav{
 .large-title{
   font-size:13.5px !important;
 }
-.paragraph{
+.font-15{
   font-size:15px !important;
+}
+.paragraph{
   letter-spacing: .8px;
   line-height: 1.8;
   font-family: 'Manrope', sans-serif !important;
@@ -272,6 +274,7 @@ a:hover {
 .card {
   background-color:transparent !important;
   border: none !important;
+  padding: 0 10px;
 }
 .card-body {
   padding:0px !important;

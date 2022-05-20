@@ -49,7 +49,7 @@ function AboutUS (props) {
           <div className={`about-text title py-3 space-bottom`}>
             Our Story
           </div>
-          <div className="paragraph py-4">
+          <div className="paragraph font-15 py-4">
             {ourStory.description}
           </div>
         </div>

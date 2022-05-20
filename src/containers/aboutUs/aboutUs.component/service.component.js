@@ -7,7 +7,7 @@ function Service (props) {
           <div className="about-text subtitle card-title py-4">
             {props.data.title}
           </div>
-          <div className="paragraph card-text py-2 justify-content-center">
+          <div className="large-title paragraph card-text py-2 justify-content-center">
             {props.data.intro}
           </div>
         </div>
