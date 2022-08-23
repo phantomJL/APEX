@@ -1,10 +1,10 @@
 export const video = [
-  // {
-  //   img_url: '/img/gallery/video/TYY x GLASS 2.jpg',
-  //   magazine: 'GLASS (China) August 2022',
-  //   starring: 'Tan Yuanyuan',
-  //   video_link: 'https://www.dropbox.com/s/62c5o0ws33i64id/GLASS%20China%20x%20Tan%20Yuanyuan%20ver.2%203%20cut.mov?dl=0',
-  // },
+  {
+    img_url: '/img/gallery/video/TYY x GLASS 2.png',
+    magazine: 'GLASS (China) August 2022',
+    starring: 'Tan Yuanyuan',
+    video_link: 'https://www.dropbox.com/s/62c5o0ws33i64id/GLASS%20China%20x%20Tan%20Yuanyuan%20ver.2%203%20cut.mov?dl=0',
+  },
   {
     img_url: '/img/gallery/video/ApedeMod.jpeg',
     magazine: 'APEDE MOD x Grazia (China)',
@@ -46,7 +46,7 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/zn1qqgn2obw7jpm/Henry%20Lau%20%C3%97%20ELLEMEN%20Fresh_master%20SUBWAY%20version%20final.mp4?dl=0',
   },
   {
-    img_url: '/img/gallery/video/Timmy.png',
+    img_url: '/img/gallery/video/Timmy.jpeg',
     magazine: 'DAZED (China) March/April 2020',
     starring: 'Timothée Chalamet',
     director: 'Yulizhe',
@@ -104,6 +104,27 @@ export const video = [
 ];
 
 export const magazine = [
+  {
+    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0195-725.png',
+  },
+  {
+    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0334-625 µï╖Φ┤¥.png',
+  },
+  {
+    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0698-725.png',
+  },
+  {
+    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0954 2-725.png',
+  },
+  {img_url: 'img/gallery/magazine/ezgif.com-gif-maker copy.gif'},
+  {img_url: 'img/gallery/magazine/ezgif.com-gif-maker.gif'},
+  {img_url: 'img/gallery/magazine/Figaro-sean (1).jpg'},
+  {img_url: 'img/gallery/magazine/Figaro-sean (2).jpg'},
+  {img_url: 'img/gallery/magazine/Figaro-sean (3).jpg'},
+  {img_url: 'img/gallery/magazine/Figaro-sean (4).jpg'},
+  {img_url: 'img/gallery/magazine/Figaro-sean (7).jpg'},
+  {img_url: 'img/gallery/magazine/Figaro-sean (11).jpg'},
+
   {img_url: 'img/gallery/magazine/BAZ407_coverstory_1080x1350_4.jpg'},
   {img_url: 'img/gallery/magazine/BAZ407_coverstory_1080x1350_5.jpg'},
   {img_url: 'img/gallery/magazine/GlassChina_07122022_8840-.jpg'},
