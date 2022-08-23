@@ -2,7 +2,6 @@ export const video = [
   {
     img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
     magazine: 'Helena Rubinstein x Fala Chen',
-    starring: 'Fala Chen',
     video_link: '',
   },
   {
