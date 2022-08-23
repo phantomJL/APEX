@@ -1,4 +1,10 @@
 export const video = [
+  // {
+  //   img_url: '/img/gallery/video/TYY x GLASS 2.jpg',
+  //   magazine: 'GLASS (China) August 2022',
+  //   starring: 'Tan Yuanyuan',
+  //   video_link: 'https://www.dropbox.com/s/62c5o0ws33i64id/GLASS%20China%20x%20Tan%20Yuanyuan%20ver.2%203%20cut.mov?dl=0',
+  // },
   {
     img_url: '/img/gallery/video/ApedeMod.jpeg',
     magazine: 'APEDE MOD x Grazia (China)',
@@ -98,6 +104,12 @@ export const video = [
 ];
 
 export const magazine = [
+  {img_url: 'img/gallery/magazine/BAZ407_coverstory_1080x1350_4.jpg'},
+  {img_url: 'img/gallery/magazine/BAZ407_coverstory_1080x1350_5.jpg'},
+  {img_url: 'img/gallery/magazine/GlassChina_07122022_8840-.jpg'},
+  {img_url: 'img/gallery/magazine/GlassChina_07122022_9899-2.jpg'},
+  {img_url: 'img/gallery/magazine/GlassChina_07122022_11277-2.jpg'},
+
   {img_url: 'img/gallery/magazine/P092-099_ZHU122002_Page_1.jpg'},
   {img_url: 'img/gallery/magazine/nylon-0105ZHU-2.jpg'},
   {img_url: 'img/gallery/magazine/nylon-0105ZHU-4.jpg'},

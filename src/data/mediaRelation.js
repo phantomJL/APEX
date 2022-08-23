@@ -110,6 +110,9 @@ export const news = [
 ];
 
 export const magazine = [
+  {url: 'img/mediaRelation/2022_8_GLASS China Aug cover v1.jpg'},
+  {url: 'img/mediaRelation/2022_8_GLASS China Aug cover v2.JPG'},
+  {url: '/img/mediaRelation/2022_8_BAZAAR HK_407_Cover.jpg'},
   {
     url: '/img/gallery/magazine/P092-099_ZHU122002_Page_1.jpg',
   },
