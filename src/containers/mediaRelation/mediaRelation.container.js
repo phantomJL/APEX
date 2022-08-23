@@ -70,7 +70,7 @@ function MediaRelation (props) {
         style={{width: '90vw', overflowY: 'hidden'}}
       >
         <div className="py-4 subtitle font-weight-bold">
-          Magazine
+          Magazine Covers
         </div>
 
         <div
