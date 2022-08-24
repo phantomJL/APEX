@@ -5,10 +5,16 @@ export const video = [
     video_link: '',
   },
   {
-    img_url: '/img/gallery/video/TYY x GLASS 2.png',
+    img_url: '/img/gallery/video/TYY x Glass.png',
     magazine: 'GLASS (China) August 2022',
     starring: 'Tan Yuanyuan',
     video_link: 'https://www.dropbox.com/s/62c5o0ws33i64id/GLASS%20China%20x%20Tan%20Yuanyuan%20ver.2%203%20cut.mov?dl=0',
+  },
+  {
+    img_url: '/img/gallery/video/Bazzar HK x Fala.jpg',
+    magazine: "Harper's Bazaar (Hong Kong) August 2022",
+    starring: 'Fala Chen',
+    video_link: 'https://www.dropbox.com/s/q64wn630gt214gz/Bazaar%20HK%20x%20Fala.mov?dl=0',
   },
   {
     img_url: '/img/gallery/video/ApedeMod.jpeg',
