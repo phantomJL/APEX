@@ -2,7 +2,7 @@ export const video = [
   {
     img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
     magazine: 'Helena Rubinstein x Fala Chen',
-    video_link: '',
+    video_link: 'https://www.dropbox.com/s/7pxqr1a8qqc4nhd/helena_rubinstein_120th_anniversary_spot_w__fala_chen_16x9%20%28Original%29.mp4?dl=0',
   },
   {
     img_url: '/img/gallery/video/TYY x Glass.png',
