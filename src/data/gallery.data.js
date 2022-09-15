@@ -1,5 +1,10 @@
 export const video = [
   {
+    img_url: '/img/gallery/video/Fendi x Grazia China.png',
+    magazine: 'FENDI x Grazia (China)',
+    video_link: '',
+  },
+  {
     img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
     magazine: 'Helena Rubinstein x Fala Chen',
     video_link: 'https://www.dropbox.com/s/7pxqr1a8qqc4nhd/helena_rubinstein_120th_anniversary_spot_w__fala_chen_16x9%20%28Original%29.mp4?dl=0',
@@ -116,14 +121,39 @@ export const video = [
 
 export const magazine = [
   {
-    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0195-725.png',
+    img_url: 'img/gallery/magazine/ca4d73381s53da25b7fa500f17d81147 拷贝.jpg',
   },
   {
-    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0334-625 µï╖Φ┤¥.png',
+    img_url: 'img/gallery/magazine/f13f5a7eejf64586ecbbf4f1429ecf73 拷贝.jpg',
   },
   {
-    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0698-725.png',
+    img_url: 'img/gallery/magazine/Tony x Tommy_1.jpg',
   },
+  {
+    img_url: 'img/gallery/magazine/Tony x Tommy_2.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Tony x Tommy_3.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Tony x Tommy_4.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Tony x Tommy_5.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Tony x Tommy_6.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Tony x Tommy_7.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/拼图 拷贝.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/未命名作品 11 拷贝.jpg',
+  },
+
   {
     img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0954 2-725.png',
   },
