@@ -104,7 +104,7 @@ export default function Nav (props) {
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
             >
-              WORK
+              SELECT WORK
             </div>
           </li>
           <li className="nav-item px-2 d-flex ">
