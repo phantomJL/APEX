@@ -97,7 +97,7 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/9juc4kqttwwyd3b/Final_Bazzar%20Men%C3%97Amber%20Kuo%20with%20CN%20ENG%20subtitle.mp4?dl=0',
   },
   {
-    img_url: '/img/gallery/video/1. jd 16x6.75.png',
+    img_url: '/img/gallery/video/Jodie comer x ellemen fresh 1.png',
     magazine: 'ELLEMEN (China) Fresh April 2019',
     starring: 'Jodie Comer',
     director: 'Yulizhe/Fnu',
