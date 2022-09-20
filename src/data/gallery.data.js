@@ -2,7 +2,7 @@ export const video = [
   {
     img_url: '/img/gallery/video/Fendi x Grazia China.png',
     magazine: 'FENDI x Grazia (China)',
-    video_link: '',
+    video_link: 'https://www.dropbox.com/s/ajcntqcivhnb83v/Fendi%20x%20Grazia%20China.mp4?dl=0',
   },
   {
     img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
