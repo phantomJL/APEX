@@ -99,8 +99,8 @@ export default function Nav (props) {
             <div
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
-              className={`nav-link ${currentPage === '/CaseStudy' ? 'selected' : ''}`}
-              onClick={e => navToPage ('CaseStudy')}
+              className={`nav-link ${currentPage === '/SelectWork' ? 'selected' : ''}`}
+              onClick={e => navToPage ('SelectWork')}
               onMouseOver={MouseOver}
               onMouseOut={MouseOut}
             >
