@@ -1,41 +1,26 @@
 import React from 'react';
 import {withRouter} from 'react-router-dom';
-import {caseStudy, caseStudy_event} from '../../data/caseStudy.data';
-import Case from './case.component/case.component';
-import Event from './case.component/event.component';
+import {work} from '../../data/caseStudy.data';
+import Work from './case.component/work.component';
 
 function CaseStudy (props) {
   return (
-    <main className="case">
-      <section className="p-4">
-        <div className="container">
-          <div className="row py-2">
+    <section className="case" style = {{marginBottom: "100px"}}>
+          <div className="row py-2 ">
 
-            {caseStudy.map ((value, index) => {
+            {work.map ((value, index) => {
               return (
-                <div className="col-md-6 col-sm-12 col-lg-4">
-                  <div>
-                    <Case data={value} index={index} />
-                  </div>
-                </div>
-              );
-            })}
-            {caseStudy_event.map ((value, index) => {
-              return (
-                <div className="col-md-6 col-sm-12 col-lg-4">
-                  <div>
-
-                    <Event data={value} index={caseStudy.length + index} />
-                  </div>
+                <div className="col-md-6 col-sm-12 p-0 work">
+                    <Work data={value} />
                 </div>
               );
             })}
           </div>
-        </div>
+          <h2 className = "w-100 text-center"  style ={{ fontFamily:"EB Garamond", fontWeight:300}}>
+            TO BE CONTINUED ...
+          </h2>
 
-      </section>
-
-    </main>
+    </section>
   );
 }
 
