@@ -1,6 +1,6 @@
 export const work = [
   {
-    case_name: `GlassMAN × Lay Zhang Cover Story`,
+    case_name: `GLASSMAN × Lay Zhang Cover Story`,
     location:"November 2022, Los Angeles, CA",
     client:"GLASSMAN China, GLASSMAN UK",
     points: ["Styling coordination",'Budgeting','Pre- + Site-production', "Management of post-production"],
@@ -9,28 +9,28 @@ export const work = [
   {
     case_name: `The United Nations ActNow Campaign`,
     location:"July 2020, Worldwide",
-    client: "The United Nations ",
-    points: ['Buget + Scheduling + Travel','Talent selection + Communications','Management of content creating '],
+    collaborator: "The United Nations ",
+    points: ['Talent selection + Communications','Management of content creating '],
     cover: '/img/caseStudy/work/UN ActNow.JPG',
   },
   {
     case_name: 'Dazed China x Timothée Chalamet Cover Story',
     location:"February 2020, Los Angeles, CA",
     client:"DAZED China",
-    points: ['Casting + Talent communications','Bugeting',"Sechdeduling + Travel","Pre-production, Site-production, Management of post-production"],
+    points: ['Casting + Talent communications','Budgeting',"Scheduling + Travel","Pre-production, Site-production, Management of post-production"],
     cover: '/img/caseStudy/work/Timmy x DAZED CN.JPG',
   },
   {
     case_name: 'Super M’s special live performance on the World Mental Health Day',
     location:"June 2020, Seoul, South Korea",
     collaborator:"World Health Organization (WHO)",
-    points: ['Talent Communications','Project management',"Visual direction"],
+    points: ['Talent communications','Project management',"Visual direction"],
     cover: '/img/caseStudy/work/SuperM x WHO.jpg',
   },
   {
     case_name: `ELLEMEN Fresh x Jodie Comer Cover Story`,
     location:"March 2019, Los Angeles, CA",
-    client:"Jackson Yee",
+    client:"ELLEMEN Fresh",
     points: ["Casting + Talent communications",
       "Budgeting",
       "Scheduling + Travel",
@@ -42,7 +42,7 @@ export const work = [
     case_name: 'Alyssa Chia at New York Fashion Week (NYFW)',
     location:"February 2019, New York, NY",
     client:"David Yurman",
-    points: ["Budget + talent fee negotiations",
+    points: ["Budget + Talent fee negotiations",
       "Partnership contract",
       "Event appearance",
      "Shoot production + management of live edits and social media posts"
@@ -54,7 +54,7 @@ export const work = [
     case_name: 'Henry Lau at New York Fashion Week (NYFW)',
     location:"February 2019, New York, NY",
     client:"Marc Jacobs",
-    points: ["Talent Communications",'Crew Sourcing','Site Shoot Execution', "Partnership Deal Negotications and Contracting"],
+    points: ["Talent communications",'Crew sourcing','Site shoot execution', "Partnership deal negotiations and contracting"],
     cover: '/img/caseStudy/work/Henry Lau x MJ.JPG',
   },
   

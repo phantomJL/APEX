@@ -6,7 +6,7 @@ import Work from './case.component/work.component';
 function CaseStudy (props) {
   return (
     <section className="case" style = {{marginBottom: "100px"}}>
-          <div className="row py-2 ">
+          <div className="row py-2 m-0">
 
             {work.map ((value, index) => {
               return (
@@ -16,9 +16,9 @@ function CaseStudy (props) {
               );
             })}
           </div>
-          <h2 className = "w-100 text-center"  style ={{ fontFamily:"EB Garamond", fontWeight:300}}>
+          <h3 className = "w-100 text-center"  style ={{ fontFamily:"EB Garamond", fontWeight:300}}>
             TO BE CONTINUED ...
-          </h2>
+          </h3>
 
     </section>
   );
