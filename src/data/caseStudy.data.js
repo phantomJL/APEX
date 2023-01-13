@@ -14,7 +14,7 @@ export const work = [
     cover: '/img/caseStudy/work/UN ActNow.JPG',
   },
   {
-    case_name: 'Dazed China x Timothée Chalamet Cover Story',
+    case_name: 'DAZED China x Timothée Chalamet Cover Story',
     location:"February 2020, Los Angeles",
     client:"DAZED China",
     points: ['Casting + Talent communications','Budgeting',"Scheduling + Travel","Pre-production, Site-production, Management of post-production"],
