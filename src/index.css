@@ -279,9 +279,10 @@ a:hover {
   border: none !important;
   padding: 0 10px;
 }
-.card-body {
+.work-body {
   padding: 50px 100px  !important;
 }
+
 .space-top{
   margin-top: 80px;
 }
