@@ -1,5 +1,10 @@
 export const video = [
   {
+    img_url: '/img/gallery/video/IMG_9310.PNG',
+    magazine: 'GLASS MAN (China) Jan/Feb 2023',
+    video_link: 'https://www.dropbox.com/s/cpmn1v4jcas83j1/GLASSMAN%20-%20LAY%20ZHANG%20-%20VIDEO.mp4?dl=0',
+  },
+  {
     img_url: '/img/gallery/video/Fendi x Grazia China.png',
     magazine: 'FENDI x Grazia (China)',
     video_link: 'https://www.dropbox.com/s/ajcntqcivhnb83v/Fendi%20x%20Grazia%20China.mp4?dl=0',
@@ -120,6 +125,26 @@ export const video = [
 ];
 
 export const magazine = [
+  
+  {
+    img_url: 'img/gallery/magazine/GLASS MAN LZ DFRY-1.JPG',
+  },
+  {
+    img_url: 'img/gallery/magazine/GLASS MAN LZ DFRY-3 CROP.JPG',
+  },
+  {
+    img_url: 'img/gallery/magazine/GLASS MAN LZ DFRY-5.JPG',
+  },
+  {
+    img_url: 'img/gallery/magazine/GLASS MAN LZ DFRY-6的副本.JPG',
+  },
+  {
+    img_url: 'img/gallery/magazine/GLASS MAN LZ DFRY-8的副本.JPG',
+  },
+  {
+    img_url: '/img/gallery/magazine/GLASSMAN-LAY-ZHANG-MOVING-COVER.gif',
+  },
+
   {
     img_url: 'img/gallery/magazine/ca4d73381s53da25b7fa500f17d81147 拷贝.jpg',
   },

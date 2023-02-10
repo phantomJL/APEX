@@ -8,7 +8,7 @@ function Work (props) {
         src={props.data.cover}
         alt="Card cap"
       />
-      <div class="card-body">
+      <div class="work-body">
         <div style ={{fontFamily:"Helvetica Neue"}} >
         <h5>{props.data.case_name}</h5>
         <h5>{props.data.location}</h5>
