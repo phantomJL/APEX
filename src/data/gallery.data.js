@@ -2,6 +2,7 @@ export const video = [
   {
     img_url: '/img/gallery/video/IMG_9310.PNG',
     magazine: 'GLASS MAN (China) Jan/Feb 2023',
+    starring: 'Lay Zhang',
     video_link: 'https://www.dropbox.com/s/cpmn1v4jcas83j1/GLASSMAN%20-%20LAY%20ZHANG%20-%20VIDEO.mp4?dl=0',
   },
   {
