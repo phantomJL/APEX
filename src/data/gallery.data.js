@@ -126,7 +126,39 @@ export const video = [
 ];
 
 export const magazine = [
-  
+  {
+    img_url: 'img/gallery/magazine/GRAZIA_MALAYSIA_YUNA_LOOK_07_0467.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/GRAZIA_MALAYSIA_YUNA_LOOK_05_0369.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/GRAZIA_MALAYSIA_YUNA_LOOK_03_0316_V2.jpg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Glass CN x WP inside_5.jpeg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Glass CN x WP inside_4.jpeg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Glass CN x WP inside_3.jpeg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Glass CN x WP inside_2.jpeg',
+  },
+  {
+    img_url: 'img/gallery/magazine/Glass CN x WP inside_1.jpeg',
+  },
+
+  {
+    img_url: 'img/gallery/magazine/2023_3_GRAZIA Malaysia March Cover_inside 2.png',
+  },
+  {
+    img_url: 'img/gallery/magazine/2023_3_GRAZIA Malaysia March Cover_inside 1.png',
+  },
+
+
   {
     img_url: 'img/gallery/magazine/GLASS MAN LZ DFRY-1.JPG',
   },

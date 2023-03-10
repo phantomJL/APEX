@@ -29,7 +29,6 @@ class App extends Component {
       import ('jquery/dist/jquery.min'),
       import ('bootstrap/dist/js/bootstrap.min'),
       import ('date-input-polyfill'),
-      import ('@fortawesome/fontawesome-free/css/all.css'),
     ]);
   }
   render () {

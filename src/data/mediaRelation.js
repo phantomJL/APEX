@@ -110,6 +110,12 @@ export const news = [
 ];
 
 export const magazine = [
+  {url: 'img/mediaRelation/2023_3_GRAZIA Malaysia March Cover_Yuna.jpg'},
+  {url: 'img/mediaRelation/2023_3_GLASS China March Cover_Whitney Peak.jpeg'},
+  {url: 'img/mediaRelation/2023_1&2 GLASS China_Cover (2).jpg'},
+  {url: 'img/mediaRelation/2023_1&2 GLASS China_Cover (3).jpg'},
+  {url: 'img/mediaRelation/2022_12_GLASS UK_Red_Velvet_Cover.jpg'},
+
   {url: 'img/mediaRelation/2022_8_GLASS China Aug cover v1.jpg'},
   {url: 'img/mediaRelation/2022_8_GLASS China Aug cover v2.JPG'},
   {url: '/img/mediaRelation/2022_8_BAZAAR HK_407_Cover.jpg'},
