@@ -34,35 +34,10 @@ export const partner_square = [
   {img: '/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png'},
 ];
 
-export const client_horizontal = [
-  {img: '/img/aboutUS/client/IMG_1033.JPG'},
-  {img: '/img/aboutUS/client/krastase-logo-vector.png'},
-  {img: '/img/aboutUS/client/APEDE MOD.png'},
-  {img: '/img/aboutUS/client/Photo Aug 02, 15 56 20.jpg'},
-  {img: '/img/aboutUS/client/Grazia China.PNG'},
-  {img: '/img/aboutUS/client/DY_LOGO_BLACK-01.png'},
-  {img: '/img/aboutUS/client/GDS万国数据.png'},
-  {img: '/img/aboutUS/client/Orient International东方国际.png'},
-  {img: '/img/aboutUS/client/KL-logo 横.gif'},
-  {img: '/img/aboutUS/client/logo-man.png'},
-  {img: '/img/aboutUS/client/Mag_Dazed China.png'},
-];
-
-export const client_square = [
-  {
-    img: '/img/aboutUS/client/helena-rubinstein-logo-vector.png',
-  },
-  {img: '/img/aboutUS/client/1200px-Tmall-logo_2.png'},
-  {img: '/img/aboutUS/client/Dragon_Television_(China)_logo.png'},
-  {img: '/img/aboutUS/client/Mag_elleman新青年 logo 源文件2.png'},
-  {img: '/img/aboutUS/client/Mag_芭莎男士BAZAAR MEN LOGO 2.png'},
-  {img: '/img/aboutUS/client/Roseonly.jpg'},
-  {img: '/img/aboutUS/client/SMG.jpg'},
-  {img: '/img/aboutUS/client/WAOTW.png'},
-  {img: '/img/aboutUS/client/Wis面膜.jpg'},
-];
-
 export const client = [
+  {img: '/img/aboutUS/client/ELLE_Magazine_Logo.png'},
+  {img: '/img/aboutUS/client/Marie Claire HK_LOGO.png'},
+  {img: '/img/aboutUS/client/vogue_singapore_logo.png'},
   {img: '/img/aboutUS/client/IMG_1033.JPG'},
   {img: '/img/aboutUS/client/helena-rubinstein-logo-vector.jpeg'},
   {img: '/img/aboutUS/client/krastase-logo-vector.png'},

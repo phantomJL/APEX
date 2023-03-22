@@ -3,6 +3,8 @@ import {Route, Switch, Redirect} from 'react-router-dom';
 import Main from './components/main/main.component';
 import ScrollToTop from './components/shared/ScrollToTop';
 import './index.css';
+
+
 const MainPage = React.lazy (() =>
   import ('./containers/mainPage/mainPage.container')
 );

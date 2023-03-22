@@ -110,6 +110,9 @@ export const news = [
 ];
 
 export const magazine = [
+  {url: 'img/mediaRelation/2023_4_SuperELLE China April Cover_Stephanie Hsu.JPG'},
+  {url: 'img/mediaRelation/2023_3_GLASS Vision China March Cover_Fei.jpg'},
+
   {url: 'img/mediaRelation/2023_3_GRAZIA Malaysia March Cover_Yuna.jpg'},
   {url: 'img/mediaRelation/2023_3_GLASS China March Cover_Whitney Peak.jpeg'},
   {url: 'img/mediaRelation/2023_1&2 GLASS China_Cover (2).jpg'},
