@@ -18,13 +18,14 @@ export const ourService = [
     intro: 'We raise our clients’ image through powerful media relations efforts; we design campaigns by understanding clients’ goals; we proactively plan ahead so you’re prepared at every minute.',
   },
   {
+    title: 'Influencer/Celebrity Marketing and Endorsement',
+    intro: 'Benefiting from Influencers and celebrities’ authority, knowledge, and relationship with their audience for increased brand exposure and to affect the purchase decisions. We offer connected services to maximize the impact. ',
+  },
+  {
     title: 'Event Planning',
     intro: 'We make everything from scratch. We are attuned to the smallest detail of event logistics, with a strong level of advance planning and ground management, from start to finish.',
   },
-  // {
-  //   title: 'Talent Mangement',
-  //   intro: '[US-China] Social media management, personal image development, performance management, career pathways and succession planning.',
-  // },
+  
 ];
 export const partner_horizontal = [
   {img: '/img/aboutUS/partner/1280px-World_Health_Organization_Logo.png'},
@@ -35,6 +36,9 @@ export const partner_square = [
 ];
 
 export const client = [
+  {img: 'img/aboutUS/client/W China logo.jpg'},
+  {img: 'img/aboutUS/client/Chanel-logo.png'},
+  {img: 'img/aboutUS/client/GLASS China logo (black).png'},
   {img: '/img/aboutUS/client/ELLE_Magazine_Logo.png'},
   {img: '/img/aboutUS/client/Marie Claire HK_LOGO.png'},
   {img: '/img/aboutUS/client/vogue_singapore_logo.png'},
@@ -48,10 +52,10 @@ export const client = [
   {img: '/img/aboutUS/client/APEDE MOD.png'},
   {img: '/img/aboutUS/client/Brand_Honor.jpg'},
   {img: '/img/aboutUS/client/KL-logo 横.gif'},
-  {img: '/img/aboutUS/client/Brand_天猫Tmall_横.jpg'},
-  {img: '/img/aboutUS/client/Brand_三只松鼠白底.jpg'},
 ];
 export const client2 = [
+  {img: '/img/aboutUS/client/Brand_天猫Tmall_横.jpg'},
+  {img: '/img/aboutUS/client/Brand_三只松鼠白底.jpg'},
   {img: '/img/aboutUS/client/Photo Aug 02, 15 56 20.jpg'},
   {img: '/img/aboutUS/client/Mag_Dazed China.png'},
   {img: '/img/aboutUS/client/Mag_NYLON China.png'},
