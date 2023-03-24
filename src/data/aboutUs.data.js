@@ -35,37 +35,42 @@ export const partner_square = [
   {img: '/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png'},
 ];
 
-export const client = [
-  {img: '/img/aboutUS/client/IMG_1033.JPG'},
-  {img: '/img/aboutUS/client/helena-rubinstein-logo-vector.jpeg'},
-  {img: '/img/aboutUS/client/krastase-logo-vector.png'},
-  {img: '/img/aboutUS/client/DY_LOGO_BLACK-01.png'},
-  {img: 'img/aboutUS/client/Chanel-logo.png'},
-  {img: '/img/aboutUS/client/PhillipLim.png'},
-  {img: '/img/aboutUS/client/Brand_Michael Kors.png'},
-  {img: '/img/aboutUS/client/Brand_Marc Jacobs.jpg'},
-  {img: '/img/aboutUS/client/APEDE MOD.png'},
-  {img: '/img/aboutUS/client/Brand_Honor.jpg'},
+
+export const client=[
+  {img: '/img/aboutUS/client/Brand_LA MER copy.png'},
+  {img: '/img/aboutUS/client/Untitled-1 copy.png'},
+  {img: '/img/aboutUS/client/Brand_Kerastase copy.png'},
+  {img: '/img/aboutUS/client/Brand_David Yurman copy.png'},
+  {img: '/img/aboutUS/client/Chanel-logo copy.png'},
+  {img: '/img/aboutUS/client/Brand_3.1 phillip lim.png'},
+  {img: '/img/aboutUS/client/Brand_Michael Kors copy.png'},
+  {img: '/img/aboutUS/client/Brand_Marc Jacobs copy.png'},
+  {img: '/img/aboutUS/client/BrandAPEDE MOD copy.png'},
+  {img: '/img/aboutUS/client/Brand_Honor.png'},
   {img: '/img/aboutUS/client/KL-logo 横.gif'},
-  {img: '/img/aboutUS/client/Brand_天猫Tmall_横.jpg'},
+  {img: '/img/aboutUS/client/Brand_天猫Tmall_横 copy.png'},
   {img: '/img/aboutUS/client/Brand_三只松鼠白底.jpg'},
-];
-export const client2 = [
-  {img: '/img/aboutUS/client/vogue_singapore_logo.png'},
-  {img: '/img/aboutUS/client/ELLE_Magazine_Logo.png'},
-  {img: 'img/aboutUS/client/W China logo.jpg'},
+
+]
+
+
+export const client2=[
+  {img: '/img/aboutUS/client/vogue_singapore_logo copy.png'},
+  {img: '/img/aboutUS/client/ELLE_Magazine_Logo copy.png'},
+  {img: '/img/aboutUS/client/W China logo copy.png'},
+  {img: '/img/aboutUS/client/Marie Claire HK_LOGO copy.png'},
+  {img: '/img/aboutUS/client/Mag_Dazed China copy.png'},
+  {img: '/img/aboutUS/client/bazaar hk-logo-black_1.png'},
+  {img: '/img/aboutUS/client/Mag_NYLON China copy.png'},
+  {img: '/img/aboutUS/client/Mag_时尚Cosmo copy.png'},
+  {img: '/img/aboutUS/client/Mag_Grazia China copy.png'},
+  {img: '/img/aboutUS/client/GLASS China logo (black) copy.png'},
+  {img: '/img/aboutUS/client/Mag_芭莎男士BAZAAR MEN LOGO 1 copy.png'},
   {img: '/img/aboutUS/client/Marie Claire HK_LOGO.png'},
-  {img: '/img/aboutUS/client/Mag_Dazed China.png'},
-  {img: '/img/aboutUS/client/Photo Aug 02, 15 56 20.jpg'},
-  {img: '/img/aboutUS/client/Mag_NYLON China.png'},
-  {img: '/img/aboutUS/client/Mag_时尚Cosmo.png'},
-  {img: '/img/aboutUS/client/Grazia China.PNG'},
-  {img: 'img/aboutUS/client/GLASS China logo (black).png'},
-  {img: '/img/aboutUS/client/Mag_芭莎男士BAZAAR MEN LOGO 1.png'},
-  {img: '/img/aboutUS/client/Mag_elleman新青年 logo 源文件.png'},
-  {img: '/img/aboutUS/client/Mag_Esquire.png'},
-  {img: '/img/aboutUS/client/SMG.jpeg'},
-  {img: '/img/aboutUS/client/Dragon_Television_(China)_logo.png'},
-  {img: '/img/aboutUS/client/Orient International东方国际.png'},
-  {img: '/img/aboutUS/client/GDS万国数据.png'},
-];
+  {img: '/img/aboutUS/client/Mag_VOGUE HK copy.png'},
+  {img: '/img/aboutUS/client/SMG copy.png'},
+  {img: '/img/aboutUS/client/s.png'},
+  {img: '/img/aboutUS/client/Orient International东方国际 copy.png'},
+  {img: '/img/aboutUS/client/GDS万国数据 copy.png'},
+ 
+]

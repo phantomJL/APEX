@@ -1,5 +1,17 @@
 export const video = [
   {
+    img_url: '/img/gallery/video/SuperELLE x Stephanie Hsu 16x6.75.png',
+    magazine: 'Super ELLE (China) April 2023',
+    starring: 'Stephanie Hsu',
+    video_link: 'https://www.dropbox.com/s/cxqvb06ssccfrv9/SuperELLE%20x%20Stephanie%20BTS%20final.mp4?dl=0',
+  },
+  {
+    img_url: '/img/gallery/video/GLASS x WP 16x6.75.jpg',
+    magazine: 'GLASS (China) March 2023 x Chanel',
+    starring: 'Whitney Peak',
+    video_link: 'https://www.dropbox.com/s/8zqrhqmqq02oa38/FINAL%20video%20for%20Glass%20CN%20x%20Whitney%20Peak.mov?dl=0',
+  },
+  {
     img_url: '/img/gallery/video/Lay x GlassMan CN.png',
     magazine: 'GLASS MAN (China) Jan/Feb 2023',
     starring: 'Lay Zhang',
@@ -126,6 +138,41 @@ export const video = [
 ];
 
 export const magazine = [
+
+  {
+    img_url: 'img/gallery/magazine/Glass CN x WP inside_3.jpg'},
+
+
+  {
+    img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_10.JPG',
+  },
+    {
+      img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_9.JPG',
+    },
+      {
+        img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_8.JPG',
+      },
+        {
+          img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_7.JPG',
+        },
+          {
+            img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_4.JPG',
+          },
+            {
+              img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_5.JPG',
+            },
+              {
+                img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_6.JPG',
+              },
+                {
+                  img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_2.JPG',
+                },
+                  {
+                    img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_3.JPG',
+                  },
+                    {
+                      img_url: 'img/gallery/magazine/SuperELLE_Stephanie Hsu_1.JPG',
+  },
   {
     img_url: 'img/gallery/magazine/GRAZIA_MALAYSIA_YUNA_LOOK_07_0467.jpg',
   },

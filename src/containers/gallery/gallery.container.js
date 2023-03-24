@@ -31,13 +31,13 @@ function Gallery (props) {
           className={`btn btn-line mx-4 article ${show === 'video' ? 'active' : ''}`}
           onClick={e => setShow ('video')}
         >
-          VIDEOS
+          MOTION
         </div>
         <div
           className={`btn btn-line mx-4 article ${show === 'video' ? '' : 'active'}`}
           onClick={e => setShow ('magazine')}
         >
-          IMAGES
+          STILL
         </div>
       </section>
 
