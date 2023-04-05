@@ -1,16 +1,6 @@
 
 export const work = [
-  {
-    case_name: `GLASS China x Whitney Peak x CHANEL Cover Story`,
-    location:"January 2023, New York",
-    client:"GLASS China",
-    points: ["PR + Client communications",
-    'Budgeting',
-    'Pre- + Site-production', 
-    "Management of post-production"],
-    cover: '/img/caseStudy/work/GLASS x WP_1028 by 655.jpg',
-  },
-  {
+{
     case_name: `SuperELLE China x Stephanie Hsu Cover Story`,
     location:"January 2023, Los Angeles",
     client:"SuperELLE China",
@@ -22,6 +12,17 @@ export const work = [
   'Management of post-production'],
     cover: '/img/caseStudy/work/SuperELLE x Stephanie Hsu 1280x655.jpg',
   },
+  {
+    case_name: `GLASS China x Whitney Peak x CHANEL Cover Story`,
+    location:"January 2023, New York",
+    client:"GLASS China",
+    points: ["PR + Client communications",
+    'Budgeting',
+    'Pre- + Site-production', 
+    "Management of post-production"],
+    cover: '/img/caseStudy/work/GLASS x WP_1028 by 655.jpg',
+  },
+  
   {
     case_name: `GLASSMAN × Lay Zhang Cover Story`,
     location:"November 2022, Los Angeles",
