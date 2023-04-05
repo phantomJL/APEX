@@ -110,17 +110,18 @@ export const news = [
 ];
 
 export const magazine = [
-  {url: 'img/mediaRelation/2023_4_SuperELLE China April Cover_Stephanie Hsu.JPG'},
-  {url: 'img/mediaRelation/2023_3_GLASS Vision China March Cover_Fei.jpg'},
+  {url: '/img/mediaRelation/2023_4_Marie Claire HK_Fala CHen_April Cover.jpg'},
+  {url: '/img/mediaRelation/2023_4_SuperELLE China April Cover_Stephanie Hsu.JPG'},
+  {url: '/img/mediaRelation/2023_3_GLASS Vision China March Cover_Fei.jpg'},
 
-  {url: 'img/mediaRelation/2023_3_GRAZIA Malaysia March Cover_Yuna.jpg'},
-  {url: 'img/mediaRelation/2023_3_GLASS China March Cover_Whitney Peak.jpeg'},
-  {url: 'img/mediaRelation/2023_1&2 GLASS China_Cover (2).jpg'},
-  {url: 'img/mediaRelation/2023_1&2 GLASS China_Cover (3).jpg'},
-  {url: 'img/mediaRelation/2022_12_GLASS UK_Red_Velvet_Cover.jpg'},
+  {url: '/img/mediaRelation/2023_3_GRAZIA Malaysia March Cover_Yuna.jpg'},
+  {url: '/img/mediaRelation/2023_3_GLASS China March Cover_Whitney Peak.jpeg'},
+  {url: '/img/mediaRelation/2023_1&2 GLASS China_Cover (2).jpg'},
+  {url: '/img/mediaRelation/2023_1&2 GLASS China_Cover (3).jpg'},
+  {url: '/img/mediaRelation/2022_12_GLASS UK_Red_Velvet_Cover.jpg'},
 
-  {url: 'img/mediaRelation/2022_8_GLASS China Aug cover v1.jpg'},
-  {url: 'img/mediaRelation/2022_8_GLASS China Aug cover v2.JPG'},
+  {url: '/img/mediaRelation/2022_8_GLASS China Aug cover v1.jpg'},
+  {url: '/img/mediaRelation/2022_8_GLASS China Aug cover v2.JPG'},
   {url: '/img/mediaRelation/2022_8_BAZAAR HK_407_Cover.jpg'},
   {
     url: '/img/gallery/magazine/P092-099_ZHU122002_Page_1.jpg',
@@ -148,9 +149,6 @@ export const magazine = [
   },
   {
     url: '/img/mediaRelation/2019_Winter_Leo Wu_ELLEMEN Fresh.jpg',
-  },
-  {
-    url: '/img/mediaRelation/2019_10_SPOTLIGHT×Mengjie Jiang.jpg',
   },
   {
     url: '/img/mediaRelation/2019_4_ELLEMEN Fresh SS2019×Jodie Comer.jpeg',

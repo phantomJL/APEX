@@ -231,33 +231,6 @@ export const magazine = [
   {
     img_url: 'img/gallery/magazine/f13f5a7eejf64586ecbbf4f1429ecf73 拷贝.jpg',
   },
-  {
-    img_url: 'img/gallery/magazine/Tony x Tommy_1.jpg',
-  },
-  {
-    img_url: 'img/gallery/magazine/Tony x Tommy_2.jpg',
-  },
-  {
-    img_url: 'img/gallery/magazine/Tony x Tommy_3.jpg',
-  },
-  {
-    img_url: 'img/gallery/magazine/Tony x Tommy_4.jpg',
-  },
-  {
-    img_url: 'img/gallery/magazine/Tony x Tommy_5.jpg',
-  },
-  {
-    img_url: 'img/gallery/magazine/Tony x Tommy_6.jpg',
-  },
-  {
-    img_url: 'img/gallery/magazine/Tony x Tommy_7.jpg',
-  },
-  {
-    img_url: 'img/gallery/magazine/拼图 拷贝.jpg',
-  },
-  {
-    img_url: 'img/gallery/magazine/未命名作品 11 拷贝.jpg',
-  },
 
   {
     img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0954 2-725.png',
@@ -283,9 +256,7 @@ export const magazine = [
   {img_url: 'img/gallery/magazine/nylon-0105ZHU.jpg'},
   {img_url: 'img/gallery/magazine/nylon-0105ZHUh.jpg'},
 
-  {img_url: 'img/gallery/magazine/fala1.png'},
   {img_url: 'img/gallery/magazine/Fala5.png'},
-  {img_url: 'img/gallery/magazine/Fala6.png'},
   {img_url: 'img/gallery/magazine/5001646644210_.pic.jpg'},
   {img_url: 'img/gallery/magazine/5031646644210_.pic_hd.jpg'},
   {img_url: 'img/gallery/magazine/5051646644246_.pic_hd.jpg'},
@@ -336,119 +307,3 @@ export const magazine = [
   {img_url: 'img/gallery/magazine/無題會話15580.jpg'},
   {img_url: 'img/gallery/magazine/郭采洁24p导出-3.jpg'},
 ];
-// export const magazine = [
-//   {
-//     img_url: 'https://www.dropbox.com/s/wiim5secgz1xjdu/200716x%E9%83%AD%E9%87%87%E6%B4%810264.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/noptjqp0ma0orva/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo-.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/z4um6fz7oiqxlqd/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/ganxuy6c217swql/Alyssa%20Chia%2001.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/wjrl52woznbujmt/Alyssa%20Chia%2002.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/u76oye0jiwsobhl/Amber%20Kuo%2002.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/zu0uvb1q12o7yxy/Amber%20Kuo%2003.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/7e559380lpzsrtd/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-05.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/xfxzzucesknsejk/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-06.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/wjqtev25olsv9fx/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-07.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/h7bu08lypsb8jp8/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-09.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/srrcutjpwd4fklq/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-10.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/np1qzsgqomoc3do/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-11.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/5vervlts8z42mov/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-12.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/7bqwc4xc4k95w14/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-14.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/9s2tvuyo791tgyk/DAZED_digital_%E6%B0%B4%E5%8D%B0-1-16.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/hlslon1lhorcrbj/ELLEMEN%20Editorial%2001.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/imk3uzix1erbbg4/ELLEMEN%20Editorial%2002.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/lyzul8vgne7tdeu/Gavin%201.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/78az34huclzkiu1/Gavin%202.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/45czy34tdgjnrfo/Henry%20Lau%2001.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/g238z3ruzcd8rd5/Henry%20Lau%2002.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/0bxrrhnlkwyvthn/Ian%20Somerhalder%2001.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/8kpfwxzxh5mdqj6/Ian%20Somerhalder%2002.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/1bvc66ai46ybazp/Jodie%20Comer%2001.jpeg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/9ye4y3izws5sw3h/Jodie%20Comer%2002.jpeg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/3nccb3549raguev/Nicholas%20Hoult%2001.jpeg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/65klsgx1v7u75s2/Nicholas%20Hoult%2002.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/i5yeg2rvwz9gd6b/Nicholas%20Hoult%2003.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/y3y4v9myi1d3g3d/Photo%20Sep%2018%2C%2015%2028%2012.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/18jkbio4lx3o0ig/Photo%20Sep%2018%2C%2015%2028%2015.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/dxsxtbkbs9gmqbs/Photo%20Sep%2018%2C%2015%2028%2018.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/rfx00g9t92cg0n4/Selina_Spotlight_6.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/ujx7v7ytfw39mz0/Photo%20Sep%2018%2C%2015%2027%2058%20%281%29.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/xe9nz1kpokraos9/%E5%90%B4%E7%A3%8A%2001.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/i60vstgsnh79war/%E5%90%B4%E7%A3%8A%2002.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/xi798uu38z63h99/%E7%84%A1%E9%A1%8C%E6%9C%83%E8%A9%B115580.jpg?dl=0',
-//   },
-//   {
-//     img_url: 'https://www.dropbox.com/s/o53bgcteovjgm8s/%E9%83%AD%E9%87%87%E6%B4%8124p%E5%AF%BC%E5%87%BA-3.jpg?dl=0',
-//   },
-// ];

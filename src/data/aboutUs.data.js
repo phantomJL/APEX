@@ -49,6 +49,8 @@ export const client=[
   {img: '/img/aboutUS/client/Brand_Honor.png'},
   {img: '/img/aboutUS/client/KL-logo 横.gif'},
   {img: '/img/aboutUS/client/Brand_天猫Tmall_横 copy.png'},
+  {img: '/img/aboutUS/client/Orient International东方国际 copy.png'},
+  {img: '/img/aboutUS/client/GDS万国数据 copy.png'},
   {img: '/img/aboutUS/client/Brand_三只松鼠白底.jpg'},
 
 ]
@@ -70,7 +72,6 @@ export const client2=[
   {img: '/img/aboutUS/client/Mag_VOGUE HK copy.png'},
   {img: '/img/aboutUS/client/SMG copy.png'},
   {img: '/img/aboutUS/client/s.png'},
-  {img: '/img/aboutUS/client/Orient International东方国际 copy.png'},
-  {img: '/img/aboutUS/client/GDS万国数据 copy.png'},
+  
  
 ]

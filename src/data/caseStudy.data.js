@@ -1,10 +1,41 @@
+
 export const work = [
+  {
+    case_name: `GLASS China x Whitney Peak x CHANEL Cover Story`,
+    location:"January 2023, New York",
+    client:"GLASS China",
+    points: ["PR + Client communications",
+    'Budgeting',
+    'Pre- + Site-production', 
+    "Management of post-production"],
+    cover: '/img/caseStudy/work/GLASS x WP_1028 by 655.jpg',
+  },
+  {
+    case_name: `SuperELLE China x Stephanie Hsu Cover Story`,
+    location:"January 2023, Los Angeles",
+    client:"SuperELLE China",
+    points: ["PR + Casting + Talent Communications",
+    'Styling Coordination',
+    "Budgeting",
+  'Scheduling + Travel',
+  'Pre- + Site-production', 
+  'Management of post-production'],
+    cover: '/img/caseStudy/work/SuperELLE x Stephanie Hsu 1280x655.jpg',
+  },
   {
     case_name: `GLASSMAN × Lay Zhang Cover Story`,
     location:"November 2022, Los Angeles",
     client:"GLASSMAN China, GLASSMAN UK",
     points: ["Styling coordination",'Budgeting','Pre- + Site-production', "Management of post-production"],
     cover: '/img/caseStudy/work/GlassMan x Lay.JPG',
+  },
+  {
+    case_name: `David Yurman x Jenny Tsang Year of the Ox Influencer Campaign
+    `,
+    location:"February 2021, digital",
+    client:"David Yurman",
+    points: ["Talent vetting + analysis",'Contracting','Deal negotiation', "Content management"],
+    cover: '/img/caseStudy/work/David Yurman x Jenny.jpg',
   },
   {
     case_name: `The United Nations ActNow Campaign`,

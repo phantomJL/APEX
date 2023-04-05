@@ -13,8 +13,8 @@ function Work (props) {
         <h5>{props.data.case_name}</h5>
         <h5>{props.data.location}</h5>
 
-        {props.data.client && <h5>Client: {props.data.client}</h5>}
-        {props.data.collaborator && <h5>Collaborator: {props.data.collaborator}</h5>}
+        {props.data.client && <h5 className='py-2' style ={{fontFamily:"EB Garamond"}}>Client: {props.data.client}</h5>}
+        {props.data.collaborator && <h5 className='py-2' style ={{fontFamily:"EB Garamond"}}>Collaborator: {props.data.collaborator}</h5>}
        
          <p class="card-text p-4 news-font">
           <ul style = {{paddingInlineStart: 0}}>

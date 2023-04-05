@@ -87,12 +87,12 @@ function AboutUS (props) {
             </div>
           : <div>
 
-              <div className="d-flex flex-wrap justify-content-center">
+              <div className="d-flex flex-wrap justify-content-center ">
                 {client.map ((value, index) => (
                   <Icon data={value} width={'150px'} />
                 ))}
               </div>
-              <div className="d-flex flex-wrap justify-content-center">
+              <div className="d-flex flex-wrap justify-content-center py-4 my-4">
                 {client2.map ((value, index) => (
                   <Icon data={value} width={'155px'} />
                 ))}
