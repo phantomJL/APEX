@@ -1,10 +1,28 @@
 
 export const work = [
+  
+  {
+    case_name: `A Night Out with Jessica Jung at La Mer “Miracle Unveiled”`,
+    location:"July 2023, Singapore",
+    client:"La Mer",
+    points: ["Talent strategy + vetting + analysis",
+    'Deal negotiation',
+    "Contracting",
+  'Talent communications','Content management'],
+    cover: '/img/caseStudy/work/La Mer x Jessica Jung.jpg',
+  },
+  {
+    case_name: `Wall Street Journal (WSJ) China × Daniel Wu Cover Story`,
+    location:"May 2023, New York",
+    client:"WSJ China",
+    points: ["Castings + Talent communications","Styling coordination",'Budgeting','Pre- + Site-production', 'Management of post-production'],
+    cover: '/img/caseStudy/work/WSJ x Daniel WU.jpg',
+  },
 {
-    case_name: `SuperELLE China x Stephanie Hsu Cover Story`,
+    case_name: `SuperELLE China × Stephanie Hsu Cover Story`,
     location:"January 2023, Los Angeles",
     client:"SuperELLE China",
-    points: ["PR + Casting + Talent Communications",
+    points: ["PR + Casting + Talent communications",
     'Styling Coordination',
     "Budgeting",
   'Scheduling + Travel',
@@ -13,10 +31,10 @@ export const work = [
     cover: '/img/caseStudy/work/SuperELLE x Stephanie Hsu 1280x655.jpg',
   },
   {
-    case_name: `GLASS China x Whitney Peak x CHANEL Cover Story`,
+    case_name: `GLASS China × Whitney Peak × CHANEL Cover Story`,
     location:"January 2023, New York",
     client:"GLASS China",
-    points: ["PR + Client communications",
+    points: ["Castings + Talent communications",
     'Budgeting',
     'Pre- + Site-production', 
     "Management of post-production"],
@@ -31,7 +49,7 @@ export const work = [
     cover: '/img/caseStudy/work/GlassMan x Lay.JPG',
   },
   {
-    case_name: `David Yurman x Jenny Tsang Year of the Ox Influencer Campaign
+    case_name: `David Yurman × Jenny Tsang Year of the Ox Influencer Campaign
     `,
     location:"February 2021, digital",
     client:"David Yurman",
@@ -46,7 +64,7 @@ export const work = [
     cover: '/img/caseStudy/work/UN ActNow.JPG',
   },
   {
-    case_name: 'DAZED China x Timothée Chalamet Cover Story',
+    case_name: 'DAZED China × Timothée Chalamet Cover Story',
     location:"February 2020, Los Angeles",
     client:"DAZED China",
     points: ['Casting + Talent communications','Budgeting',"Scheduling + Travel","Pre-production, Site-production, Management of post-production"],
@@ -60,7 +78,7 @@ export const work = [
     cover: '/img/caseStudy/work/SuperM x WHO.jpg',
   },
   {
-    case_name: `ELLEMEN Fresh x Jodie Comer Cover Story`,
+    case_name: `ELLEMEN Fresh × Jodie Comer Cover Story`,
     location:"March 2019, Los Angeles",
     client:"ELLEMEN Fresh",
     points: ["Casting + Talent communications",
@@ -126,7 +144,7 @@ export const work = [
   },
   
   {
-    case_name: `Karry Wang x The Great Wall Press Tour at New York Comic Con`,
+    case_name: `Karry Wang × The Great Wall Press Tour at New York Comic Con`,
     location:"October 2016, New York",
     client:"Karry Wang",
     points: ['Talent communications',"Media relations"],

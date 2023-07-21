@@ -110,6 +110,8 @@ export const news = [
 ];
 
 export const magazine = [
+  {url: '/img/mediaRelation/2023_7-8_Esquire Singapore June July summer cover_Corey Mylchreest.jpeg'},
+  {url: '/img/mediaRelation/2023_6_WSJ China June Cover_Daniel Wu.jpg'},
   {url: '/img/mediaRelation/2023_4_Marie Claire HK_Fala CHen_April Cover.jpg'},
   {url: '/img/mediaRelation/2023_4_SuperELLE China April Cover_Stephanie Hsu.JPG'},
   {url: '/img/mediaRelation/2023_3_GLASS Vision China March Cover_Fei.jpg'},
