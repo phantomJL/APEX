@@ -15,7 +15,7 @@ export const work = [
     case_name: `Wall Street Journal (WSJ) China × Daniel Wu Cover Story`,
     location:"May 2023, New York",
     client:"WSJ China",
-    points: ["Castings + Talent communications","Styling coordination",'Budgeting','Pre- + Site-production', 'Management of post-production'],
+    points: ["Casting + Talent communications","Styling coordination",'Budgeting','Pre- + Site-production', 'Management of post-production'],
     cover: '/img/caseStudy/work/WSJ x Daniel WU.jpg',
   },
 {
@@ -34,7 +34,7 @@ export const work = [
     case_name: `GLASS China × Whitney Peak × CHANEL Cover Story`,
     location:"January 2023, New York",
     client:"GLASS China",
-    points: ["Castings + Talent communications",
+    points: ["Casting + Talent communications",
     'Budgeting',
     'Pre- + Site-production', 
     "Management of post-production"],
