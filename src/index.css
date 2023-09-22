@@ -496,6 +496,17 @@ input{
   background-color: #FFE4E1;
 
 }
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  white-space: nowrap; /* Prevent text from wrapping */
+  border-left: 1px solid darkgray; /* Add a right border with desired width and color */
+  padding-left: 1px; /* Optional: Add some padding to create space between text and border */
+  margin-left: 10px;
+  color: darkgray;
+}
+
 @keyframes moveInleft {
   0% {
       opacity: 0;
@@ -597,7 +608,6 @@ input{
  /* gallery */
  .freeze{
    position: fixed;
-   background-color: white;
    top: 50px;
    width: 100%;
    z-index: 50;

@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {withRouter} from 'react-router-dom';
 import Picture from './gallery.component/picture.component';
 import Video from './gallery.component/video.component';
-import {video, magazine} from '../../data/gallery.data';
+import {video, magazine, commercial} from '../../data/gallery.data';
 import ReactPlayer from 'react-player';
 import '../../index.css';
 function Gallery (props) {
@@ -13,6 +13,11 @@ function Gallery (props) {
     .map (a => ({sort: Math.random (), value: a}))
     .sort ((a, b) => a.sort - b.sort)
     .map (a => a.value);
+
+  const random_commercial = commercial
+  .map (a => ({sort: Math.random (), value: a}))
+  .sort ((a, b) => a.sort - b.sort)
+  .map (a => a.value);
   const [width, setWidth] = useState (window.innerWidth);
   const updateDimensions = () => {
     setWidth (window.innerWidth);
@@ -26,7 +31,7 @@ function Gallery (props) {
   );
   return (
     <main className="px-md-4 px-2 py-4">
-      <section className="d-flex p-4 justify-content-center  freeze">
+      <section className="d-flex p-4 justify-content-center freeze">
         <div
           className={`btn btn-line mx-4 article ${show === 'video' ? 'active' : ''}`}
           onClick={e => setShow ('video')}
@@ -56,16 +61,51 @@ function Gallery (props) {
         : <section className="py-4">
 
             {width < 767
-              ? <div className="d-flex flex-wrap">
+              ?
+              <div className='overflow-hidden'>
+              <div className='d-flex align-items-baseline'  style={{paddingBottom: '50px'}}>
+                  
+                <div className="d-flex flex-wrap">
+                  {random_commercial.map ((value, index) => (
+                    <Picture data={value} height={'160px'} />
+                  ))}
+                </div>
+                <div className='vertical-text about-text'>
+                COMMERCIAL & AD
+                  </div>
+              </div> 
+              <hr className='w-25'></hr>
+              <div className='d-flex align-items-baseline'  style={{paddingTop: '50px'}}>
+                <div className="d-flex flex-wrap">
                   {random_magazine.map ((value, index) => (
                     <Picture data={value} height={'160px'} />
                   ))}
                 </div>
-              : <div className="d-flex flex-wrap">
-                  {random_magazine.map ((value, index) => (
-                    <Picture data={value} height={'260px'} />
-                  ))}
-                </div>}
+                <div className='vertical-text  about-text'>EDITORIAL</div>
+
+              </div> 
+              </div>
+              
+              : 
+              <div>
+                <div className='d-flex align-items-baseline ' style={{paddingBottom: '50px'}}>
+                  <div className="d-flex flex-wrap">
+                    {random_commercial.map ((value, index) => (
+                      <Picture data={value} height={'260px'} />
+                    ))}
+                  </div>
+                  <div className='vertical-text about-text'>COMMERCIAL & AD</div>
+                </div> 
+                <hr className='w-25'></hr>
+                <div className='d-flex align-items-baseline' style={{paddingTop: '50px'}}>
+                  <div className="d-flex flex-wrap">
+                    {random_magazine.map ((value, index) => (
+                      <Picture data={value} height={'260px'} />
+                    ))}
+                  </div>
+                  <div className='vertical-text  about-text'>EDITORIAL</div>
+                </div> 
+              </div>}
 
           </section>}
       <div

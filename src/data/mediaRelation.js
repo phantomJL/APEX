@@ -110,6 +110,9 @@ export const news = [
 ];
 
 export const magazine = [
+  {url: 'https://www.dropbox.com/scl/fi/02sz693f03hq9sqkeqgy5/Esquire-SG_COVER_SEP1_Daniel-Wu.jpg?rlkey=w05qqbqn3bvqqdstt5y1s36ii&raw=1'},
+  {url: 'https://www.dropbox.com/scl/fi/4a9strqzdwot8r6wqky07/Esquire-SG_COVER_SEP2_Daniel-Wu.jpg?rlkey=suw87wh5vmsieiymh13fjuxjx&raw=1'},
+  {url:'https://www.dropbox.com/scl/fi/xhjefl88skjljdv1ah4d6/2023_9_Super-ELLE-China-August-Cover_PomK.JPG?rlkey=ssnkmj5011ffm819o8z52d3oa&raw=1'},
   {url: '/img/mediaRelation/2023_7-8_Esquire Singapore June July summer cover_Corey Mylchreest.jpeg'},
   {url: '/img/mediaRelation/2023_6_WSJ China June Cover_Daniel Wu.jpg'},
   {url: '/img/mediaRelation/2023_4_Marie Claire HK_Fala CHen_April Cover.jpg'},
