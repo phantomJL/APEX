@@ -1,6 +1,19 @@
 
 export const work = [
-  
+  {
+    case_name: `La Mer First Brand Ambassador Deal and Campaign`,
+    location:"August 2023, Seoul, Korea",
+    client:"La Mer Global",
+    talent:'Gianna Jun / Jun Ji-hyun',
+    points: ["Casting ",
+    'Talent strategy and analysis',
+'Talent management and communications',
+'Deal negotiation',
+'Legal and contracting',
+'Production coordination',
+'Post management' ],
+    cover: '/img/caseStudy/work/La Mer x Gianna Jun.jpg',
+  },
   {
     case_name: `A Night Out with Jessica Jung at La Mer “Miracle Unveiled”`,
     location:"July 2023, Singapore",

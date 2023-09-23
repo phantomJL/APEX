@@ -6,6 +6,13 @@ export const video = [
     video_link: 'https://www.dropbox.com/scl/fi/0ypnvcp9bsbbrdycrstbh/W-China-x-LOTUS-x-Lela-Wang_15s_4K.mp4?rlkey=uapr3nh8py3122t7pd34p7n2d&dl=0',
   },
   {
+    img_url: '/img/gallery/video/Super ELLE China x PomK.png',
+    magazine: 'Super ELLE China August 2023 x Cartier',
+    starring: 'Pom Klementieff',
+    director: 'Kristian Schuller',
+    video_link: 'https://www.dropbox.com/scl/fi/38lje7yevccdbotyhe5f0/Super-ELLE-China-x-Pom-K.mp4?rlkey=xoqy5sn767x0p3e8ximu4xqez&dl=0',
+  },
+  {
     img_url: '/img/gallery/video/SuperELLE x Stephanie Hsu 16x6.75.png',
     magazine: 'Super ELLE (China) April 2023',
     starring: 'Stephanie Hsu',
@@ -30,7 +37,8 @@ export const video = [
   },
   {
     img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
-    magazine: 'Helena Rubinstein x Fala Chen',
+    magazine: 'Helena Rubinstein Campaign',
+    starring: 'Fala Chen',
     video_link: 'https://www.dropbox.com/s/7pxqr1a8qqc4nhd/helena_rubinstein_120th_anniversary_spot_w__fala_chen_16x9%20%28Original%29.mp4?raw=1',
   },
   {
@@ -146,9 +154,6 @@ export const video = [
 export const magazine = [
   {
     img_url: 'https://www.dropbox.com/scl/fi/v9h2hajpprhsurp3k7ehv/IG_FEATURES_Cover_Corey-Mylchreest_JUNJUL2318.jpg?rlkey=twyogoih69i4u066kgkxo7ryn&raw=1',
-  },
-  {
-    img_url: 'https://www.dropbox.com/scl/fi/qjlncijqmjvnaveie0jl5/IG_FEATURES_Cover_Corey-Mylchreest_JUNJUL23_DPS3.jpg?rlkey=j9p74tcrxm0hk746k7dq5pbzm&raw=1',
   },
   {
     img_url: 'https://www.dropbox.com/scl/fi/r3uey0ei7795sfnfldyud/IG_FEATURES_Cover_Corey-Mylchreest_JUNJUL23_DPS.jpg?rlkey=f5xr7bb8lipag9cyotqwvoqlg&raw=1',
@@ -333,14 +338,29 @@ export const magazine = [
   {img_url: 'img/gallery/magazine/吴磊 02.jpg'},
   {img_url: 'img/gallery/magazine/無題會話15580.jpg'},
   {img_url: 'img/gallery/magazine/郭采洁24p导出-3.jpg'},
+  {img_url:'https://www.dropbox.com/scl/fi/vlsij1gua5gu59yh2ez63/Vogue-HK-032_COVER_Fala-Chen.jpg?rlkey=ic3qxkfgrq3p6415tcmfowphn&raw=1'},
+  {img_url:'img/gallery/magazine/VHK_030_Coverstory 3_Page_1.png'}
+
 ];
 
 export const commercial=[
-  {img_url:'https://www.dropbox.com/s/wiim5secgz1xjdu/200716x%E9%83%AD%E9%87%87%E6%B4%810264.jpg?raw=1'},
-  {img_url:'https://www.dropbox.com/s/noptjqp0ma0orva/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo-.jpg?raw=1'},
-  {img_url:'https://www.dropbox.com/s/z4um6fz7oiqxlqd/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo.jpg?raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/8vwcvducpkcigsv84nwl0/La-Mer-x-Gianna-Jun_2.JPG?rlkey=fvgrs33du6ixavpbgfkyojxm7&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/cy23h7khyawpkisg0b4jr/La-Mer-x-Gianna-Jun_1.JPG?rlkey=uemighd9zc2mmv5qu85oy1dkl&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/t0n4w4nwwtjrlkpbe4y4z/La-Mer-x-Gianna-Jun_5.JPG?rlkey=ysq4b7w34te6n2w7i5a71cbdt&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/57umlgbrzk7q8suko7x5z/La-Mer-x-Gianna-Jun_3.JPG?rlkey=pbznpqyhyxlj13hbs3k7v8fbs&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/vsnauf40kvjq3phuafja9/La-Mer-x-Gianna-Jun_4.JPG?rlkey=vnr71fx9dnzbfxcw2d99ml50u&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/bw8pfpecqmlyildsg5drf/La-Mer-x-Gianna-Jun_0.JPG?rlkey=tmp7v7umkpumv7x1dqpcnstgt&raw=1'},
+  
   {
-    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0195-725.png',
+    img_url: 'https://www.dropbox.com/scl/fi/qjlncijqmjvnaveie0jl5/IG_FEATURES_Cover_Corey-Mylchreest_JUNJUL23_DPS3.jpg?rlkey=j9p74tcrxm0hk746k7dq5pbzm&raw=1',
+  },
+  {img_url:'https://www.dropbox.com/scl/fi/8j02o5o2ps5gniazs6xzy/David-Yurman-x-Jenny-Tsang_Lunar-New-Year.jpg?rlkey=qb76vrh7kxkrvu1uu57444h3h&raw=1'},
+  
+  {
+    img_url:'https://www.dropbox.com/scl/fi/r3etaki0733pkr0awl8e2/20220714_Helena-Rubinstein-X-Fala-Chen_Beauty0195-725.png?rlkey=n3u1xpksnpxz3ts1kp6bx5vmd&raw=1'
+  },
+  {
+    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0195-725.tif',
   },
   {
     img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0334-625 µï╖Φ┤¥.png',
@@ -351,18 +371,28 @@ export const commercial=[
   {
     img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0954 2-725.png',
   },
-  {img_url:'https://www.dropbox.com/scl/fi/kd9kmefv5v2igz2p7tseg/Fala5.png?rlkey=je8wtpk346b9x449ho2jewb2z&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/midu0uukfd3om104ac8ov/Fala6.png?rlkey=tnr6zfpf1jko7s1ivr3x9cwgm&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/bw8pfpecqmlyildsg5drf/La-Mer-x-Gianna-Jun_0.JPG?rlkey=tmp7v7umkpumv7x1dqpcnstgt&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/cy23h7khyawpkisg0b4jr/La-Mer-x-Gianna-Jun_1.JPG?rlkey=uemighd9zc2mmv5qu85oy1dkl&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/8vwcvducpkcigsv84nwl0/La-Mer-x-Gianna-Jun_2.JPG?rlkey=fvgrs33du6ixavpbgfkyojxm7&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/57umlgbrzk7q8suko7x5z/La-Mer-x-Gianna-Jun_3.JPG?rlkey=pbznpqyhyxlj13hbs3k7v8fbs&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/vsnauf40kvjq3phuafja9/La-Mer-x-Gianna-Jun_4.JPG?rlkey=vnr71fx9dnzbfxcw2d99ml50u&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/t0n4w4nwwtjrlkpbe4y4z/La-Mer-x-Gianna-Jun_5.JPG?rlkey=ysq4b7w34te6n2w7i5a71cbdt&raw=1'},
+  {img_url: 'img/gallery/magazine/SET_1-702_FINAL.png'},
+  {img_url: 'img/gallery/magazine/SET_3-121_FINAL.png'},
+
+  {img_url:'https://www.dropbox.com/s/z4um6fz7oiqxlqd/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo.jpg?raw=1'},
+  {img_url:'https://www.dropbox.com/s/noptjqp0ma0orva/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo-.jpg?raw=1'},
+  {img_url:'https://www.dropbox.com/s/wiim5secgz1xjdu/200716x%E9%83%AD%E9%87%87%E6%B4%810264.jpg?raw=1'},
+
   {img_url:'https://www.dropbox.com/scl/fi/jo2q72jw2fjsw3yb75r1t/W-China-x-Lotus_1.JPG?rlkey=91q4qncfrpw5fmo8horkr0yoo&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/9sy5gs2c3hoc8nlxamzmu/W-China-x-Lotus_2.JPG?rlkey=mlai6riw2i6kitmg0w11zd12l&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/pqpx1jrdx5od27ypchzed/W-China-x-Lotus_3.JPG?rlkey=hze9me40f0rrzianzhc6maqp7&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/tcjj1otk1bnaay537nux8/W-China-x-Lotus_4.JPG?rlkey=jg1w4mdey9t15nwbalzv4cs8o&raw=1'},
-  {img_url: 'img/gallery/magazine/SET_1-702_FINAL.png'},
-  {img_url: 'img/gallery/magazine/SET_3-121_FINAL.png'},
+  {img_url:'https://www.dropbox.com/scl/fi/tcjj1otk1bnaay537nux8/W-China-x-Lotus_4.JPG?rlkey=jg1w4mdey9t15nwbalzv4cs8o&raw=1'}, 
+ 
+]
+
+export const commercial_items=[
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/4tbqg6ivv6ckmlp6y9pnq/Tiffany-Bluebook-x-Noblesse-CN_1.jpg?rlkey=6yu3iczxtjv5mhw9bk25ji3yi&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/w3pjhxahijkybm6nwauh3/Tiffany-Bluebook-x-Noblesse-CN_2.jpg?rlkey=h7lwz422fxqirhngf2pgk4wk3&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/lpfq1m2el2u78mg4fsafo/Tiffany-Bluebook-x-Noblesse-CN_3.jpg?rlkey=vhmue1ngdp33mofsvplngpbll&raw=1',
+  },
 ]
