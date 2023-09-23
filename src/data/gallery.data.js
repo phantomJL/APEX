@@ -360,9 +360,6 @@ export const commercial=[
     img_url:'https://www.dropbox.com/scl/fi/r3etaki0733pkr0awl8e2/20220714_Helena-Rubinstein-X-Fala-Chen_Beauty0195-725.png?rlkey=n3u1xpksnpxz3ts1kp6bx5vmd&raw=1'
   },
   {
-    img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0195-725.tif',
-  },
-  {
     img_url: 'img/gallery/magazine/20220714_Helena Rubinstein X Fala Chen_Beauty0334-625 µï╖Φ┤¥.png',
   },
   {
