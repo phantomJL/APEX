@@ -377,12 +377,12 @@ export const commercial=[
   {img_url:'https://www.dropbox.com/s/z4um6fz7oiqxlqd/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo.jpg?raw=1'},
   {img_url:'https://www.dropbox.com/s/noptjqp0ma0orva/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo-.jpg?raw=1'},
   {img_url:'https://www.dropbox.com/s/wiim5secgz1xjdu/200716x%E9%83%AD%E9%87%87%E6%B4%810264.jpg?raw=1'},
-
-  {img_url:'https://www.dropbox.com/scl/fi/jo2q72jw2fjsw3yb75r1t/W-China-x-Lotus_1.JPG?rlkey=91q4qncfrpw5fmo8horkr0yoo&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/9sy5gs2c3hoc8nlxamzmu/W-China-x-Lotus_2.JPG?rlkey=mlai6riw2i6kitmg0w11zd12l&raw=1'},
+  
   {img_url:'https://www.dropbox.com/scl/fi/pqpx1jrdx5od27ypchzed/W-China-x-Lotus_3.JPG?rlkey=hze9me40f0rrzianzhc6maqp7&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/tcjj1otk1bnaay537nux8/W-China-x-Lotus_4.JPG?rlkey=jg1w4mdey9t15nwbalzv4cs8o&raw=1'}, 
- 
+  {img_url:'https://www.dropbox.com/scl/fi/jo2q72jw2fjsw3yb75r1t/W-China-x-Lotus_1.JPG?rlkey=91q4qncfrpw5fmo8horkr0yoo&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/9sy5gs2c3hoc8nlxamzmu/W-China-x-Lotus_2.JPG?rlkey=mlai6riw2i6kitmg0w11zd12l&raw=1'},
+  
 ]
 
 export const commercial_items=[

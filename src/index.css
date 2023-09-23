@@ -611,6 +611,7 @@ input{
    top: 50px;
    width: 100%;
    z-index: 50;
+   background-color: white;
  }
  .video-margin{
    margin-top: 10px;
