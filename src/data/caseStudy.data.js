@@ -12,7 +12,7 @@ export const work = [
 'Legal and contracting',
 'Production coordination',
 'Post management' ],
-    cover: '/img/caseStudy/work/La Mer x Gianna Jun.jpg',
+    cover: '/img/caseStudy/work/La Mer x Gianna Jun.JPG',
   },
   {
     case_name: `A Night Out with Jessica Jung at La Mer “Miracle Unveiled”`,
