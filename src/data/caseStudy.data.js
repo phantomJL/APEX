@@ -12,12 +12,13 @@ export const work = [
 'Legal and contracting',
 'Production coordination',
 'Post management' ],
-    cover: '/img/caseStudy/work/La Mer x Gianna Jun.jpg',
+    cover: '/img/caseStudy/work/La Mer x Gianna Jun.JPG',
   },
   {
-    case_name: `A Night Out with Jessica Jung at La Mer “Miracle Unveiled”`,
+    case_name: `A Night Out at La Mer “Miracle Unveiled”`,
     location:"July 2023, Singapore",
     client:"La Mer",
+    talent:'Jessica Jung',
     points: ["Talent strategy + vetting + analysis",
     'Deal negotiation',
     "Contracting",
@@ -62,10 +63,11 @@ export const work = [
     cover: '/img/caseStudy/work/GlassMan x Lay.JPG',
   },
   {
-    case_name: `David Yurman × Jenny Tsang Year of the Ox Influencer Campaign
+    case_name: `David Yurman Year of the Ox Influencer Campaign
     `,
     location:"February 2021, digital",
     client:"David Yurman",
+    kol:'Jenny Tsang',
     points: ["Talent vetting + analysis",'Contracting','Deal negotiation', "Content management"],
     cover: '/img/caseStudy/work/David Yurman x Jenny.jpg',
   },

@@ -17,6 +17,8 @@ function Work (props) {
         <div className='py-2'>
           <h5 style ={{fontFamily:"EB Garamond"}}>Client: {props.data.client}</h5>
           {props.data.talent && <h5 style ={{fontFamily:"EB Garamond"}}>Talent: {props.data.talent}</h5>}
+          {props.data.kol && <h5 style ={{fontFamily:"EB Garamond"}}>KOL: {props.data.kol}</h5>}
+
           </div>
         }
         {props.data.collaborator && <h5 className='py-2' style ={{fontFamily:"EB Garamond"}}>Collaborator: {props.data.collaborator}</h5>}
