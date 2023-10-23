@@ -137,6 +137,18 @@ export default function Nav (props) {
           </li>
           <li className="nav-item px-2 d-flex ">
             <div
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              className={`nav-link ${currentPage === '/Event' ? 'selected' : ''}`}
+              onClick={e => navToPage ('Event')}
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+            >
+              EVENT
+            </div>
+          </li>
+          <li className="nav-item px-2 d-flex ">
+            <div
               className={`nav-link ${currentPage === '/ContactUs' ? 'selected' : ''}`}
               data-toggle="collapse"
               data-target="#navbarSupportedContent"

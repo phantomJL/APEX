@@ -14,6 +14,9 @@ const AboutUs = React.lazy (() =>
 const CaseStudy = React.lazy (() =>
   import ('./containers/caseStudy/caseStudy.container')
 );
+const Event = React.lazy (() =>
+  import ('./containers/event/event.container')
+);
 const Gallery = React.lazy (() =>
   import ('./containers/gallery/gallery.container')
 );
@@ -23,6 +26,8 @@ const MediaRelation = React.lazy (() =>
 const ContactUsContainer = React.lazy (() =>
   import ('./containers/contactUs/contactUs.container')
 );
+
+
 
 class App extends Component {
   componentDidMount () {
@@ -44,11 +49,11 @@ class App extends Component {
               <Route exact path="/AboutUs" component={AboutUs} />
               <Route exact path="/SelectWork" component={CaseStudy} />
               <Route exact path="/Gallery" component={Gallery} />
+              <Route exact path="/Event" component={Event} />
               <Route exact path="/MediaRelation" component={MediaRelation} />
               <Route exact path="/ContactUs" component={ContactUsContainer} />
 
               <Route exact path="/nomatch" component={Page404} />
-
               {/* <Logo>
             <Switch>
               <Route exact path="/dashboard" component={dashboard} />
