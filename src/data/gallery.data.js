@@ -1,5 +1,11 @@
 export const video = [
   {
+    img_url: '/img/gallery/video/La Mer x Gianna Jun.png',
+    magazine: 'La Mer Campaign',
+    starring: 'Gianna Jun',
+    video_link: 'https://www.dropbox.com/scl/fi/fq4tqzovbu8iuk7p6qzwe/0908_LAMER_hero-film_30s_2.m4v?rlkey=9oiyqsqg8fnt02u5uocgml3i2&dl=0',
+  },
+  {
     img_url: '/img/gallery/video/W China x LOTUS x Lela Wang.png',
     magazine: 'LOTUS x W (China)',
     starring: 'Lela Wang',
