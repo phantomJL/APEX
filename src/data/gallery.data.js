@@ -1,9 +1,15 @@
 export const video = [
   {
-    img_url: '/img/gallery/video/La Mer x Gianna Jun.png',
+    img_url: '/img/gallery/video/La Mer x Gianna Jun_photo.jpeg',
     magazine: 'La Mer Campaign',
     starring: 'Gianna Jun',
     video_link: 'https://www.dropbox.com/scl/fi/fq4tqzovbu8iuk7p6qzwe/0908_LAMER_hero-film_30s_2.m4v?rlkey=9oiyqsqg8fnt02u5uocgml3i2&dl=0',
+  },
+  {
+    img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
+    magazine: 'Helena Rubinstein Campaign',
+    starring: 'Fala Chen',
+    video_link: 'https://www.dropbox.com/s/7pxqr1a8qqc4nhd/helena_rubinstein_120th_anniversary_spot_w__fala_chen_16x9%20%28Original%29.mp4?raw=1',
   },
   {
     img_url: '/img/gallery/video/W China x LOTUS x Lela Wang.png',
@@ -41,12 +47,7 @@ export const video = [
     magazine: 'FENDI x Grazia (China)',
     video_link: 'https://www.dropbox.com/s/ajcntqcivhnb83v/Fendi%20x%20Grazia%20China.mp4?raw=1',
   },
-  {
-    img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
-    magazine: 'Helena Rubinstein Campaign',
-    starring: 'Fala Chen',
-    video_link: 'https://www.dropbox.com/s/7pxqr1a8qqc4nhd/helena_rubinstein_120th_anniversary_spot_w__fala_chen_16x9%20%28Original%29.mp4?raw=1',
-  },
+  
   {
     img_url: '/img/gallery/video/TYY x Glass.png',
     magazine: 'GLASS (China) August 2022',
