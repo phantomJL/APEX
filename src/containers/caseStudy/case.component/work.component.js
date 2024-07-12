@@ -4,11 +4,11 @@ function Work (props) {
     <div>
       <img
         style={{width: '100%'}}
-        class="card-img-top"
+        className="card-img-top"
         src={props.data.cover}
         alt="Card cap"
       />
-      <div class="work-body">
+      <div className="work-body">
         <div style ={{fontFamily:"Helvetica Neue"}} >
         <h5>{props.data.case_name}</h5>
         <h5>{props.data.location}</h5>
@@ -23,7 +23,7 @@ function Work (props) {
         }
         {props.data.collaborator && <h5 className='py-2' style ={{fontFamily:"EB Garamond"}}>Collaborator: {props.data.collaborator}</h5>}
 
-         <p class="card-text p-4 news-font">
+         <p className="card-text p-4 news-font">
           <ul style = {{paddingInlineStart: 0}}>
             {props.data.points && props.data.points.map((point)=>(
               <li>{point}</li>

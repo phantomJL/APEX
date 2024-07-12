@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {withRouter} from 'react-router-dom';
 import Picture from './gallery.component/picture.component';
 import Video from './gallery.component/video.component';
-import {video, magazine, commercial, commercial_items} from '../../data/gallery.data';
+import {editorial_video, documentary, commercial_video, magazine, commercial, commercial_items} from '../../data/gallery.data';
 import ReactPlayer from 'react-player';
 import '../../index.css';
 function Gallery (props) {
@@ -44,22 +44,99 @@ function Gallery (props) {
 
       {show === 'video'
         ? <section className="py-4 video-margin" style={{overflowX: 'hidden'}}>
-            <div className="row">
-              {video.map ((value, index) => (
+          {width < 767
+              ?
+              <div className='overflow-hidden'>
+              <div className='d-flex align-items-top'  style={{paddingBottom: '50px'}}> 
+                  <div className="d-flex flex-wrap">
+                    {commercial_video.map ((value, index) => (
                 <Video
                   data={value}
                   setVideo={setPlay}
                   setVideoPlay={setVideoPlay}
                 />
               ))}
-            </div>
+                  </div>
+                <div className='vertical-text about-text'>
+                COMMERCIAL & AD
+                  </div>
+              </div> 
+              <hr className='w-25'></hr>
+              <div className='d-flex align-items-top'  style={{paddingTop: '50px', paddingBottom: '50px'}}>
+                <div className="d-flex flex-wrap">
+                {editorial_video.map ((value, index) => (
+                <Video
+                  data={value}
+                  setVideo={setPlay}
+                  setVideoPlay={setVideoPlay}
+                />
+              ))}
+                </div>
+                <div className='vertical-text  about-text'>EDITORIAL</div>
+              </div> 
+              <hr className='w-25'></hr>
+              <div className='d-flex align-items-top'  style={{paddingTop: '50px'}}>
+                <div className="d-flex flex-wrap">
+                {documentary.map ((value, index) => (
+                <Video
+                  data={value}
+                  setVideo={setPlay}
+                  setVideoPlay={setVideoPlay}
+                />
+              ))}
+                </div>
+                <div className='vertical-text  about-text'>DOCUMENTARY & EVENT</div>
+              </div> 
+              </div>
+              
+              : 
+              <div>
+                <div className='d-flex align-items-top ' style={{paddingBottom: '50px'}}>
+                  <div className="d-flex flex-wrap">
+                  {commercial_video.map ((value, index) => (
+                <Video
+                  data={value}
+                  setVideo={setPlay}
+                  setVideoPlay={setVideoPlay}
+                />
+              ))}
+                  </div>
+                  <div className='vertical-text about-text'>COMMERCIAL & AD</div>
+                </div> 
+                <hr className='w-25'></hr>
+                <div className='d-flex align-items-top' style={{paddingTop: '50px', paddingBottom: '50px'}}>
+                  <div className="d-flex flex-wrap">
+                  {editorial_video.map ((value, index) => (
+                <Video
+                  data={value}
+                  setVideo={setPlay}
+                  setVideoPlay={setVideoPlay}
+                />
+              ))}
+                  </div>
+                  <div className='vertical-text  about-text'>EDITORIAL</div>
+                </div> 
+                <hr className='w-25'></hr>
+                <div className='d-flex align-items-top' style={{paddingTop: '50px'}}>
+                  <div className="d-flex flex-wrap">
+                  {documentary.map ((value, index) => (
+                <Video
+                  data={value}
+                  setVideo={setPlay}
+                  setVideoPlay={setVideoPlay}
+                />
+              ))}
+                  </div>
+                  <div className='vertical-text  about-text'>DOCUMENTARY & EVENT</div>
+                </div> 
+              </div>}
           </section>
         : <section className="py-4">
 
             {width < 767
               ?
               <div className='overflow-hidden'>
-              <div className='d-flex align-items-baseline'  style={{paddingBottom: '50px'}}>
+              <div className='d-flex align-items-top'  style={{paddingBottom: '50px'}}>
                   
               <div>
                   <div className="d-flex flex-wrap">
@@ -78,20 +155,19 @@ function Gallery (props) {
                   </div>
               </div> 
               <hr className='w-25'></hr>
-              <div className='d-flex align-items-baseline'  style={{paddingTop: '50px'}}>
+              <div className='d-flex align-items-top'  style={{paddingTop: '50px'}}>
                 <div className="d-flex flex-wrap">
                   {random_magazine.map ((value, index) => (
                     <Picture data={value} height={'160px'} />
                   ))}
                 </div>
                 <div className='vertical-text  about-text'>EDITORIAL</div>
-
               </div> 
               </div>
               
               : 
               <div>
-                <div className='d-flex align-items-baseline ' style={{paddingBottom: '50px'}}>
+                <div className='d-flex align-items-top ' style={{paddingBottom: '50px'}}>
                   <div>
                   <div className="d-flex flex-wrap">
                     {commercial.map ((value, index) => (
@@ -107,7 +183,7 @@ function Gallery (props) {
                   <div className='vertical-text about-text'>COMMERCIAL & AD</div>
                 </div> 
                 <hr className='w-25'></hr>
-                <div className='d-flex align-items-baseline' style={{paddingTop: '50px'}}>
+                <div className='d-flex align-items-top' style={{paddingTop: '50px'}}>
                   <div className="d-flex flex-wrap">
                     {random_magazine.map ((value, index) => (
                       <Picture data={value} height={'260px'} />

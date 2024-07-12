@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import { toggleSideBar } from "../../actions/nav.action";
-import Nav from "./Nav.component";
+import Nav from "./nav.component";
 import Sidebar from "./Sidebar.component";
 import "./Main.component.css";
 

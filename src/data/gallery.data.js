@@ -1,28 +1,16 @@
-export const video = [
+export const editorial_video = [
   {
-    img_url: '/img/gallery/video/La Mer x Gianna Jun_photo.jpeg',
-    magazine: 'La Mer Campaign',
-    starring: 'Gianna Jun',
-    video_link: 'https://www.dropbox.com/scl/fi/fq4tqzovbu8iuk7p6qzwe/0908_LAMER_hero-film_30s_2.m4v?rlkey=9oiyqsqg8fnt02u5uocgml3i2&dl=0',
+    img_url: '/img/gallery/video/Timmy.jpeg',
+    magazine: 'DAZED (China) March/April 2020',
+    starring: 'Timothée Chalamet',
+    director: 'Yulizhe',
+    video_link: 'https://www.dropbox.com/scl/fi/0cvj31y1b55c53g7215td/Timoth-e-Chalamet-x-DAZED-CN.mp4?rlkey=vjn8xe5sndio9m6q1e75sw47c&st=oovjabxu&dl=0',
   },
   {
-    img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
-    magazine: 'Helena Rubinstein Campaign',
-    starring: 'Fala Chen',
-    video_link: 'https://www.dropbox.com/s/7pxqr1a8qqc4nhd/helena_rubinstein_120th_anniversary_spot_w__fala_chen_16x9%20%28Original%29.mp4?raw=1',
-  },
-  {
-    img_url: '/img/gallery/video/W China x LOTUS x Lela Wang.png',
-    magazine: 'LOTUS x W (China)',
-    starring: 'Lela Wang',
-    video_link: 'https://www.dropbox.com/scl/fi/0ypnvcp9bsbbrdycrstbh/W-China-x-LOTUS-x-Lela-Wang_15s_4K.mp4?rlkey=uapr3nh8py3122t7pd34p7n2d&dl=0',
-  },
-  {
-    img_url: '/img/gallery/video/Super ELLE China x PomK.png',
-    magazine: 'Super ELLE China August 2023 x Cartier',
-    starring: 'Pom Klementieff',
-    director: 'Kristian Schuller',
-    video_link: 'https://www.dropbox.com/scl/fi/38lje7yevccdbotyhe5f0/Super-ELLE-China-x-Pom-K.mp4?rlkey=xoqy5sn767x0p3e8ximu4xqez&dl=0',
+    img_url: '/img/gallery/video/Rebecca Hall x GLASS CN.png',
+    magazine: 'GLASS (China) April 2024',
+    starring: 'Rebecca Hall',
+    video_link: 'https://www.dropbox.com/scl/fi/k2n8egql549zpmfxxia9z/GLASS-China-x-Rebecca-Hall.mp4.mov?rlkey=78156550g94ymbiz02xuoe0wc&st=3yy30qqf&dl=0',
   },
   {
     img_url: '/img/gallery/video/SuperELLE x Stephanie Hsu 16x6.75.png',
@@ -31,24 +19,33 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/cxqvb06ssccfrv9/SuperELLE%20x%20Stephanie%20BTS%20final.mp4?raw=1',
   },
   {
-    img_url: '/img/gallery/video/GLASS x WP 16x6.75.jpg',
-    magazine: 'GLASS (China) March 2023 x Chanel',
-    starring: 'Whitney Peak',
-    video_link: 'https://www.dropbox.com/s/8zqrhqmqq02oa38/FINAL%20video%20for%20Glass%20CN%20x%20Whitney%20Peak.mov?raw=1',
+    img_url: '/img/gallery/video/5. nick 16x6.75.jpg',
+    magazine: 'ELLEMEN (China) Fresh  April 2019',
+    starring: 'Nicholas Hoult',
+    director: 'Yulizhe/Fnu',
+    video_link: 'https://www.dropbox.com/s/6ywblxgzst6kbt8/Nicholas%20Hoult%20-%20ELLEMEN%20Fresh%20Fashion%20Film.mp4?raw=1',
   },
   {
-    img_url: '/img/gallery/video/Lay x GlassMan CN.png',
-    magazine: 'GLASS MAN (China) Jan/Feb 2023',
-    starring: 'Lay Zhang',
-    video_link: 'https://www.dropbox.com/s/cpmn1v4jcas83j1/GLASSMAN%20-%20LAY%20ZHANG%20-%20VIDEO.mp4?raw=1',
+    img_url: '/img/gallery/video/Ian Somerhalder 6.75x16.png',
+    magazine: 'Esquire (Malaysia) December 2019',
+    starring: 'Ian Somerhalder',
+    director: 'Yulizhe/Fnu',
+    video_link: 'https://www.dropbox.com/s/puljcuaazdjuv4v/IAN%20ESQUIRE%20MY%201080.mp4?raw=1',
   },
   {
-    img_url: '/img/gallery/video/Fendi x Grazia China.png',
-    magazine: 'FENDI x Grazia (China)',
-    video_link: 'https://www.dropbox.com/s/ajcntqcivhnb83v/Fendi%20x%20Grazia%20China.mp4?raw=1',
+    img_url: '/img/gallery/video/Jodie comer x ellemen fresh 1.png',
+    magazine: 'ELLEMEN (China) Fresh April 2019',
+    starring: 'Jodie Comer',
+    director: 'Yulizhe/Fnu',
+    video_link: 'https://www.dropbox.com/s/cyjq77th0ksaghb/Jodie%20Comer%20-%20ELLEMEN%20Fresh%20Fashion%20Film.mp4?raw=1',
   },
-  
   {
+    img_url: '/img/gallery/video/8. web_Amber Kuo_Bazzar Men China_16x6.75.jpg',
+    magazine: "Harper's Bazaar MEN (China) June 2020 (Special Issue)",
+    starring: 'Amber Kuo',
+    director: 'Jeff Wang',
+    video_link: 'https://www.dropbox.com/s/9juc4kqttwwyd3b/Final_Bazzar%20Men%C3%97Amber%20Kuo%20with%20CN%20ENG%20subtitle.mp4?raw=1',
+  },{
     img_url: '/img/gallery/video/TYY x Glass.png',
     magazine: 'GLASS (China) August 2022',
     starring: 'Tan Yuanyuan',
@@ -61,9 +58,17 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/q64wn630gt214gz/Bazaar%20HK%20x%20Fala.mov?raw=1',
   },
   {
-    img_url: '/img/gallery/video/ApedeMod.jpeg',
-    magazine: 'APEDE MOD x Grazia (China)',
-    video_link: 'https://www.dropbox.com/s/albs3ktykh3fjop/Grazia%20China%20x%20Apede%20Mod-NY-Final-out-2.mp4?raw=1',
+    img_url: '/img/gallery/video/Lay x GlassMan CN.png',
+    magazine: 'GLASS MAN (China) Jan/Feb 2023',
+    starring: 'Lay Zhang',
+    video_link: 'https://www.dropbox.com/s/cpmn1v4jcas83j1/GLASSMAN%20-%20LAY%20ZHANG%20-%20VIDEO.mp4?raw=1',
+  },
+  {
+    img_url: '/img/gallery/video/Super ELLE China x PomK.png',
+    magazine: 'Super ELLE China August 2023 x Cartier',
+    starring: 'Pom Klementieff',
+    director: 'Kristian Schuller',
+    video_link: 'https://www.dropbox.com/scl/fi/38lje7yevccdbotyhe5f0/Super-ELLE-China-x-Pom-K.mp4?rlkey=xoqy5sn767x0p3e8ximu4xqez&dl=0',
   },
   {
     img_url: '/img/gallery/video/ZHU x NYLON China 4.png',
@@ -73,25 +78,11 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/9oylecx4joglb33/Nylon%20X%20ZHU%20V2.mp4?raw=1',
   },
   {
-    img_url: '/img/gallery/video/Fala Chen_Vogue HK_HR.png',
-    magazine: 'Helena Rubinstein x VOGUE (Hong Kong)',
-    starring: 'Fala Chen',
-    director: '',
-    video_link: 'https://www.dropbox.com/s/5qtnas47jyky4qo/Fala%20Chen%20x%20Vogue%20HK%20x%20HR.mov?raw=1',
-  },
-  {
-    img_url: '/img/gallery/video/5. nick 16x6.75.jpg',
-    magazine: 'ELLEMEN (China) Fresh  April 2019',
-    starring: 'Nicholas Hoult',
+    img_url: '/img/gallery/video/5. web_selina 4 16x6.75.jpg',
+    magazine: 'NYFW F/W 2019 BTS',
+    starring: 'Selina Jen (任家萱)',
     director: 'Yulizhe/Fnu',
-    video_link: 'https://www.dropbox.com/s/6ywblxgzst6kbt8/Nicholas%20Hoult%20-%20ELLEMEN%20Fresh%20Fashion%20Film.mp4?raw=1',
-  },
-  {
-    img_url: '/img/gallery/video/4. alyssa 16x6.75.png',
-    magazine: 'David Yurman BTS',
-    starring: 'Alyssa Chia',
-    director: 'Yulizhe/Fnu',
-    video_link: '',
+    video_link: 'https://www.dropbox.com/s/fse0blhn8182twb/Selina_final%20h264%201080.mp4?raw=1',
   },
   {
     img_url: '/img/gallery/video/2. henry 16x6.75.png',
@@ -101,18 +92,48 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/zn1qqgn2obw7jpm/Henry%20Lau%20%C3%97%20ELLEMEN%20Fresh_master%20SUBWAY%20version%20final.mp4?raw=1',
   },
   {
-    img_url: '/img/gallery/video/Timmy.jpeg',
-    magazine: 'DAZED (China) March/April 2020',
-    starring: 'Timothée Chalamet',
-    director: 'Yulizhe',
+    img_url: '/img/gallery/video/4. alyssa 16x6.75.png',
+    magazine: 'David Yurman BTS',
+    starring: 'Alyssa Chia',
+    director: 'Yulizhe/Fnu',
     video_link: '',
   },
   {
-    img_url: '/img/gallery/video/5. web_selina 4 16x6.75.jpg',
-    magazine: 'NYFW F/W 2019 BTS',
-    starring: 'Selina Jen (任家萱)',
-    director: 'Yulizhe/Fnu',
-    video_link: 'https://www.dropbox.com/s/fse0blhn8182twb/Selina_final%20h264%201080.mp4?raw=1',
+    img_url: '/img/gallery/video/GLASS x WP 16x6.75.jpg',
+    magazine: 'GLASS (China) March 2023 x Chanel',
+    starring: 'Whitney Peak',
+    video_link: 'https://www.dropbox.com/s/8zqrhqmqq02oa38/FINAL%20video%20for%20Glass%20CN%20x%20Whitney%20Peak.mov?raw=1',
+  },
+];
+export const commercial_video = [
+  {
+    img_url: '/img/gallery/video/La Mer x Gianna Jun 2nd campaign.PNG',
+    magazine: 'La Mer Campaign',
+    starring: 'Gianna Jun',
+    video_link: 'https://www.dropbox.com/scl/fi/207xcduey3sk8jpjvz68i/LM_FY24_PROJECT-MERMAID-PART-2_IO412402_FILM_45S_GENERIC_16x9.mov?rlkey=68ywmp9jm5lzc5oooncdyie18&st=ab41c13h&dl=0',
+  },
+  {
+    img_url: '/img/gallery/video/La Mer x Gianna Jun_photo.jpeg',
+    magazine: 'La Mer Campaign',
+    starring: 'Gianna Jun',
+    video_link: 'https://www.dropbox.com/scl/fi/fq4tqzovbu8iuk7p6qzwe/0908_LAMER_hero-film_30s_2.m4v?rlkey=9oiyqsqg8fnt02u5uocgml3i2&dl=0',
+  },
+  {
+    img_url: '/img/gallery/video/Fala x HR_16.6.75.png',
+    magazine: 'Helena Rubinstein Campaign',
+    starring: 'Fala Chen',
+    video_link: 'https://www.dropbox.com/s/7pxqr1a8qqc4nhd/helena_rubinstein_120th_anniversary_spot_w__fala_chen_16x9%20%28Original%29.mp4?raw=1',
+  },
+  
+  {
+    img_url: '/img/gallery/video/ApedeMod.jpeg',
+    magazine: 'APEDE MOD x Grazia (China)',
+    video_link: 'https://www.dropbox.com/s/albs3ktykh3fjop/Grazia%20China%20x%20Apede%20Mod-NY-Final-out-2.mp4?raw=1',
+  },
+  {
+    img_url: '/img/gallery/video/Fendi x Grazia China.png',
+    magazine: 'FENDI x Grazia (China)',
+    video_link: 'https://www.dropbox.com/s/ajcntqcivhnb83v/Fendi%20x%20Grazia%20China.mp4?raw=1',
   },
   {
     img_url: '/img/gallery/video/Leo Wu.png',
@@ -122,25 +143,11 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/72gjfsbl0g3setq/%E5%90%B4%E7%A3%8A%20x%20Ellemen%20Fresh_%E6%89%8B%E8%A1%A8.MP4?raw=1',
   },
   {
-    img_url: '/img/gallery/video/Ian Somerhalder 6.75x16.png',
-    magazine: 'Esquire (Malaysia) December 2019',
-    starring: 'Ian Somerhalder',
-    director: 'Yulizhe/Fnu',
-    video_link: 'https://www.dropbox.com/s/puljcuaazdjuv4v/IAN%20ESQUIRE%20MY%201080.mp4?raw=1',
-  },
-  {
-    img_url: '/img/gallery/video/8. web_Amber Kuo_Bazzar Men China_16x6.75.jpg',
-    magazine: "Harper's Bazaar MEN (China) June 2020 (Special Issue)",
-    starring: 'Amber Kuo',
-    director: 'Jeff Wang',
-    video_link: 'https://www.dropbox.com/s/9juc4kqttwwyd3b/Final_Bazzar%20Men%C3%97Amber%20Kuo%20with%20CN%20ENG%20subtitle.mp4?raw=1',
-  },
-  {
-    img_url: '/img/gallery/video/Jodie comer x ellemen fresh 1.png',
-    magazine: 'ELLEMEN (China) Fresh April 2019',
-    starring: 'Jodie Comer',
-    director: 'Yulizhe/Fnu',
-    video_link: 'https://www.dropbox.com/s/cyjq77th0ksaghb/Jodie%20Comer%20-%20ELLEMEN%20Fresh%20Fashion%20Film.mp4?raw=1',
+    img_url: '/img/gallery/video/Fala Chen_Vogue HK_HR.png',
+    magazine: 'Helena Rubinstein x VOGUE (Hong Kong)',
+    starring: 'Fala Chen',
+    director: '',
+    video_link: 'https://www.dropbox.com/s/5qtnas47jyky4qo/Fala%20Chen%20x%20Vogue%20HK%20x%20HR.mov?raw=1',
   },
   {
     img_url: '/img/gallery/video/10. web_Amber Kuo_Lulualways1_16x6.75.jpg',
@@ -150,14 +157,33 @@ export const video = [
     video_link: 'https://www.dropbox.com/s/ypqohgw9hrzhikt/Amber%20Kuo%20%C3%97%20T-mall%20%C3%97%20Lulualways%2015s.mp4?raw=1',
   },
   {
+    img_url: '/img/gallery/video/W China x LOTUS x Lela Wang.png',
+    magazine: 'LOTUS x W (China)',
+    starring: 'Lela Wang',
+    video_link: 'https://www.dropbox.com/scl/fi/0ypnvcp9bsbbrdycrstbh/W-China-x-LOTUS-x-Lela-Wang_15s_4K.mp4?rlkey=uapr3nh8py3122t7pd34p7n2d&dl=0',
+  },
+];
+export const documentary = [
+  {
+    img_url: '/img/gallery/video/La Mer x Gianna Jun Shanghai event.PNG',
+    magazine: 'La Mer Campaign',
+    starring: 'Gianna Jun',
+    video_link: 'https://www.dropbox.com/scl/fi/q1utwft46a3r5dtogslck/La-Mer-x-Gianna-Jun-Shanghai-event.MP4?rlkey=25v64ur6xxzvcchz77iwt8fdi&st=4ak20jo7&dl=0',
+  },
+  {
+    img_url: '/img/gallery/video/TimeKettle documentary 1.png',
+    magazine: 'TimeKettle Documentary',
+    starring: '',
+    video_link: 'https://www.dropbox.com/scl/fi/q1utwft46a3r5dtogslck/La-Mer-x-Gianna-Jun-Shanghai-event.MP4?rlkey=25v64ur6xxzvcchz77iwt8fdi&st=4ak20jo7&dl=0',
+  },
+  {
     img_url: '/img/gallery/video/3. alyssa mj 2 16x6.75.png',
     magazine: 'Marc Jacobs Street Snaps BTS',
     starring: 'Alyssa Chia (贾静雯)',
     director: 'Yulizhe/Fnu',
     video_link: 'https://www.dropbox.com/s/p4zc49k5n1sp4ni/Alyssa%20Chia%20X%20Marc%20Jacobs%20BTS.mp4?raw=1',
   },
-];
-
+]
 export const magazine = [
   {
     img_url: 'https://www.dropbox.com/scl/fi/v9h2hajpprhsurp3k7ehv/IG_FEATURES_Cover_Corey-Mylchreest_JUNJUL2318.jpg?rlkey=twyogoih69i4u066kgkxo7ryn&raw=1',
@@ -351,6 +377,24 @@ export const magazine = [
 ];
 
 export const commercial=[
+  {img_url:'https://www.dropbox.com/scl/fi/0s6ly1g72iy15skz2i0zq/LILY_CONI_HIGH-RES_U2A0274-2.jpg?rlkey=kcd3rliuh484kykn64k8ou031&st=tu9zv2hg&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/l03mpz7033pehlled91gb/LILY_CONI_HIGH-RES_U2A0340.jpg?rlkey=po63t80pv0d9vah4ruvjormd1&st=8yryctps&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/5b0uz98tg5g7rnwube5td/LILY_CONI_HIGH-RES_U2A0719.jpg?rlkey=anroiko5hhk6m6cu4mwhmkh56&st=psltth4s&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/toaakn322ll87hcsib647/LILY_CONI_HIGH-RES_U2A0876.jpg?rlkey=vp5umkowmpjrw5xzgdzo1fslu&st=lbnruupz&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/d9j3hcxox0f5ak95856e2/LILY_CONI_HIGH-RES_U2A1376.jpg?rlkey=er9ocf9aafxce6pttj5wu1xfv&st=uqerdv2o&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/o466ceyml7xyerto2tdtj/LILY_CONI_HIGH-RES_U2A1517.jpg?rlkey=ys0j1dzdrnh5myj0lwy58x9q6&st=wwt3j5vg&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/qz5zcmlgiuxymq3i96qob/LILY_CONI_HIGH-RES_U2A1593.jpg?rlkey=gqruns0sfsuyulnltq973ybbw&st=3ouk1a1r&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/5p7yivsg06e7jhkunss74/LILY_CONI_HIGH-RES_U2A1862.jpg?rlkey=84sqe6f4rp4drgq29z9rla0vw&st=kquo0ovj&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/1s9tncmqn7rfazagdmnsw/LILY_video_screenshot.png?rlkey=kr1xoexsflm2sdlrgvo3etlvd&st=tfxmkc3e&raw=1'},
+
+  {img_url:'https://www.dropbox.com/scl/fi/8vvsvwrb4gybfviaeseni/FY24_Project_Mermaid_3.JPG?rlkey=0c3ze3gbjmxkmty4nflrb278q&st=lk0qk3bk&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/tehb2fmxcuentgmxfspar/FY24_Project_Mermaid_9.jpg?rlkey=54j8zgsrvwrkxe9jrvwcjzrc1&st=jx7lehqv&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/2lzwtsp11r5lv2ksrffc8/FY24_Project_Mermaid_bts_1.jpg?rlkey=emg2r6n629m9vnr7zat9g8wzl&st=btwblaqj&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/jlw2yrvc3nd7lxedpui9h/FY24_Project_Mermaid_bts_2.jpg?rlkey=55jflfwb7qevjbl0658jj84jy&st=ngam2f0v&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/diw8dws9w6i24tc9mmfhq/FY24_Project_Mermaid_bts_3.jpg?rlkey=7rwfxz7uw78p6u72weksgir1h&st=dj9yli6f&raw=1'},
+
+  {img_url:'https://www.dropbox.com/scl/fi/uvw5o5sbbz9osp674bzoz/FY24_Project_Mermaid_2.JPG?rlkey=cwua4krxt3k04d6f3rota5jkw&st=e0pyn1l9&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/qc3kcp6p1azo31dajg9az/FY24_Project_Mermaid_1.JPG?rlkey=n36o0t65u0u8cg69anfdge4d0&st=7o4ls9qy&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/8vwcvducpkcigsv84nwl0/La-Mer-x-Gianna-Jun_2.JPG?rlkey=fvgrs33du6ixavpbgfkyojxm7&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/cy23h7khyawpkisg0b4jr/La-Mer-x-Gianna-Jun_1.JPG?rlkey=uemighd9zc2mmv5qu85oy1dkl&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/t0n4w4nwwtjrlkpbe4y4z/La-Mer-x-Gianna-Jun_5.JPG?rlkey=ysq4b7w34te6n2w7i5a71cbdt&raw=1'},
