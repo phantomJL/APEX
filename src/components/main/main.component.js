@@ -57,7 +57,7 @@ function Main (props) {
                   bottom: 0,
                 }}
               >
-                ©2023 APEX Communications, INC. All Rights Reserved.
+                ©2024 APEX Communications, INC. All Rights Reserved.
               </footer>}
           </section>
         : <section>
@@ -141,7 +141,7 @@ function Main (props) {
                 bottom: '6px',
               }}
             >
-              ©2023 APEX Communications, INC. All Rights Reserved.
+              ©2024 APEX Communications, INC. All Rights Reserved.
             </footer>
           </section>}
 

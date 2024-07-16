@@ -110,6 +110,11 @@ export const news = [
 ];
 
 export const magazine = [
+  {url: 'https://www.dropbox.com/scl/fi/fztjrw8i3i8crsf9kdl9p/2024_Summer_ForbesLife-CN_Daniel-Wu.jpg?rlkey=hbs6q5ns7vv0b3qtbdnba7gbs&st=akas2yyp&raw=1'},
+  {url: 'https://www.dropbox.com/scl/fi/yjjknb4iewireiunhxdsg/2024-_April_GLASS-CN_Rebecca-Hall.jpg?rlkey=h8b6j82nhoztnu93ji1adow78&st=0mv8bkw2&raw=1'},
+  {url: 'https://www.dropbox.com/scl/fi/4gzrmt3gdqty2hsidjecw/2024_Jan_Esquire-SG_Tom-Blyth_1.jpg?rlkey=vqp4sy3a55luf5myslrkzal85&st=o7koga9b&raw=1'},
+  {url: 'https://www.dropbox.com/scl/fi/1enkt3k7p0c993tem2mea/2024_Jan_Esquire-SG_Tom-Blyth_2.jpg?rlkey=7ad26lxl6z8nyecdj1tbhdmqb&st=smj5cl81&raw=1'},
+
   {url: 'https://www.dropbox.com/scl/fi/02sz693f03hq9sqkeqgy5/Esquire-SG_COVER_SEP1_Daniel-Wu.jpg?rlkey=w05qqbqn3bvqqdstt5y1s36ii&raw=1'},
   {url: 'https://www.dropbox.com/scl/fi/4a9strqzdwot8r6wqky07/Esquire-SG_COVER_SEP2_Daniel-Wu.jpg?rlkey=suw87wh5vmsieiymh13fjuxjx&raw=1'},
   {url:'https://www.dropbox.com/scl/fi/xhjefl88skjljdv1ah4d6/2023_9_Super-ELLE-China-August-Cover_PomK.JPG?rlkey=ssnkmj5011ffm819o8z52d3oa&raw=1'},

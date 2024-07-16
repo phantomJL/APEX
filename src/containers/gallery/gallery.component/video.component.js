@@ -64,6 +64,32 @@ function Video (props) {
                   </div>
                 </div>
               : <div />}
+              {props.data.location
+              ? <div>
+                  <div
+                    className="text-white median-title"
+                    style={{fontWeight: 950}}
+                  >
+                    LOCATION
+                  </div>
+                  <div className="text-white median-title">
+                    {props.data.location}
+                  </div>
+                </div>
+              : <div />}
+              {props.data.date
+              ? <div>
+                  <div
+                    className="text-white median-title"
+                    style={{fontWeight: 950}}
+                  >
+                    DATE
+                  </div>
+                  <div className="text-white median-title">
+                    {props.data.date}
+                  </div>
+                </div>
+              : <div />}
             {width >= 767 &&
               (props.data.director
                 ? <div>

@@ -106,15 +106,16 @@ export const editorial_video = [
   },
 ];
 export const commercial_video = [
+
   {
     img_url: '/img/gallery/video/La Mer x Gianna Jun 2nd campaign.PNG',
-    magazine: 'La Mer Campaign',
+    magazine: 'LA MER Campaign',
     starring: 'Gianna Jun',
     video_link: 'https://www.dropbox.com/scl/fi/207xcduey3sk8jpjvz68i/LM_FY24_PROJECT-MERMAID-PART-2_IO412402_FILM_45S_GENERIC_16x9.mov?rlkey=68ywmp9jm5lzc5oooncdyie18&st=ab41c13h&dl=0',
   },
   {
     img_url: '/img/gallery/video/La Mer x Gianna Jun_photo.jpeg',
-    magazine: 'La Mer Campaign',
+    magazine: 'LA MER Campaign',
     starring: 'Gianna Jun',
     video_link: 'https://www.dropbox.com/scl/fi/fq4tqzovbu8iuk7p6qzwe/0908_LAMER_hero-film_30s_2.m4v?rlkey=9oiyqsqg8fnt02u5uocgml3i2&dl=0',
   },
@@ -124,7 +125,24 @@ export const commercial_video = [
     starring: 'Fala Chen',
     video_link: 'https://www.dropbox.com/s/7pxqr1a8qqc4nhd/helena_rubinstein_120th_anniversary_spot_w__fala_chen_16x9%20%28Original%29.mp4?raw=1',
   },
-  
+  {
+    img_url: '/img/gallery/video/Lily social campaign_LBD.png',
+    magazine: 'Lily 2024 Digital Campaign',
+    video_link: 'https://www.dropbox.com/scl/fi/4isgd0iylcfhdlq679wam/Lily_-_final.mp4?rlkey=o0kbsc2e9bnkox46a8zbbizkm&st=wp3nm17p&dl=0',
+  },
+  {
+    img_url: '/img/gallery/video/Lily social campaign_Fall Collection.png',
+    magazine: 'Lily 2024 Digital Campaign',
+    video_link: 'https://www.dropbox.com/scl/fi/93ow5v1wb28acnak0a011/Lily_-_final.mp4?rlkey=bfrmd5aocx23kmq0ldanutf08&st=kthecrbl&dl=0',
+  },
+
+  {
+    img_url: '/img/gallery/video/10. web_Amber Kuo_Lulualways1_16x6.75.jpg',
+    magazine: 'T-mall x Amber Kuo (郭采洁)',
+    starring: '',
+    director: '',
+    video_link: 'https://www.dropbox.com/s/ypqohgw9hrzhikt/Amber%20Kuo%20%C3%97%20T-mall%20%C3%97%20Lulualways%2015s.mp4?raw=1',
+  },
   {
     img_url: '/img/gallery/video/ApedeMod.jpeg',
     magazine: 'APEDE MOD x Grazia (China)',
@@ -149,13 +167,7 @@ export const commercial_video = [
     director: '',
     video_link: 'https://www.dropbox.com/s/5qtnas47jyky4qo/Fala%20Chen%20x%20Vogue%20HK%20x%20HR.mov?raw=1',
   },
-  {
-    img_url: '/img/gallery/video/10. web_Amber Kuo_Lulualways1_16x6.75.jpg',
-    magazine: 'T-mall x Amber Kuo (郭采洁)',
-    starring: '',
-    director: '',
-    video_link: 'https://www.dropbox.com/s/ypqohgw9hrzhikt/Amber%20Kuo%20%C3%97%20T-mall%20%C3%97%20Lulualways%2015s.mp4?raw=1',
-  },
+  
   {
     img_url: '/img/gallery/video/W China x LOTUS x Lela Wang.png',
     magazine: 'LOTUS x W (China)',
@@ -166,15 +178,16 @@ export const commercial_video = [
 export const documentary = [
   {
     img_url: '/img/gallery/video/La Mer x Gianna Jun Shanghai event.PNG',
-    magazine: 'La Mer Campaign',
-    starring: 'Gianna Jun',
+    magazine: 'LA MER "Everlasting Youth Beyond the Surface" event',
+    location: ' Shanghai, China',
+    date:'March 4th, 2024',
     video_link: 'https://www.dropbox.com/scl/fi/q1utwft46a3r5dtogslck/La-Mer-x-Gianna-Jun-Shanghai-event.MP4?rlkey=25v64ur6xxzvcchz77iwt8fdi&st=4ak20jo7&dl=0',
   },
   {
     img_url: '/img/gallery/video/TimeKettle documentary 1.png',
     magazine: 'TimeKettle Documentary',
     starring: '',
-    video_link: 'https://www.dropbox.com/scl/fi/q1utwft46a3r5dtogslck/La-Mer-x-Gianna-Jun-Shanghai-event.MP4?rlkey=25v64ur6xxzvcchz77iwt8fdi&st=4ak20jo7&dl=0',
+    video_link: 'https://www.dropbox.com/scl/fi/azt74wxfnqoozkcn6g739/TimeKettle-documentary-interview_207_raw.MP4?rlkey=gzytxjbqirircpwur43z6b96d&st=jcqxut4x&dl=0',
   },
   {
     img_url: '/img/gallery/video/3. alyssa mj 2 16x6.75.png',
@@ -185,6 +198,49 @@ export const documentary = [
   },
 ]
 export const magazine = [
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/ew59z2m44xp8vx6cxy1o9/Daniel-Wu_video_AzimutxCANALI.png?rlkey=qhoa2rlnpxddsj4woltv0ob32&st=l8wx19xj&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/sg2ffffdmpb9bz1x0mpeh/LucienLaviscount_136-145_FEATURES_Cover_Lucien_JUNJUL243.jpg?rlkey=3hzofjyn1tjygbgonha0n3emc&st=10rqq4xq&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/ut2tckxgyu4ltojcuei67/LucienLaviscount_136-145_FEATURES_Cover_Lucien_JUNJUL242.jpg?rlkey=przszrakiitxpybeb294hg1cf&st=lcmn3u8m&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/qljiibixfu7pvvtly8nge/LucienLaviscount_136-145_FEATURES_Cover_Lucien_JUNJUL24.jpg?rlkey=7czr13kw6txq889ipbb668rpl&st=32ndw1ur&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/9r2tu7k721j42qo3vrhwa/DanielWu_Inside_1.jpg?rlkey=cvs6958fal7ees2bhy5zqfduc&st=6tf12mx3&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/0q2wx7ki9gc6aimajxeze/DanielWu_-3.jpg?rlkey=d19hpwfnchi54ixc18sqetyve&st=am7uvmbi&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/vlkmxlto0p4y9an2nz4ku/DanielWu_Inside_6.jpg?rlkey=bem2njuuvj28mv8rdjmqhoajs&st=jln3lcr8&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/8nqfhu1144omhtqaul5nl/DanielWu_Inside_4.jpg?rlkey=vox35mlbnv0ogu4t4zpmx0xi8&st=w72ypdg5&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/xrsg4zzimuw5mrd5i05dt/RebeccaHall_Inside_be57cfe57cc7e204656c8f7a1af01ffd.jpg?rlkey=uvsm1x1xz9167wolzhz5scm2e&st=6gszqp9k&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/mh9f66u6t5khiapvvyki5/RebeccaHall_Inside_9b299236b111ceb3dcae0b0b97fbc7da.jpg?rlkey=legw5at0raifrus0507zz9t2k&st=0lo7h921&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/e28qpwfnrwp4yl039sv37/RebeccaHall_Inside_15bff3a4db979d56588f88e064e69a6b.jpg?rlkey=ohnm8bqnzpcq493y4t4kcbzeo&st=1phyev22&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/ipt69m9160v9okkmwiiza/RebeccaHall_Inside_1159392c587d5ac4b1e11a0d4b4ae0b2.jpg?rlkey=z88im5ikexetb2nhj4oijjo6y&st=r51rs3et&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/pllnkznwy78tun0m61c5e/RebeccaHall_teaser_2ec13c2d1bc37bd1cf406a84311c479c.jpg?rlkey=bf2yjmtv9gztwmqz8lojkz1ln&st=5k8w96ip&raw=1',
+  },
+  {
+    img_url: 'https://www.dropbox.com/scl/fi/1tezzkx3huanpoo1mw4nm/RebeccaHall_Inside_0f81c2a6d4bf42752be27ea650cd654b.jpg?rlkey=71vbw4urihqmf8bo9e43qne7n&st=2i9xvw2a&raw=1',
+  },
+
   {
     img_url: 'https://www.dropbox.com/scl/fi/v9h2hajpprhsurp3k7ehv/IG_FEATURES_Cover_Corey-Mylchreest_JUNJUL2318.jpg?rlkey=twyogoih69i4u066kgkxo7ryn&raw=1',
   },
@@ -377,24 +433,16 @@ export const magazine = [
 ];
 
 export const commercial=[
-  {img_url:'https://www.dropbox.com/scl/fi/0s6ly1g72iy15skz2i0zq/LILY_CONI_HIGH-RES_U2A0274-2.jpg?rlkey=kcd3rliuh484kykn64k8ou031&st=tu9zv2hg&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/l03mpz7033pehlled91gb/LILY_CONI_HIGH-RES_U2A0340.jpg?rlkey=po63t80pv0d9vah4ruvjormd1&st=8yryctps&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/5b0uz98tg5g7rnwube5td/LILY_CONI_HIGH-RES_U2A0719.jpg?rlkey=anroiko5hhk6m6cu4mwhmkh56&st=psltth4s&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/toaakn322ll87hcsib647/LILY_CONI_HIGH-RES_U2A0876.jpg?rlkey=vp5umkowmpjrw5xzgdzo1fslu&st=lbnruupz&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/d9j3hcxox0f5ak95856e2/LILY_CONI_HIGH-RES_U2A1376.jpg?rlkey=er9ocf9aafxce6pttj5wu1xfv&st=uqerdv2o&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/o466ceyml7xyerto2tdtj/LILY_CONI_HIGH-RES_U2A1517.jpg?rlkey=ys0j1dzdrnh5myj0lwy58x9q6&st=wwt3j5vg&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/qz5zcmlgiuxymq3i96qob/LILY_CONI_HIGH-RES_U2A1593.jpg?rlkey=gqruns0sfsuyulnltq973ybbw&st=3ouk1a1r&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/5p7yivsg06e7jhkunss74/LILY_CONI_HIGH-RES_U2A1862.jpg?rlkey=84sqe6f4rp4drgq29z9rla0vw&st=kquo0ovj&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/1s9tncmqn7rfazagdmnsw/LILY_video_screenshot.png?rlkey=kr1xoexsflm2sdlrgvo3etlvd&st=tfxmkc3e&raw=1'},
-
+  
   {img_url:'https://www.dropbox.com/scl/fi/8vvsvwrb4gybfviaeseni/FY24_Project_Mermaid_3.JPG?rlkey=0c3ze3gbjmxkmty4nflrb278q&st=lk0qk3bk&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/uvw5o5sbbz9osp674bzoz/FY24_Project_Mermaid_2.JPG?rlkey=cwua4krxt3k04d6f3rota5jkw&st=e0pyn1l9&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/qc3kcp6p1azo31dajg9az/FY24_Project_Mermaid_1.JPG?rlkey=n36o0t65u0u8cg69anfdge4d0&st=7o4ls9qy&raw=1'},
+  
   {img_url:'https://www.dropbox.com/scl/fi/tehb2fmxcuentgmxfspar/FY24_Project_Mermaid_9.jpg?rlkey=54j8zgsrvwrkxe9jrvwcjzrc1&st=jx7lehqv&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/2lzwtsp11r5lv2ksrffc8/FY24_Project_Mermaid_bts_1.jpg?rlkey=emg2r6n629m9vnr7zat9g8wzl&st=btwblaqj&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/jlw2yrvc3nd7lxedpui9h/FY24_Project_Mermaid_bts_2.jpg?rlkey=55jflfwb7qevjbl0658jj84jy&st=ngam2f0v&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/diw8dws9w6i24tc9mmfhq/FY24_Project_Mermaid_bts_3.jpg?rlkey=7rwfxz7uw78p6u72weksgir1h&st=dj9yli6f&raw=1'},
-
-  {img_url:'https://www.dropbox.com/scl/fi/uvw5o5sbbz9osp674bzoz/FY24_Project_Mermaid_2.JPG?rlkey=cwua4krxt3k04d6f3rota5jkw&st=e0pyn1l9&raw=1'},
-  {img_url:'https://www.dropbox.com/scl/fi/qc3kcp6p1azo31dajg9az/FY24_Project_Mermaid_1.JPG?rlkey=n36o0t65u0u8cg69anfdge4d0&st=7o4ls9qy&raw=1'},
+  
   {img_url:'https://www.dropbox.com/scl/fi/8vwcvducpkcigsv84nwl0/La-Mer-x-Gianna-Jun_2.JPG?rlkey=fvgrs33du6ixavpbgfkyojxm7&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/cy23h7khyawpkisg0b4jr/La-Mer-x-Gianna-Jun_1.JPG?rlkey=uemighd9zc2mmv5qu85oy1dkl&raw=1'},
   {img_url:'https://www.dropbox.com/scl/fi/t0n4w4nwwtjrlkpbe4y4z/La-Mer-x-Gianna-Jun_5.JPG?rlkey=ysq4b7w34te6n2w7i5a71cbdt&raw=1'},
@@ -421,6 +469,17 @@ export const commercial=[
   },
   {img_url: 'img/gallery/magazine/SET_1-702_FINAL.png'},
   {img_url: 'img/gallery/magazine/SET_3-121_FINAL.png'},
+
+  {img_url:'https://www.dropbox.com/scl/fi/0s6ly1g72iy15skz2i0zq/LILY_CONI_HIGH-RES_U2A0274-2.jpg?rlkey=kcd3rliuh484kykn64k8ou031&st=tu9zv2hg&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/l03mpz7033pehlled91gb/LILY_CONI_HIGH-RES_U2A0340.jpg?rlkey=po63t80pv0d9vah4ruvjormd1&st=8yryctps&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/5b0uz98tg5g7rnwube5td/LILY_CONI_HIGH-RES_U2A0719.jpg?rlkey=anroiko5hhk6m6cu4mwhmkh56&st=psltth4s&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/toaakn322ll87hcsib647/LILY_CONI_HIGH-RES_U2A0876.jpg?rlkey=vp5umkowmpjrw5xzgdzo1fslu&st=lbnruupz&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/d9j3hcxox0f5ak95856e2/LILY_CONI_HIGH-RES_U2A1376.jpg?rlkey=er9ocf9aafxce6pttj5wu1xfv&st=uqerdv2o&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/o466ceyml7xyerto2tdtj/LILY_CONI_HIGH-RES_U2A1517.jpg?rlkey=ys0j1dzdrnh5myj0lwy58x9q6&st=wwt3j5vg&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/qz5zcmlgiuxymq3i96qob/LILY_CONI_HIGH-RES_U2A1593.jpg?rlkey=gqruns0sfsuyulnltq973ybbw&st=3ouk1a1r&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/5p7yivsg06e7jhkunss74/LILY_CONI_HIGH-RES_U2A1862.jpg?rlkey=84sqe6f4rp4drgq29z9rla0vw&st=kquo0ovj&raw=1'},
+  {img_url:'https://www.dropbox.com/scl/fi/1s9tncmqn7rfazagdmnsw/LILY_video_screenshot.png?rlkey=kr1xoexsflm2sdlrgvo3etlvd&st=tfxmkc3e&raw=1'},
+
 
   {img_url:'https://www.dropbox.com/s/z4um6fz7oiqxlqd/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo.jpg?raw=1'},
   {img_url:'https://www.dropbox.com/s/noptjqp0ma0orva/200716%E9%83%AD%E9%87%87%E6%B4%81%E6%AD%8C%E5%8A%9B%E6%80%9Dlogo-.jpg?raw=1'},

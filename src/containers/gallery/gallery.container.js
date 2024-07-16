@@ -58,7 +58,7 @@ function Gallery (props) {
               ))}
                   </div>
                 <div className='vertical-text about-text'>
-                COMMERCIAL & AD
+                COMMERCIAL & ADVERTORIAL
                   </div>
               </div> 
               <hr className='w-25'></hr>
@@ -101,7 +101,7 @@ function Gallery (props) {
                 />
               ))}
                   </div>
-                  <div className='vertical-text about-text'>COMMERCIAL & AD</div>
+                  <div className='vertical-text about-text'>COMMERCIAL & ADVERTORIAL</div>
                 </div> 
                 <hr className='w-25'></hr>
                 <div className='d-flex align-items-top' style={{paddingTop: '50px', paddingBottom: '50px'}}>
@@ -151,7 +151,7 @@ function Gallery (props) {
                   </div>
                   </div>
                 <div className='vertical-text about-text'>
-                COMMERCIAL & AD
+                COMMERCIAL & ADVERTORIAL
                   </div>
               </div> 
               <hr className='w-25'></hr>
@@ -180,7 +180,7 @@ function Gallery (props) {
                     ))}
                   </div>
                   </div>
-                  <div className='vertical-text about-text'>COMMERCIAL & AD</div>
+                  <div className='vertical-text about-text'>COMMERCIAL & ADVERTORIAL</div>
                 </div> 
                 <hr className='w-25'></hr>
                 <div className='d-flex align-items-top' style={{paddingTop: '50px'}}>

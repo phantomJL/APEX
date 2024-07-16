@@ -18,7 +18,7 @@ export const ourService = [
     intro: 'We raise our clients’ image through powerful media relations efforts; we design campaigns by understanding clients’ goals; we proactively plan ahead so you’re prepared at every minute.',
   },
   {
-    title: 'Influencer/Celebrity Marketing and Endorsement',
+    title: 'Influencer/Celebrity Marketing and Endorsement / Casting',
     intro: 'Benefiting from Influencers and celebrities’ authority, knowledge, and relationship with their audience for increased brand exposure and to affect the purchase decisions. We offer connected services to maximize the impact. ',
   },
   {
@@ -30,6 +30,8 @@ export const ourService = [
 export const partner_horizontal = [
   {img: '/img/aboutUS/partner/1280px-World_Health_Organization_Logo.png'},
   {img: '/img/aboutUS/partner/Act-Now-signs-2019-01.png'},
+  {img: '/img/aboutUS/partner/new_unhcr-logo-png-transparent.png'},
+
 ];
 export const partner_square = [
   {img: '/img/aboutUS/partner/SDG_Media-Compact_Master-logo-01.png'},
@@ -52,11 +54,15 @@ export const client=[
   {img: '/img/aboutUS/client/Orient International东方国际 copy.png'},
   {img: '/img/aboutUS/client/GDS万国数据 copy.png'},
   {img: '/img/aboutUS/client/Brand_三只松鼠白底.jpg'},
-
+  {img: '/img/aboutUS/client/new_Lily商务时装logo.jpg'},
+  {img: '/img/aboutUS/client/new_Sunmi-Logo.png'},
 ]
 
 
 export const client2=[
+  {img: '/img/aboutUS/client/Esquire SG logo.png'},
+  {img: '/img/aboutUS/client/new_Forbes China logo.png'},
+
   {img: '/img/aboutUS/client/vogue_singapore_logo copy.png'},
   {img: '/img/aboutUS/client/ELLE_Magazine_Logo copy.png'},
   {img: '/img/aboutUS/client/W China logo copy.png'},
