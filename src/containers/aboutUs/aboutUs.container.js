@@ -80,24 +80,39 @@ function AboutUS (props) {
           Clients
         </div>
         {width < 767
-          ? <div className="d-flex flex-wrap py-2">
+          ? 
+          <div className="d-flex flex-wrap py-2 mx-md-4 px-md-4">
               {[...client, ...client2].map ((value, index) => (
                 <IconMobile data={value} />
               ))}
             </div>
-          : <div>
+          : 
+          // <div>
 
-              <div className="d-flex flex-wrap justify-content-center ">
-                {client.map ((value, index) => (
-                  <Icon data={value} width={'150px'} />
-                ))}
-              </div>
-              <div className="d-flex flex-wrap justify-content-center py-4 my-4">
-                {client2.map ((value, index) => (
-                  <Icon data={value} width={'155px'} />
-                ))}
-              </div>
-            </div>}
+          //     <div className="d-flex flex-wrap justify-content-center ">
+          //       {client.map ((value, index) => (
+          //         <Icon data={value} width={'150px'} />
+          //       ))}
+          //     </div>
+          //     <div className="d-flex flex-wrap justify-content-center py-4 my-4">
+          //       {client2.map ((value, index) => (
+          //         <Icon data={value} width={'155px'} />
+          //       ))}
+          //     </div>
+          //   </div>
+          <>
+          <div className="d-flex flex-wrap py-2 mx-md-4 px-md-4 justify-content-center">
+              {client.map ((value, index) => (
+                <IconMobile data={value} />
+              ))}
+            </div>
+            <div className="d-flex flex-wrap py-2 mx-md-4 px-md-4 justify-content-center">
+            {client2.map ((value, index) => (
+              <IconMobile data={value} />
+            ))}
+          </div>
+          </>
+            }
         {/* </OnScrollWrap> */}
       </div>
       <div className="p-4 mt-4">
@@ -106,27 +121,36 @@ function AboutUS (props) {
           Collaborations
         </div>
         {width < 767
-          ? <div className="d-flex flex-wrap py-2">
+          ? 
+          <div className="d-flex flex-wrap py-2">
               {[
                 ...partner_horizontal,
                 ...partner_square,
               ].map ((value, index) => <IconMobile data={value} />)}
             </div>
-          : <div
-              className="d-flex justify-content-center"
-              style={{marginBottom: '100px'}}
-            >
-              <div className="d-flex flex-wrap justify-content-center">
-                {partner_horizontal.map ((value, index) => (
-                  <Icon data={value} width={'130px'} />
-                ))}
-              </div>
-              <div className="d-flex flex-wrap justify-content-center">
-                {partner_square.map ((value, index) => (
-                  <Icon data={value} width={'130px'} />
-                ))}
-              </div>
-            </div>}
+          : 
+          // <div
+          //     className="d-flex justify-content-center"
+          //     style={{marginBottom: '100px'}}
+          //   >
+          //     <div className="d-flex flex-wrap justify-content-center">
+          //       {partner_horizontal.map ((value, index) => (
+          //         <Icon data={value} width={'130px'} />
+          //       ))}
+          //     </div>
+          //     <div className="d-flex flex-wrap justify-content-center">
+          //       {partner_square.map ((value, index) => (
+          //         <Icon data={value} width={'130px'} />
+          //       ))}
+          //     </div>
+          //   </div>
+          <div className="d-flex flex-wrap py-2 justify-content-center">
+              {[
+                ...partner_horizontal,
+                ...partner_square,
+              ].map ((value, index) => <IconMobile data={value} />)}
+            </div>
+            }
         {/* </OnScrollWrap> */}
 
       </div>
